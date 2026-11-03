@@ -1,0 +1,12 @@
+{
+  "source": "subtle/famous/sqrt.c",
+  "functions": {
+    "fastInvSqrt": {
+      "x": {
+        "c_type": "float",
+        "example": 1.0
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

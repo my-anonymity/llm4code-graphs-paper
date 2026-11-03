@@ -1,0 +1,636 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d16" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d15" for="node" attr.name="loop_exit_for" attr.type="string" />
+  <key id="d14" for="node" attr.name="loop_kind" attr.type="string" />
+  <key id="d13" for="node" attr.name="is_loop_header" attr.type="boolean" />
+  <key id="d12" for="node" attr.name="cfg_role" attr.type="string" />
+  <key id="d11" for="node" attr.name="example_value" attr.type="string" />
+  <key id="d10" for="node" attr.name="function" attr.type="string" />
+  <key id="d9" for="node" attr.name="c_type" attr.type="string" />
+  <key id="d8" for="node" attr.name="column" attr.type="long" />
+  <key id="d7" for="node" attr.name="line" attr.type="long" />
+  <key id="d6" for="node" attr.name="text" attr.type="string" />
+  <key id="d5" for="node" attr.name="label" attr.type="string" />
+  <key id="d4" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d3" for="graph" attr.name="loop_edge_count" attr.type="long" />
+  <key id="d2" for="graph" attr.name="loop_header_count" attr.type="long" />
+  <key id="d1" for="graph" attr.name="graph_semantics" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source_file" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="FILE::duff.c">
+      <data key="d4">file</data>
+      <data key="d5">duff.c</data>
+      <data key="d6">duff.c</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="AST::FUNCTION_DECL::1:6::0">
+      <data key="d4">FUNCTION_DECL</data>
+      <data key="d5">duffsDevice</data>
+      <data key="d6">duffsDevice</data>
+      <data key="d9">void (int *, const int *, int)</data>
+      <data key="d7">1</data>
+      <data key="d8">6</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::PARM_DECL::1:23::1">
+      <data key="d4">PARM_DECL</data>
+      <data key="d5">to</data>
+      <data key="d6">to</data>
+      <data key="d9">int *</data>
+      <data key="d7">1</data>
+      <data key="d8">23</data>
+      <data key="d10">duffsDevice</data>
+      <data key="d11">[1, 1, 1, 1]</data>
+    </node>
+    <node id="AST::PARM_DECL::1:38::2">
+      <data key="d4">PARM_DECL</data>
+      <data key="d5">from</data>
+      <data key="d6">from</data>
+      <data key="d9">const int *</data>
+      <data key="d7">1</data>
+      <data key="d8">38</data>
+      <data key="d10">duffsDevice</data>
+      <data key="d11">[1, 1, 1, 1]</data>
+    </node>
+    <node id="AST::PARM_DECL::1:48::3">
+      <data key="d4">PARM_DECL</data>
+      <data key="d5">count</data>
+      <data key="d6">count</data>
+      <data key="d9">int</data>
+      <data key="d7">1</data>
+      <data key="d8">48</data>
+      <data key="d10">duffsDevice</data>
+      <data key="d11">1</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::1:55::4">
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d5">COMPOUND_STMT</data>
+      <data key="d6">COMPOUND_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">1</data>
+      <data key="d8">55</data>
+      <data key="d10">duffsDevice</data>
+      <data key="d12">function_entry</data>
+    </node>
+    <node id="AST::DECL_STMT::2:5::5">
+      <data key="d4">DECL_STMT</data>
+      <data key="d5">DECL_STMT</data>
+      <data key="d6">DECL_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">2</data>
+      <data key="d8">5</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::VAR_DECL::2:9::6">
+      <data key="d4">VAR_DECL</data>
+      <data key="d5">n</data>
+      <data key="d6">n</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">9</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::2:13::7">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">13</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::PAREN_EXPR::2:13::8">
+      <data key="d4">PAREN_EXPR</data>
+      <data key="d5">PAREN_EXPR</data>
+      <data key="d6">PAREN_EXPR</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">13</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::2:14::9">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">14</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::2:14::10">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">count</data>
+      <data key="d6">count</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">14</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::2:14::11">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">count</data>
+      <data key="d6">count</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">14</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::2:22::12">
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d5">INTEGER_LITERAL</data>
+      <data key="d6">INTEGER_LITERAL</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">22</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::2:27::13">
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d5">INTEGER_LITERAL</data>
+      <data key="d6">INTEGER_LITERAL</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">27</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::SWITCH_STMT::3:5::14">
+      <data key="d4">SWITCH_STMT</data>
+      <data key="d5">SWITCH_STMT</data>
+      <data key="d6">SWITCH_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">3</data>
+      <data key="d8">5</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::3:13::15">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">13</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::3:13::16">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">count</data>
+      <data key="d6">count</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">13</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::3:13::17">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">count</data>
+      <data key="d6">count</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">13</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::3:21::18">
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d5">INTEGER_LITERAL</data>
+      <data key="d6">INTEGER_LITERAL</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">21</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::3:24::19">
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d5">COMPOUND_STMT</data>
+      <data key="d6">COMPOUND_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">3</data>
+      <data key="d8">24</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::CASE_STMT::4:5::20">
+      <data key="d4">CASE_STMT</data>
+      <data key="d5">CASE_STMT</data>
+      <data key="d6">CASE_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">4</data>
+      <data key="d8">5</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::4:10::21">
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d5">INTEGER_LITERAL</data>
+      <data key="d6">INTEGER_LITERAL</data>
+      <data key="d9">int</data>
+      <data key="d7">4</data>
+      <data key="d8">10</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::DO_STMT::4:13::22">
+      <data key="d4">DO_STMT</data>
+      <data key="d5">DO_STMT</data>
+      <data key="d6">DO_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">4</data>
+      <data key="d8">13</data>
+      <data key="d10">duffsDevice</data>
+      <data key="d13">True</data>
+      <data key="d14">DO_STMT</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::4:16::23">
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d5">COMPOUND_STMT</data>
+      <data key="d6">COMPOUND_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">4</data>
+      <data key="d8">16</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::4:18::24">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">4</data>
+      <data key="d8">18</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::4:18::25">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">4</data>
+      <data key="d8">18</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::4:19::26">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int *</data>
+      <data key="d7">4</data>
+      <data key="d8">19</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::4:19::27">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">to</data>
+      <data key="d6">to</data>
+      <data key="d9">int *</data>
+      <data key="d7">4</data>
+      <data key="d8">19</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::4:26::28">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">UNEXPOSED_EXPR</data>
+      <data key="d6">UNEXPOSED_EXPR</data>
+      <data key="d9">int</data>
+      <data key="d7">4</data>
+      <data key="d8">26</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::4:26::29">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">const int</data>
+      <data key="d7">4</data>
+      <data key="d8">26</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::4:27::30">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">const int *</data>
+      <data key="d7">4</data>
+      <data key="d8">27</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::4:27::31">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">from</data>
+      <data key="d6">from</data>
+      <data key="d9">const int *</data>
+      <data key="d7">4</data>
+      <data key="d8">27</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::CASE_STMT::5:5::32">
+      <data key="d4">CASE_STMT</data>
+      <data key="d5">CASE_STMT</data>
+      <data key="d6">CASE_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">5</data>
+      <data key="d8">5</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::5:10::33">
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d5">INTEGER_LITERAL</data>
+      <data key="d6">INTEGER_LITERAL</data>
+      <data key="d9">int</data>
+      <data key="d7">5</data>
+      <data key="d8">10</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::5:18::34">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">5</data>
+      <data key="d8">18</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::5:18::35">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">5</data>
+      <data key="d8">18</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::5:19::36">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int *</data>
+      <data key="d7">5</data>
+      <data key="d8">19</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::5:19::37">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">to</data>
+      <data key="d6">to</data>
+      <data key="d9">int *</data>
+      <data key="d7">5</data>
+      <data key="d8">19</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::5:26::38">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">UNEXPOSED_EXPR</data>
+      <data key="d6">UNEXPOSED_EXPR</data>
+      <data key="d9">int</data>
+      <data key="d7">5</data>
+      <data key="d8">26</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::5:26::39">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">const int</data>
+      <data key="d7">5</data>
+      <data key="d8">26</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::5:27::40">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">const int *</data>
+      <data key="d7">5</data>
+      <data key="d8">27</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::5:27::41">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">from</data>
+      <data key="d6">from</data>
+      <data key="d9">const int *</data>
+      <data key="d7">5</data>
+      <data key="d8">27</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::10:8::42">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">10</data>
+      <data key="d8">8</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::10:8::43">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">10</data>
+      <data key="d8">8</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::10:10::44">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">n</data>
+      <data key="d6">n</data>
+      <data key="d9">int</data>
+      <data key="d7">10</data>
+      <data key="d8">10</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::10:14::45">
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d5">INTEGER_LITERAL</data>
+      <data key="d6">INTEGER_LITERAL</data>
+      <data key="d9">int</data>
+      <data key="d7">10</data>
+      <data key="d8">14</data>
+      <data key="d10">duffsDevice</data>
+    </node>
+    <node id="CFG_LOOP_EXIT_NODE::AST::DO_STMT::4:13::22">
+      <data key="d4">CFG_LOOP_EXIT_NODE</data>
+      <data key="d5">exit do_stmt</data>
+      <data key="d6">exit do_stmt</data>
+      <data key="d7">4</data>
+      <data key="d8">13</data>
+      <data key="d10">duffsDevice</data>
+      <data key="d15">AST::DO_STMT::4:13::22</data>
+    </node>
+    <edge source="FILE::duff.c" target="AST::FUNCTION_DECL::1:6::0" id="ast_0">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:6::0" target="AST::PARM_DECL::1:23::1" id="ast_1">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:6::0" target="AST::PARM_DECL::1:38::2" id="ast_2">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:6::0" target="AST::PARM_DECL::1:48::3" id="ast_3">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:6::0" target="AST::COMPOUND_STMT::1:55::4" id="ast_4">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:55::4" target="AST::DECL_STMT::2:5::5" id="ast_5">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:55::4" target="AST::DECL_STMT::2:5::5" id="CFG_NEXT_46">
+      <data key="d16">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:55::4" target="AST::SWITCH_STMT::3:5::14" id="ast_14">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::2:5::5" target="AST::VAR_DECL::2:9::6" id="ast_6">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::2:5::5" target="AST::SWITCH_STMT::3:5::14" id="CFG_NEXT_47">
+      <data key="d16">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::VAR_DECL::2:9::6" target="AST::BINARY_OPERATOR::2:13::7" id="ast_7">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:13::7" target="AST::PAREN_EXPR::2:13::8" id="ast_8">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:13::7" target="AST::INTEGER_LITERAL::2:27::13" id="ast_13">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::PAREN_EXPR::2:13::8" target="AST::BINARY_OPERATOR::2:14::9" id="ast_9">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:14::9" target="AST::UNEXPOSED_EXPR::2:14::10" id="ast_10">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:14::9" target="AST::INTEGER_LITERAL::2:22::12" id="ast_12">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::2:14::10" target="AST::DECL_REF_EXPR::2:14::11" id="ast_11">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::2:14::11" target="AST::DECL_REF_EXPR::3:13::17" id="DATA_DEP_55">
+      <data key="d16">DATA_DEP</data>
+    </edge>
+    <edge source="AST::SWITCH_STMT::3:5::14" target="AST::BINARY_OPERATOR::3:13::15" id="ast_15">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::SWITCH_STMT::3:5::14" target="AST::COMPOUND_STMT::3:24::19" id="ast_19">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::SWITCH_STMT::3:5::14" target="AST::COMPOUND_STMT::3:24::19" id="CFG_SWITCH_48">
+      <data key="d16">CFG_SWITCH</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::3:13::15" target="AST::UNEXPOSED_EXPR::3:13::16" id="ast_16">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::3:13::15" target="AST::INTEGER_LITERAL::3:21::18" id="ast_18">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::3:13::16" target="AST::DECL_REF_EXPR::3:13::17" id="ast_17">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::3:24::19" target="AST::CASE_STMT::4:5::20" id="ast_20">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::3:24::19" target="AST::CASE_STMT::4:5::20" id="CFG_NEXT_49">
+      <data key="d16">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::CASE_STMT::4:5::20" target="AST::INTEGER_LITERAL::4:10::21" id="ast_21">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::CASE_STMT::4:5::20" target="AST::DO_STMT::4:13::22" id="ast_22">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::CASE_STMT::4:5::20" target="AST::DO_STMT::4:13::22" id="CFG_NEXT_50">
+      <data key="d16">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::DO_STMT::4:13::22" target="AST::COMPOUND_STMT::4:16::23" id="ast_23">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DO_STMT::4:13::22" target="AST::BINARY_OPERATOR::10:8::42" id="ast_42">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DO_STMT::4:13::22" target="AST::BINARY_OPERATOR::10:8::42" id="CFG_LOOP_ENTER_51">
+      <data key="d16">CFG_LOOP_ENTER</data>
+    </edge>
+    <edge source="AST::DO_STMT::4:13::22" target="AST::BINARY_OPERATOR::10:8::42" id="CFG_LOOP_BODY_52">
+      <data key="d16">CFG_LOOP_BODY</data>
+    </edge>
+    <edge source="AST::DO_STMT::4:13::22" target="CFG_LOOP_EXIT_NODE::AST::DO_STMT::4:13::22" id="CFG_LOOP_EXIT_54">
+      <data key="d16">CFG_LOOP_EXIT</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::4:16::23" target="AST::BINARY_OPERATOR::4:18::24" id="ast_24">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::4:16::23" target="AST::CASE_STMT::5:5::32" id="ast_32">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::4:18::24" target="AST::UNARY_OPERATOR::4:18::25" id="ast_25">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::4:18::24" target="AST::UNEXPOSED_EXPR::4:26::28" id="ast_28">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::4:18::25" target="AST::UNARY_OPERATOR::4:19::26" id="ast_26">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::4:19::26" target="AST::DECL_REF_EXPR::4:19::27" id="ast_27">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::4:19::27" target="AST::DECL_REF_EXPR::5:19::37" id="DATA_DEP_56">
+      <data key="d16">DATA_DEP</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::4:26::28" target="AST::UNARY_OPERATOR::4:26::29" id="ast_29">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::4:26::29" target="AST::UNARY_OPERATOR::4:27::30" id="ast_30">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::4:27::30" target="AST::DECL_REF_EXPR::4:27::31" id="ast_31">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::4:27::31" target="AST::DECL_REF_EXPR::5:27::41" id="DATA_DEP_57">
+      <data key="d16">DATA_DEP</data>
+    </edge>
+    <edge source="AST::CASE_STMT::5:5::32" target="AST::INTEGER_LITERAL::5:10::33" id="ast_33">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::CASE_STMT::5:5::32" target="AST::BINARY_OPERATOR::5:18::34" id="ast_34">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::5:18::34" target="AST::UNARY_OPERATOR::5:18::35" id="ast_35">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::5:18::34" target="AST::UNEXPOSED_EXPR::5:26::38" id="ast_38">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::5:18::35" target="AST::UNARY_OPERATOR::5:19::36" id="ast_36">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::5:19::36" target="AST::DECL_REF_EXPR::5:19::37" id="ast_37">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::5:26::38" target="AST::UNARY_OPERATOR::5:26::39" id="ast_39">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::5:26::39" target="AST::UNARY_OPERATOR::5:27::40" id="ast_40">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::5:27::40" target="AST::DECL_REF_EXPR::5:27::41" id="ast_41">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::10:8::42" target="AST::UNARY_OPERATOR::10:8::43" id="ast_43">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::10:8::42" target="AST::INTEGER_LITERAL::10:14::45" id="ast_45">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::10:8::42" target="AST::DO_STMT::4:13::22" id="CFG_LOOP_BACK_53">
+      <data key="d16">CFG_LOOP_BACK</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::10:8::43" target="AST::DECL_REF_EXPR::10:10::44" id="ast_44">
+      <data key="d16">AST_CHILD</data>
+    </edge>
+    <data key="d0">/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/duff.c</data>
+    <data key="d1">AST + approximate CFG with explicit loop edges + direct calls + name-based data-dependency hints</data>
+    <data key="d2">1</data>
+    <data key="d3">4</data>
+  </graph>
+</graphml>

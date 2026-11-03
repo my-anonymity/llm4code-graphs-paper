@@ -1,0 +1,12 @@
+{
+  "source": "obvious/unique/evenodd.c",
+  "functions": {
+    "diffEvenOdd": {
+      "n": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

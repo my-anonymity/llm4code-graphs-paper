@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "sieve",
+      "function_node": "AST::FUNCTION_DECL::1:6::0",
+      "normal_exit_nodes": [
+        "CFG_LOOP_EXIT_NODE::AST::FOR_STMT::7:1::7::1"
+      ]
+    }
+  ],
+  "loop_count": 1,
+  "loop_back_edges": 1,
+  "branch_edges": 2,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 6,
+    "CFG_TRUE": 2,
+    "CFG_FALSE": 2,
+    "CFG_LOOP_BACK": 1,
+    "CFG_JOIN": 1
+  },
+  "input_control_edges": 1,
+  "data_dependency_edges": 5,
+  "input_parameters": [
+    {
+      "function": "sieve",
+      "name": "arr",
+      "roles": "[\"array_data_or_buffer\", \"array_index_or_buffer_access\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression",
+      "reference_lines": "[8, 9]"
+    },
+    {
+      "function": "sieve",
+      "name": "limit",
+      "roles": "[\"loop_bound_or_control_input\", \"upper_bound_or_size_limit\"]",
+      "evidence": "used in loop condition at line 7",
+      "reference_lines": "[7]"
+    }
+  ]
+}

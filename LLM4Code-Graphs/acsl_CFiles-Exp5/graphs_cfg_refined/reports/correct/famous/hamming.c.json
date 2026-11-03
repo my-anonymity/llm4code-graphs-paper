@@ -1,0 +1,37 @@
+{
+  "functions": [
+    {
+      "name": "hammingDistance",
+      "function_node": "AST::FUNCTION_DECL::1:5::0",
+      "normal_exit_nodes": []
+    }
+  ],
+  "loop_count": 1,
+  "loop_back_edges": 1,
+  "branch_edges": 0,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 6,
+    "CFG_TRUE": 1,
+    "CFG_FALSE": 1,
+    "CFG_LOOP_BACK": 1
+  },
+  "input_control_edges": 0,
+  "data_dependency_edges": 3,
+  "input_parameters": [
+    {
+      "function": "hammingDistance",
+      "name": "x",
+      "roles": "[\"input_parameter\"]",
+      "evidence": "referenced in the function body",
+      "reference_lines": "[3]"
+    },
+    {
+      "function": "hammingDistance",
+      "name": "y",
+      "roles": "[\"input_parameter\"]",
+      "evidence": "referenced in the function body",
+      "reference_lines": "[3]"
+    }
+  ]
+}

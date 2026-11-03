@@ -1,0 +1,36 @@
+{
+  "functions": [
+    {
+      "name": "swap",
+      "function_node": "AST::FUNCTION_DECL::1:6::0",
+      "normal_exit_nodes": [
+        "AST::BINARY_OPERATOR::4:5::18"
+      ]
+    }
+  ],
+  "loop_count": 0,
+  "loop_back_edges": 0,
+  "branch_edges": 0,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 3
+  },
+  "input_control_edges": 0,
+  "data_dependency_edges": 2,
+  "input_parameters": [
+    {
+      "function": "swap",
+      "name": "a",
+      "roles": "[\"pointer_or_array_input\"]",
+      "evidence": "",
+      "reference_lines": "[2, 3]"
+    },
+    {
+      "function": "swap",
+      "name": "b",
+      "roles": "[\"pointer_or_array_input\"]",
+      "evidence": "",
+      "reference_lines": "[3, 4]"
+    }
+  ]
+}

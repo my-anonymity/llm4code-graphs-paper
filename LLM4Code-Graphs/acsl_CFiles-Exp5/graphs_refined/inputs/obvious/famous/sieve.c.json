@@ -1,0 +1,21 @@
+{
+  "source": "obvious/famous/sieve.c",
+  "functions": {
+    "sieve": {
+      "arr": {
+        "c_type": "int[]",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "limit": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

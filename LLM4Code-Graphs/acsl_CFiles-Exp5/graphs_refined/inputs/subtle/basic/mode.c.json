@@ -1,0 +1,21 @@
+{
+  "source": "subtle/basic/mode.c",
+  "functions": {
+    "findMode": {
+      "arr": {
+        "c_type": "int[]",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "size": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

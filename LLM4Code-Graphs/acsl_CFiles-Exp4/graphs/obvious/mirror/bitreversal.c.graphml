@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d10" for="node" attr.name="cfg_role" attr.type="string" />
+  <key id="d9" for="node" attr.name="example_value" attr.type="string" />
+  <key id="d8" for="node" attr.name="function" attr.type="string" />
+  <key id="d7" for="node" attr.name="c_type" attr.type="string" />
+  <key id="d6" for="node" attr.name="column" attr.type="long" />
+  <key id="d5" for="node" attr.name="line" attr.type="long" />
+  <key id="d4" for="node" attr.name="text" attr.type="string" />
+  <key id="d3" for="node" attr.name="label" attr.type="string" />
+  <key id="d2" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d1" for="graph" attr.name="graph_semantics" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source_file" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="FILE::bitreversal.c">
+      <data key="d2">file</data>
+      <data key="d3">bitreversal.c</data>
+      <data key="d4">bitreversal.c</data>
+      <data key="d5">0</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="AST::FUNCTION_DECL::1:14::0">
+      <data key="d2">FUNCTION_DECL</data>
+      <data key="d3">reverseBits</data>
+      <data key="d4">reverseBits</data>
+      <data key="d7">unsigned int (unsigned int)</data>
+      <data key="d5">1</data>
+      <data key="d6">14</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::PARM_DECL::1:39::1">
+      <data key="d2">PARM_DECL</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">1</data>
+      <data key="d6">39</data>
+      <data key="d8">reverseBits</data>
+      <data key="d9">1</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::1:42::2">
+      <data key="d2">COMPOUND_STMT</data>
+      <data key="d3">COMPOUND_STMT</data>
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">1</data>
+      <data key="d6">42</data>
+      <data key="d8">reverseBits</data>
+      <data key="d10">function_entry</data>
+    </node>
+    <node id="AST::RETURN_STMT::2:5::3">
+      <data key="d2">RETURN_STMT</data>
+      <data key="d3">RETURN_STMT</data>
+      <data key="d4">RETURN_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">2</data>
+      <data key="d6">5</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::2:12::4">
+      <data key="d2">BINARY_OPERATOR</data>
+      <data key="d3">BINARY_OPERATOR</data>
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">2</data>
+      <data key="d6">12</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::2:12::5">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">2</data>
+      <data key="d6">12</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::2:12::6">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">2</data>
+      <data key="d6">12</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::2:14::7">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">2</data>
+      <data key="d6">14</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::2:14::8">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">2</data>
+      <data key="d6">14</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <edge source="FILE::bitreversal.c" target="AST::FUNCTION_DECL::1:14::0" id="ast_0">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:14::0" target="AST::PARM_DECL::1:39::1" id="ast_1">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:14::0" target="AST::COMPOUND_STMT::1:42::2" id="ast_2">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:42::2" target="AST::RETURN_STMT::2:5::3" id="ast_3">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:42::2" target="AST::RETURN_STMT::2:5::3" id="CFG_NEXT_9">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::RETURN_STMT::2:5::3" target="AST::BINARY_OPERATOR::2:12::4" id="ast_4">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:12::4" target="AST::UNEXPOSED_EXPR::2:12::5" id="ast_5">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:12::4" target="AST::UNEXPOSED_EXPR::2:14::7" id="ast_7">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::2:12::5" target="AST::DECL_REF_EXPR::2:12::6" id="ast_6">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::2:12::6" target="AST::DECL_REF_EXPR::2:14::8" id="DATA_DEP_10">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::2:14::7" target="AST::DECL_REF_EXPR::2:14::8" id="ast_8">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <data key="d0">/mnt/c/Users/arsha/Desktop/NUIM-Work/VERIFAI-NUIM/Graphs-Oct2026/acsl_CFiles-Exp4/obvious/mirror/bitreversal.c</data>
+    <data key="d1">AST + approximate CFG + direct calls + name-based data-dependency hints</data>
+  </graph>
+</graphml>

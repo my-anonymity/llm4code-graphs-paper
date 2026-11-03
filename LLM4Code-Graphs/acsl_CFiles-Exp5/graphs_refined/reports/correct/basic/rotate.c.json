@@ -1,0 +1,44 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/rotate.c",
+  "loop_count": 3,
+  "loops": [
+    {
+      "header": "AST::FOR_STMT::12:1::21",
+      "kind": "FOR_STMT",
+      "body_root": "AST::COMPOUND_STMT::12:29::32",
+      "body_ast_node_count": 13,
+      "loop_back_edge_count": 12,
+      "input_control_parameters": [
+        "arr",
+        "k"
+      ]
+    },
+    {
+      "header": "AST::FOR_STMT::22:1::45",
+      "kind": "FOR_STMT",
+      "body_root": "AST::COMPOUND_STMT::22:36::59",
+      "body_ast_node_count": 16,
+      "loop_back_edge_count": 15,
+      "input_control_parameters": [
+        "arr",
+        "size",
+        "k"
+      ]
+    },
+    {
+      "header": "AST::FOR_STMT::32:1::75",
+      "kind": "FOR_STMT",
+      "body_root": "AST::COMPOUND_STMT::32:29::86",
+      "body_ast_node_count": 19,
+      "loop_back_edge_count": 18,
+      "input_control_parameters": [
+        "arr",
+        "size",
+        "k"
+      ]
+    }
+  ],
+  "data_dependency_edges": 25,
+  "input_control_edges": 8,
+  "warnings": []
+}

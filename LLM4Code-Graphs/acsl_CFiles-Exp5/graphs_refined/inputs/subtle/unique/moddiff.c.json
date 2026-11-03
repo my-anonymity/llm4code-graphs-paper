@@ -1,0 +1,25 @@
+{
+  "source": "subtle/unique/moddiff.c",
+  "functions": {
+    "moduloDifference": {
+      "arr": {
+        "c_type": "int[]",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "size": {
+        "c_type": "int",
+        "example": 1
+      },
+      "div": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

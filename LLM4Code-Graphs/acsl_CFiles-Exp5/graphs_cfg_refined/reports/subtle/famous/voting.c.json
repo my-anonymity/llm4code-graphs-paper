@@ -1,0 +1,38 @@
+{
+  "functions": [
+    {
+      "name": "majorityElement",
+      "function_node": "AST::FUNCTION_DECL::5:5::0",
+      "normal_exit_nodes": []
+    }
+  ],
+  "loop_count": 2,
+  "loop_back_edges": 2,
+  "branch_edges": 6,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 17,
+    "CFG_TRUE": 5,
+    "CFG_FALSE": 5,
+    "CFG_LOOP_BACK": 2,
+    "CFG_JOIN": 4
+  },
+  "input_control_edges": 2,
+  "data_dependency_edges": 17,
+  "input_parameters": [
+    {
+      "function": "majorityElement",
+      "name": "arr",
+      "roles": "[\"array_data_or_buffer\", \"array_index_or_buffer_access\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression",
+      "reference_lines": "[6, 16, 21, 35]"
+    },
+    {
+      "function": "majorityElement",
+      "name": "size",
+      "roles": "[\"loop_bound_or_control_input\"]",
+      "evidence": "used in loop condition at line 15; used in loop condition at line 34",
+      "reference_lines": "[15, 34, 40]"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "correct/mirror/even.c",
+  "functions": {
+    "isEven": {
+      "n": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

@@ -1,0 +1,25 @@
+{
+  "source": "obvious/basic/quicksort.c",
+  "functions": {
+    "qsortPartition": {
+      "arr": {
+        "c_type": "int[]",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "low": {
+        "c_type": "int",
+        "example": 1
+      },
+      "high": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

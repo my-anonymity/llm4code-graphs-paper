@@ -1,0 +1,26 @@
+{
+  "source": "subtle/mirror/swap.c",
+  "functions": {
+    "swap": {
+      "a": {
+        "c_type": "int *",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "b": {
+        "c_type": "int *",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

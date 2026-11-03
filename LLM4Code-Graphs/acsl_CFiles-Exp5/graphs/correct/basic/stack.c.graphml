@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d12" for="node" attr.name="cfg_role" attr.type="string" />
+  <key id="d11" for="node" attr.name="example_value" attr.type="string" />
+  <key id="d10" for="node" attr.name="function" attr.type="string" />
+  <key id="d9" for="node" attr.name="c_type" attr.type="string" />
+  <key id="d8" for="node" attr.name="column" attr.type="long" />
+  <key id="d7" for="node" attr.name="line" attr.type="long" />
+  <key id="d6" for="node" attr.name="text" attr.type="string" />
+  <key id="d5" for="node" attr.name="label" attr.type="string" />
+  <key id="d4" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d3" for="graph" attr.name="loop_edge_count" attr.type="long" />
+  <key id="d2" for="graph" attr.name="loop_header_count" attr.type="long" />
+  <key id="d1" for="graph" attr.name="graph_semantics" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source_file" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="FILE::stack.c">
+      <data key="d4">file</data>
+      <data key="d5">stack.c</data>
+      <data key="d6">stack.c</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="AST::STRUCT_DECL::2:8::0">
+      <data key="d4">STRUCT_DECL</data>
+      <data key="d5">Stack</data>
+      <data key="d6">Stack</data>
+      <data key="d9">struct Stack</data>
+      <data key="d7">2</data>
+      <data key="d8">8</data>
+      <data key="d10" />
+    </node>
+    <node id="AST::FIELD_DECL::3:9::1">
+      <data key="d4">FIELD_DECL</data>
+      <data key="d5">arr</data>
+      <data key="d6">arr</data>
+      <data key="d9">int[100]</data>
+      <data key="d7">3</data>
+      <data key="d8">9</data>
+      <data key="d10" />
+    </node>
+    <node id="AST::INTEGER_LITERAL::3:13::2">
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d5">INTEGER_LITERAL</data>
+      <data key="d6">INTEGER_LITERAL</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">13</data>
+      <data key="d10" />
+    </node>
+    <node id="AST::FIELD_DECL::4:9::3">
+      <data key="d4">FIELD_DECL</data>
+      <data key="d5">top</data>
+      <data key="d6">top</data>
+      <data key="d9">int</data>
+      <data key="d7">4</data>
+      <data key="d8">9</data>
+      <data key="d10" />
+    </node>
+    <node id="AST::FUNCTION_DECL::7:6::4">
+      <data key="d4">FUNCTION_DECL</data>
+      <data key="d5">push</data>
+      <data key="d6">push</data>
+      <data key="d9">void (struct Stack *, int)</data>
+      <data key="d7">7</data>
+      <data key="d8">6</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::PARM_DECL::7:25::5">
+      <data key="d4">PARM_DECL</data>
+      <data key="d5">s</data>
+      <data key="d6">s</data>
+      <data key="d9">struct Stack *</data>
+      <data key="d7">7</data>
+      <data key="d8">25</data>
+      <data key="d10">push</data>
+      <data key="d11">[0, 0, 0, 0]</data>
+    </node>
+    <node id="AST::TYPE_REF::7:18::6">
+      <data key="d4">TYPE_REF</data>
+      <data key="d5">struct Stack</data>
+      <data key="d6">struct Stack</data>
+      <data key="d9">struct Stack</data>
+      <data key="d7">7</data>
+      <data key="d8">18</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::PARM_DECL::7:32::7">
+      <data key="d4">PARM_DECL</data>
+      <data key="d5">value</data>
+      <data key="d6">value</data>
+      <data key="d9">int</data>
+      <data key="d7">7</data>
+      <data key="d8">32</data>
+      <data key="d10">push</data>
+      <data key="d11">1</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::7:39::8">
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d5">COMPOUND_STMT</data>
+      <data key="d6">COMPOUND_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">7</data>
+      <data key="d8">39</data>
+      <data key="d10">push</data>
+      <data key="d12">function_entry</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::8:5::9">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">8</data>
+      <data key="d8">5</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::ARRAY_SUBSCRIPT_EXPR::8:5::10">
+      <data key="d4">ARRAY_SUBSCRIPT_EXPR</data>
+      <data key="d5">ARRAY_SUBSCRIPT_EXPR</data>
+      <data key="d6">ARRAY_SUBSCRIPT_EXPR</data>
+      <data key="d9">int</data>
+      <data key="d7">8</data>
+      <data key="d8">5</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::8:8::11">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">arr</data>
+      <data key="d6">arr</data>
+      <data key="d9">int *</data>
+      <data key="d7">8</data>
+      <data key="d8">8</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::MEMBER_REF_EXPR::8:8::12">
+      <data key="d4">MEMBER_REF_EXPR</data>
+      <data key="d5">arr</data>
+      <data key="d6">arr</data>
+      <data key="d9">int[100]</data>
+      <data key="d7">8</data>
+      <data key="d8">8</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::8:5::13">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">s</data>
+      <data key="d6">s</data>
+      <data key="d9">struct Stack *</data>
+      <data key="d7">8</data>
+      <data key="d8">5</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::8:5::14">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">s</data>
+      <data key="d6">s</data>
+      <data key="d9">struct Stack *</data>
+      <data key="d7">8</data>
+      <data key="d8">5</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::8:12::15">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">8</data>
+      <data key="d8">12</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::PAREN_EXPR::8:14::16">
+      <data key="d4">PAREN_EXPR</data>
+      <data key="d5">PAREN_EXPR</data>
+      <data key="d6">PAREN_EXPR</data>
+      <data key="d9">int</data>
+      <data key="d7">8</data>
+      <data key="d8">14</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::MEMBER_REF_EXPR::8:18::17">
+      <data key="d4">MEMBER_REF_EXPR</data>
+      <data key="d5">top</data>
+      <data key="d6">top</data>
+      <data key="d9">int</data>
+      <data key="d7">8</data>
+      <data key="d8">18</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::8:15::18">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">s</data>
+      <data key="d6">s</data>
+      <data key="d9">struct Stack *</data>
+      <data key="d7">8</data>
+      <data key="d8">15</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::8:15::19">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">s</data>
+      <data key="d6">s</data>
+      <data key="d9">struct Stack *</data>
+      <data key="d7">8</data>
+      <data key="d8">15</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::8:26::20">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">value</data>
+      <data key="d6">value</data>
+      <data key="d9">int</data>
+      <data key="d7">8</data>
+      <data key="d8">26</data>
+      <data key="d10">push</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::8:26::21">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">value</data>
+      <data key="d6">value</data>
+      <data key="d9">int</data>
+      <data key="d7">8</data>
+      <data key="d8">26</data>
+      <data key="d10">push</data>
+    </node>
+    <edge source="FILE::stack.c" target="AST::STRUCT_DECL::2:8::0" id="ast_0">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="FILE::stack.c" target="AST::FUNCTION_DECL::7:6::4" id="ast_4">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::STRUCT_DECL::2:8::0" target="AST::FIELD_DECL::3:9::1" id="ast_1">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::STRUCT_DECL::2:8::0" target="AST::FIELD_DECL::4:9::3" id="ast_3">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FIELD_DECL::3:9::1" target="AST::INTEGER_LITERAL::3:13::2" id="ast_2">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::7:6::4" target="AST::PARM_DECL::7:25::5" id="ast_5">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::7:6::4" target="AST::PARM_DECL::7:32::7" id="ast_7">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::7:6::4" target="AST::COMPOUND_STMT::7:39::8" id="ast_8">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::PARM_DECL::7:25::5" target="AST::TYPE_REF::7:18::6" id="ast_6">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::7:39::8" target="AST::BINARY_OPERATOR::8:5::9" id="ast_9">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::7:39::8" target="AST::BINARY_OPERATOR::8:5::9" id="CFG_NEXT_22">
+      <data key="d13">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::8:5::9" target="AST::ARRAY_SUBSCRIPT_EXPR::8:5::10" id="ast_10">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::8:5::9" target="AST::UNEXPOSED_EXPR::8:26::20" id="ast_20">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::ARRAY_SUBSCRIPT_EXPR::8:5::10" target="AST::UNEXPOSED_EXPR::8:8::11" id="ast_11">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::ARRAY_SUBSCRIPT_EXPR::8:5::10" target="AST::UNARY_OPERATOR::8:12::15" id="ast_15">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::8:8::11" target="AST::MEMBER_REF_EXPR::8:8::12" id="ast_12">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::MEMBER_REF_EXPR::8:8::12" target="AST::UNEXPOSED_EXPR::8:5::13" id="ast_13">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::8:5::13" target="AST::DECL_REF_EXPR::8:5::14" id="ast_14">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::8:5::14" target="AST::DECL_REF_EXPR::8:15::19" id="DATA_DEP_23">
+      <data key="d13">DATA_DEP</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::8:12::15" target="AST::PAREN_EXPR::8:14::16" id="ast_16">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::PAREN_EXPR::8:14::16" target="AST::MEMBER_REF_EXPR::8:18::17" id="ast_17">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::MEMBER_REF_EXPR::8:18::17" target="AST::UNEXPOSED_EXPR::8:15::18" id="ast_18">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::8:15::18" target="AST::DECL_REF_EXPR::8:15::19" id="ast_19">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::8:26::20" target="AST::DECL_REF_EXPR::8:26::21" id="ast_21">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <data key="d0">/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/stack.c</data>
+    <data key="d1">AST + approximate CFG with explicit loop edges + direct calls + name-based data-dependency hints</data>
+    <data key="d2">0</data>
+    <data key="d3">0</data>
+  </graph>
+</graphml>

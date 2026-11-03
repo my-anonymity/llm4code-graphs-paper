@@ -1,0 +1,16 @@
+{
+  "source": "correct/mirror/max.c",
+  "functions": {
+    "max": {
+      "a": {
+        "c_type": "int",
+        "example": 1
+      },
+      "b": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

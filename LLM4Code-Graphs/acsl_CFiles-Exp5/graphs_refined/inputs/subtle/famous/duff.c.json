@@ -1,0 +1,30 @@
+{
+  "source": "subtle/famous/duff.c",
+  "functions": {
+    "duffsDevice": {
+      "to": {
+        "c_type": "int *",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "from": {
+        "c_type": "const int *",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "count": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

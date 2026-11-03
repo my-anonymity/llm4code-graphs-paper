@@ -1,0 +1,43 @@
+{
+  "source": "subtle/basic/merge.c",
+  "functions": {
+    "mergeSorted": {
+      "arr1": {
+        "c_type": "int[]",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "size1": {
+        "c_type": "int",
+        "example": 1
+      },
+      "arr2": {
+        "c_type": "int[]",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "size2": {
+        "c_type": "int",
+        "example": 1
+      },
+      "result": {
+        "c_type": "int[]",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

@@ -1,0 +1,182 @@
+{
+  "input_dir": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5",
+  "output_dir": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_cfg_refined",
+  "files_discovered": 156,
+  "files_processed": 116,
+  "files_failed": 40,
+  "loop_count": 98,
+  "loop_back_edges": 98,
+  "cfg_edge_counts": {
+    "CFG_NEXT": 731,
+    "CFG_TRUE": 194,
+    "CFG_FALSE": 194,
+    "CFG_JOIN": 87,
+    "CFG_LOOP_BACK": 98
+  },
+  "data_dependency_edges": 1063,
+  "input_control_edges": 83,
+  "warnings_count": 0,
+  "errors": [
+    {
+      "file": "correct/basic/insert.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/insert.c:7:42: error: call to undeclared library function 'malloc' with type 'void *(unsigned long)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]"
+    },
+    {
+      "file": "correct/basic/palindrome.c",
+      "error": "Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "correct/basic/repeating.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:34:2: error: expected '}'"
+    },
+    {
+      "file": "correct/basic/reverses.c",
+      "error": "Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "correct/famous/crc32.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "correct/famous/fizzbuzz.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "correct/famous/rabinkarp.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:12: error: unknown type name 'patternHash'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:24: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:37: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:3:2: error: expected identifier or '('"
+    },
+    {
+      "file": "correct/unique/callsign.c",
+      "error": "Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "correct/unique/camel.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "correct/unique/concatll.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "correct/unique/randomcase.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "correct/unique/reversepath.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "correct/unique/suspicious.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/basic/insert.c",
+      "error": "Clang parse error(s): /usr/include/stdlib.h:32:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/basic/palindrome.c",
+      "error": "Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/basic/repeating.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:23:2: error: expected '}'"
+    },
+    {
+      "file": "obvious/basic/reverses.c",
+      "error": "Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/famous/crc32.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/famous/fizzbuzz.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/famous/rabinkarp.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/rabinkarp.c:1:10: fatal error: 'stdbool.h' file not found"
+    },
+    {
+      "file": "obvious/unique/callsign.c",
+      "error": "Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/unique/camel.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/unique/concatll.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/unique/mirror.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:12: error: unknown type name 'n'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:14: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:20: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:3:2: error: expected identifier or '('"
+    },
+    {
+      "file": "obvious/unique/randomcase.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/unique/reversepath.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "obvious/unique/suspicious.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/basic/insert.c",
+      "error": "Clang parse error(s): /usr/include/stdlib.h:32:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/basic/palindrome.c",
+      "error": "Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/basic/repeating.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:34:2: error: expected '}'"
+    },
+    {
+      "file": "subtle/basic/reverses.c",
+      "error": "Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/famous/crc32.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/famous/fizzbuzz.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/famous/rabinkarp.c",
+      "error": "Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:12: error: unknown type name 'patternHash'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:24: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:37: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:3:2: error: expected identifier or '('"
+    },
+    {
+      "file": "subtle/unique/callsign.c",
+      "error": "Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/unique/camel.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/unique/concatll.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/unique/randomcase.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/unique/reversepath.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    },
+    {
+      "file": "subtle/unique/suspicious.c",
+      "error": "Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found"
+    }
+  ],
+  "warnings": []
+}

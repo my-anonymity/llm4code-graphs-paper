@@ -1,0 +1,20 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/duff.c",
+  "loop_count": 1,
+  "loops": [
+    {
+      "header": "AST::DO_STMT::4:13::22",
+      "kind": "DO_STMT",
+      "body_root": "AST::COMPOUND_STMT::4:16::23",
+      "body_ast_node_count": 69,
+      "loop_back_edge_count": 69,
+      "input_control_parameters": [
+        "to",
+        "from"
+      ]
+    }
+  ],
+  "data_dependency_edges": 13,
+  "input_control_edges": 2,
+  "warnings": []
+}

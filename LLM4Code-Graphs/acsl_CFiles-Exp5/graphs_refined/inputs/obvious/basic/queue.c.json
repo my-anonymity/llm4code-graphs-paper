@@ -1,0 +1,21 @@
+{
+  "source": "obvious/basic/queue.c",
+  "functions": {
+    "enqueue": {
+      "q": {
+        "c_type": "struct Queue *",
+        "example": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "value": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

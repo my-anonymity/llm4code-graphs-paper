@@ -1,0 +1,25 @@
+{
+  "source": "correct/unique/moddiff.c",
+  "functions": {
+    "moduloDifference": {
+      "arr": {
+        "c_type": "int[]",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "size": {
+        "c_type": "int",
+        "example": 1
+      },
+      "div": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

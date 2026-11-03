@@ -1,0 +1,44 @@
+{
+  "functions": [
+    {
+      "name": "Tritype",
+      "function_node": "AST::FUNCTION_DECL::5:5::0",
+      "normal_exit_nodes": []
+    }
+  ],
+  "loop_count": 0,
+  "loop_back_edges": 0,
+  "branch_edges": 12,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 8,
+    "CFG_TRUE": 6,
+    "CFG_FALSE": 6,
+    "CFG_JOIN": 4
+  },
+  "input_control_edges": 0,
+  "data_dependency_edges": 23,
+  "input_parameters": [
+    {
+      "function": "Tritype",
+      "name": "i",
+      "roles": "[\"input_parameter\"]",
+      "evidence": "referenced in the function body",
+      "reference_lines": "[7, 9, 11, 12]"
+    },
+    {
+      "function": "Tritype",
+      "name": "j",
+      "roles": "[\"input_parameter\"]",
+      "evidence": "referenced in the function body",
+      "reference_lines": "[7, 9, 11, 13]"
+    },
+    {
+      "function": "Tritype",
+      "name": "k",
+      "roles": "[\"input_parameter\"]",
+      "evidence": "referenced in the function body",
+      "reference_lines": "[7, 9, 12, 13]"
+    }
+  ]
+}

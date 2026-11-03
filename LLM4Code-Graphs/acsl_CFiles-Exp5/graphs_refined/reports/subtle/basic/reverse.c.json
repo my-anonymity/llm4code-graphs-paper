@@ -1,0 +1,19 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/reverse.c",
+  "loop_count": 1,
+  "loops": [
+    {
+      "header": "AST::WHILE_STMT::7:1::12",
+      "kind": "WHILE_STMT",
+      "body_root": "AST::COMPOUND_STMT::7:21::18",
+      "body_ast_node_count": 33,
+      "loop_back_edge_count": 28,
+      "input_control_parameters": [
+        "arr"
+      ]
+    }
+  ],
+  "data_dependency_edges": 9,
+  "input_control_edges": 1,
+  "warnings": []
+}

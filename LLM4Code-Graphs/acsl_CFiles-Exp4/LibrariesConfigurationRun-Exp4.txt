@@ -1,0 +1,697 @@
+arshadbeg@Arshad-PC:~$ cd "/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/"
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026$ pwd
+/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026$ ls
+C_ACSL  Dafny  Java_JML  README.md
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026$ cd C_ACSL/
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ ls
+acsl_CFiles-Exp1  acsl_CFiles-Exp2  acsl_CFiles-Exp3  acsl_CFiles-Exp4  acsl_generation.py  acsl_graph1.py  acsl_graph2.py  acsl_graph3.py  acsl_graph4.py
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ python3 acsl_graph4.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL/acsl_graph4.py", line 24, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ sudo apt update && sudo apt upgrade
+[sudo: authenticate] Password:
+Get:1 http://security.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu resolute InRelease
+Get:3 http://archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+Get:4 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages [604 kB]
+Get:5 http://archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+Get:6 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages [738 kB]
+Get:7 http://archive.ubuntu.com/ubuntu resolute-updates/main Translation-en [174 kB]
+Get:8 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Components [110 kB]
+Get:9 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Packages [329 kB]
+Get:10 http://archive.ubuntu.com/ubuntu resolute-updates/universe Translation-en [108 kB]
+Get:11 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Components [201 kB]
+Get:12 http://archive.ubuntu.com/ubuntu resolute-updates/restricted amd64 Packages [508 kB]
+Get:13 http://archive.ubuntu.com/ubuntu resolute-updates/restricted Translation-en [101 kB]
+Get:14 http://archive.ubuntu.com/ubuntu resolute-updates/multiverse amd64 Packages [21.0 kB]
+Get:15 http://archive.ubuntu.com/ubuntu resolute-updates/multiverse Translation-en [4168 B]
+Get:16 http://archive.ubuntu.com/ubuntu resolute-backports/universe amd64 Components [1060 B]
+Get:17 http://security.ubuntu.com/ubuntu resolute-security/main Translation-en [140 kB]
+Get:18 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Components [46.8 kB]
+Get:19 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Packages [203 kB]
+Get:20 http://security.ubuntu.com/ubuntu resolute-security/universe Translation-en [66.7 kB]
+Get:21 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Components [55.5 kB]
+Get:22 http://security.ubuntu.com/ubuntu resolute-security/restricted amd64 Packages [495 kB]
+Get:23 http://security.ubuntu.com/ubuntu resolute-security/restricted Translation-en [99.6 kB]
+Get:24 http://security.ubuntu.com/ubuntu resolute-security/multiverse amd64 Packages [20.0 kB]
+Get:25 http://security.ubuntu.com/ubuntu resolute-security/multiverse Translation-en [3728 B]
+Fetched 4441 kB in 1s (3441 kB/s)
+40 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  opam libmagickcore-7.q16-10 imagemagick-7-common libsrt1.5-gnutls libass9
+  imagemagick libmagickwand-7.q16-10 libopenexr-3-1-30 opam-installer
+  libmagickcore-7.q16-10-extra libavcodec62 libavutil60 libswscale9
+  imagemagick-7.q16 python3-pip libswresample6 libavformat62
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+Upgrading:
+  curl             libcurl3t64-gnutls  libpng-tools         libx11-6     libxml2-16   openssh-client       python3-urllib3  ubuntu-release-upgrader-core
+  git              libcurl4t64         libpng16-16t64       libx11-data  libxml2-dev  python3-distupgrade  snapd
+  git-man          libmp3lame0         libpoppler-qt6-3t64  libx11-dev   libxtst-dev  python3-jwt          sudo
+  libarchive13t64  libpng-dev          libpoppler156        libx11-xcb1  libxtst6     python3-lxml         tzdata
+
+Not upgrading yet due to phasing:
+  libnss-systemd  libsystemd-dev     libsystemd0  systemd             systemd-resolved  udev
+  libpam-systemd  libsystemd-shared  libudev1     systemd-cryptsetup  systemd-sysv
+
+Summary:
+  Upgrading: 29, Installing: 0, Removing: 0, Not Upgrading: 11
+25 standard LTS security updates
+  Download size: 52.7 MB
+  Freed space: 17.8 MB
+
+Continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 sudo amd64 1.9.17p2-1ubuntu3.2 [955 kB]
+Get:2 http://security.ubuntu.com/ubuntu resolute-security/main amd64 libx11-dev amd64 2:1.8.13-1ubuntu0.1 [739 kB]
+Get:3 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libxml2-dev amd64 2.15.2+dfsg-0.1ubuntu0.3 [712 kB]
+Get:4 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libxml2-16 amd64 2.15.2+dfsg-0.1ubuntu0.3 [607 kB]
+Get:5 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 tzdata all 2026e-0ubuntu0.26.04.1 [193 kB]
+Get:6 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libpng-dev amd64 1.6.57-1ubuntu0.1 [274 kB]
+Get:7 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libpng-tools amd64 1.6.57-1ubuntu0.1 [28.7 kB]
+Get:8 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libpng16-16t64 amd64 1.6.57-1ubuntu0.1 [195 kB]
+Get:9 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 ubuntu-release-upgrader-core all 1:26.04.27 [25.0 kB]
+Get:10 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-distupgrade all 1:26.04.27 [107 kB]
+Get:11 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libarchive13t64 amd64 3.8.5-1ubuntu2.3 [397 kB]
+Get:12 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libmp3lame0 amd64 3.101~svn6525+dfsg-2ubuntu0.1 [121 kB]
+Get:13 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 libpoppler-qt6-3t64 amd64 26.01.0-2ubuntu0.2 [191 kB]
+Get:14 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libpoppler156 amd64 26.01.0-2ubuntu0.2 [1239 kB]
+Get:15 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3-lxml amd64 6.0.2-1ubuntu0.1 [1492 kB]
+Get:16 http://security.ubuntu.com/ubuntu resolute-security/main amd64 libx11-6 amd64 2:1.8.13-1ubuntu0.1 [658 kB]
+Get:17 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 snapd amd64 2.77.1+ubuntu26.04.2 [37.0 MB]
+Get:18 http://security.ubuntu.com/ubuntu resolute-security/main amd64 libx11-xcb1 amd64 2:1.8.13-1ubuntu0.1 [7980 B]
+Get:19 http://security.ubuntu.com/ubuntu resolute-security/main amd64 libx11-data all 2:1.8.13-1ubuntu0.1 [115 kB]
+Get:20 http://security.ubuntu.com/ubuntu resolute-security/main amd64 libcurl3t64-gnutls amd64 8.18.0-1ubuntu2.8 [421 kB]
+Get:21 http://security.ubuntu.com/ubuntu resolute-security/main amd64 git-man all 1:2.53.0-1ubuntu1.1 [1197 kB]
+Get:22 http://security.ubuntu.com/ubuntu resolute-security/main amd64 git amd64 1:2.53.0-1ubuntu1.1 [4223 kB]
+Get:23 http://security.ubuntu.com/ubuntu resolute-security/main amd64 openssh-client amd64 1:10.2p1-2ubuntu3.8 [936 kB]
+Get:24 http://security.ubuntu.com/ubuntu resolute-security/main amd64 curl amd64 8.18.0-1ubuntu2.8 [273 kB]
+Get:25 http://security.ubuntu.com/ubuntu resolute-security/main amd64 libcurl4t64 amd64 8.18.0-1ubuntu2.8 [430 kB]
+Get:26 http://security.ubuntu.com/ubuntu resolute-security/main amd64 libxtst-dev amd64 2:1.2.5-1ubuntu0.1 [16.0 kB]
+Get:27 http://security.ubuntu.com/ubuntu resolute-security/main amd64 libxtst6 amd64 2:1.2.5-1ubuntu0.1 [13.2 kB]
+Get:28 http://security.ubuntu.com/ubuntu resolute-security/main amd64 python3-jwt all 2.10.1-4ubuntu1.3 [23.8 kB]
+Get:29 http://security.ubuntu.com/ubuntu resolute-security/main amd64 python3-urllib3 all 2.6.3-1ubuntu1.2 [97.6 kB]
+Fetched 52.7 MB in 3s (15.3 MB/s)
+Preconfiguring packages ...
+(Reading database ... 102829 files and directories currently installed.)
+Preparing to unpack .../00-sudo_1.9.17p2-1ubuntu3.2_amd64.deb ...
+Unpacking sudo (1.9.17p2-1ubuntu3.2) over (1.9.17p2-1ubuntu3.1) ...
+Preparing to unpack .../01-libxml2-dev_2.15.2+dfsg-0.1ubuntu0.3_amd64.deb ...
+Unpacking libxml2-dev:amd64 (2.15.2+dfsg-0.1ubuntu0.3) over (2.15.2+dfsg-0.1ubuntu0.2) ...
+Preparing to unpack .../02-libxml2-16_2.15.2+dfsg-0.1ubuntu0.3_amd64.deb ...
+Unpacking libxml2-16:amd64 (2.15.2+dfsg-0.1ubuntu0.3) over (2.15.2+dfsg-0.1ubuntu0.2) ...
+Preparing to unpack .../03-tzdata_2026e-0ubuntu0.26.04.1_all.deb ...
+Unpacking tzdata (2026e-0ubuntu0.26.04.1) over (2026c-0ubuntu0.26.04.1) ...
+Preparing to unpack .../04-libpng-dev_1.6.57-1ubuntu0.1_amd64.deb ...
+Unpacking libpng-dev:amd64 (1.6.57-1ubuntu0.1) over (1.6.57-1) ...
+Preparing to unpack .../05-libpng-tools_1.6.57-1ubuntu0.1_amd64.deb ...
+Unpacking libpng-tools (1.6.57-1ubuntu0.1) over (1.6.57-1) ...
+Preparing to unpack .../06-libpng16-16t64_1.6.57-1ubuntu0.1_amd64.deb ...
+Unpacking libpng16-16t64:amd64 (1.6.57-1ubuntu0.1) over (1.6.57-1) ...
+Preparing to unpack .../07-libx11-dev_2%3a1.8.13-1ubuntu0.1_amd64.deb ...
+Unpacking libx11-dev:amd64 (2:1.8.13-1ubuntu0.1) over (2:1.8.13-1) ...
+Preparing to unpack .../08-libx11-6_2%3a1.8.13-1ubuntu0.1_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.8.13-1ubuntu0.1) over (2:1.8.13-1) ...
+Preparing to unpack .../09-libx11-xcb1_2%3a1.8.13-1ubuntu0.1_amd64.deb ...
+Unpacking libx11-xcb1:amd64 (2:1.8.13-1ubuntu0.1) over (2:1.8.13-1) ...
+Preparing to unpack .../10-libx11-data_2%3a1.8.13-1ubuntu0.1_all.deb ...
+Unpacking libx11-data (2:1.8.13-1ubuntu0.1) over (2:1.8.13-1) ...
+Preparing to unpack .../11-libcurl3t64-gnutls_8.18.0-1ubuntu2.8_amd64.deb ...
+Unpacking libcurl3t64-gnutls:amd64 (8.18.0-1ubuntu2.8) over (8.18.0-1ubuntu2.7) ...
+Preparing to unpack .../12-git-man_1%3a2.53.0-1ubuntu1.1_all.deb ...
+Unpacking git-man (1:2.53.0-1ubuntu1.1) over (1:2.53.0-1ubuntu1) ...
+Preparing to unpack .../13-git_1%3a2.53.0-1ubuntu1.1_amd64.deb ...
+Unpacking git (1:2.53.0-1ubuntu1.1) over (1:2.53.0-1ubuntu1) ...
+Preparing to unpack .../14-openssh-client_1%3a10.2p1-2ubuntu3.8_amd64.deb ...
+Unpacking openssh-client (1:10.2p1-2ubuntu3.8) over (1:10.2p1-2ubuntu3.7) ...
+Preparing to unpack .../15-ubuntu-release-upgrader-core_1%3a26.04.27_all.deb ...
+Unpacking ubuntu-release-upgrader-core (1:26.04.27) over (1:26.04.25) ...
+Preparing to unpack .../16-python3-distupgrade_1%3a26.04.27_all.deb ...
+Unpacking python3-distupgrade (1:26.04.27) over (1:26.04.25) ...
+Preparing to unpack .../17-curl_8.18.0-1ubuntu2.8_amd64.deb ...
+Unpacking curl (8.18.0-1ubuntu2.8) over (8.18.0-1ubuntu2.7) ...
+Preparing to unpack .../18-libcurl4t64_8.18.0-1ubuntu2.8_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.18.0-1ubuntu2.8) over (8.18.0-1ubuntu2.7) ...
+Preparing to unpack .../19-libarchive13t64_3.8.5-1ubuntu2.3_amd64.deb ...
+Unpacking libarchive13t64:amd64 (3.8.5-1ubuntu2.3) over (3.8.5-1ubuntu2.2) ...
+Preparing to unpack .../20-libmp3lame0_3.101~svn6525+dfsg-2ubuntu0.1_amd64.deb ...
+Unpacking libmp3lame0:amd64 (3.101~svn6525+dfsg-2ubuntu0.1) over (3.101~svn6525+dfsg-2) ...
+Preparing to unpack .../21-libpoppler-qt6-3t64_26.01.0-2ubuntu0.2_amd64.deb ...
+Unpacking libpoppler-qt6-3t64:amd64 (26.01.0-2ubuntu0.2) over (26.01.0-2ubuntu0.1) ...
+Preparing to unpack .../22-libpoppler156_26.01.0-2ubuntu0.2_amd64.deb ...
+Unpacking libpoppler156:amd64 (26.01.0-2ubuntu0.2) over (26.01.0-2ubuntu0.1) ...
+Preparing to unpack .../23-libxtst-dev_2%3a1.2.5-1ubuntu0.1_amd64.deb ...
+Unpacking libxtst-dev:amd64 (2:1.2.5-1ubuntu0.1) over (2:1.2.5-1build1) ...
+Preparing to unpack .../24-libxtst6_2%3a1.2.5-1ubuntu0.1_amd64.deb ...
+Unpacking libxtst6:amd64 (2:1.2.5-1ubuntu0.1) over (2:1.2.5-1build1) ...
+Preparing to unpack .../25-python3-jwt_2.10.1-4ubuntu1.3_all.deb ...
+Unpacking python3-jwt (2.10.1-4ubuntu1.3) over (2.10.1-4ubuntu1.1) ...
+Preparing to unpack .../26-python3-lxml_6.0.2-1ubuntu0.1_amd64.deb ...
+Unpacking python3-lxml:amd64 (6.0.2-1ubuntu0.1) over (6.0.2-1build1) ...
+Preparing to unpack .../27-python3-urllib3_2.6.3-1ubuntu1.2_all.deb ...
+Unpacking python3-urllib3 (2.6.3-1ubuntu1.2) over (2.6.3-1ubuntu1.1) ...
+Preparing to unpack .../28-snapd_2.77.1+ubuntu26.04.2_amd64.deb ...
+Unpacking snapd (2.77.1+ubuntu26.04.2) over (2.76.3+ubuntu26.04) ...
+Setting up libcurl4t64:amd64 (8.18.0-1ubuntu2.8) ...
+Setting up python3-jwt (2.10.1-4ubuntu1.3) ...
+Setting up libxml2-16:amd64 (2.15.2+dfsg-0.1ubuntu0.3) ...
+Setting up openssh-client (1:10.2p1-2ubuntu3.8) ...
+Setting up libcurl3t64-gnutls:amd64 (8.18.0-1ubuntu2.8) ...
+Setting up python3-distupgrade (1:26.04.27) ...
+Setting up tzdata (2026e-0ubuntu0.26.04.1) ...
+
+Current default time zone: 'Europe/Dublin'
+Local time is now:      Tue Oct 20 13:30:16 IST 2026.
+Universal Time is now:  Tue Oct 20 12:30:16 UTC 2026.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up libxml2-dev:amd64 (2.15.2+dfsg-0.1ubuntu0.3) ...
+Setting up libx11-data (2:1.8.13-1ubuntu0.1) ...
+Setting up libpng16-16t64:amd64 (1.6.57-1ubuntu0.1) ...
+Setting up ubuntu-release-upgrader-core (1:26.04.27) ...
+Setting up sudo (1.9.17p2-1ubuntu3.2) ...
+update-alternatives: warning: forcing reinstallation of alternative /usr/lib/cargo/bin/sudo because link group sudo is broken
+Setting up python3-urllib3 (2.6.3-1ubuntu1.2) ...
+Setting up python3-lxml:amd64 (6.0.2-1ubuntu0.1) ...
+Setting up git-man (1:2.53.0-1ubuntu1.1) ...
+Setting up libx11-6:amd64 (2:1.8.13-1ubuntu0.1) ...
+Setting up curl (8.18.0-1ubuntu2.8) ...
+Setting up libarchive13t64:amd64 (3.8.5-1ubuntu2.3) ...
+Setting up libmp3lame0:amd64 (3.101~svn6525+dfsg-2ubuntu0.1) ...
+Setting up snapd (2.77.1+ubuntu26.04.2) ...
+Installing new version of config file /etc/apparmor.d/usr.lib.snapd.snap-confine.real ...
+snapd.failure.service is a disabled or a static unit not running, not starting it.
+snapd.gpio-chardev-setup.target is a disabled or a static unit not running, not starting it.
+snapd.snap-repair.service is a disabled or a static unit not running, not starting it.
+Setting up libx11-xcb1:amd64 (2:1.8.13-1ubuntu0.1) ...
+Setting up libpng-tools (1.6.57-1ubuntu0.1) ...
+Setting up libxtst6:amd64 (2:1.2.5-1ubuntu0.1) ...
+Setting up libpng-dev:amd64 (1.6.57-1ubuntu0.1) ...
+Setting up libx11-dev:amd64 (2:1.8.13-1ubuntu0.1) ...
+Setting up libpoppler156:amd64 (26.01.0-2ubuntu0.2) ...
+Setting up git (1:2.53.0-1ubuntu1.1) ...
+Setting up libxtst-dev:amd64 (2:1.2.5-1ubuntu0.1) ...
+Setting up libpoppler-qt6-3t64:amd64 (26.01.0-2ubuntu0.2) ...
+Processing triggers for man-db (2.13.1-1build1) ...
+Processing triggers for dbus (1.16.2-2ubuntu4) ...
+Processing triggers for libc-bin (2.43-2ubuntu2.4) ...
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ sudo apt install python3-networkx
+Installing:
+  python3-networkx
+
+Suggested packages:
+  python3-gdal  python3-pydot  python3-pygraphviz
+
+Summary:
+  Upgrading: 0, Installing: 1, Removing: 0, Not Upgrading: 11
+  Download size: 11.8 MB
+  Space needed: 88.8 MB / 1008 GB available
+
+Get:1 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-networkx all 3.2.1-4ubuntu2 [11.8 MB]
+Fetched 11.8 MB in 1s (8907 kB/s)
+Selecting previously unselected package python3-networkx.
+(Reading database ... 102830 files and directories currently installed.)
+Preparing to unpack .../python3-networkx_3.2.1-4ubuntu2_all.deb ...
+Unpacking python3-networkx (3.2.1-4ubuntu2) ...
+Setting up python3-networkx (3.2.1-4ubuntu2) ...
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ python3 acsl_graph4.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL/acsl_graph4.py", line 26, in <module>
+    from clang.cindex import Index, Config, CursorKind, TypeKind
+ModuleNotFoundError: No module named 'clang'
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ sudo apt install python3-clang
+Installing:
+  python3-clang
+
+Installing dependencies:
+  lib32gcc-s1   libc6-i386       libclang-common-21-dev  libclang1-21  libobjc-15-dev  python3-clang-21
+  lib32stdc++6  libclang-21-dev  libclang-rt-21-dev      libgc1        libobjc4
+
+Summary:
+  Upgrading: 0, Installing: 12, Removing: 0, Not Upgrading: 11
+  Download size: 47.5 MB
+  Space needed: 416 MB / 1008 GB available
+
+Continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 libc6-i386 amd64 2.43-2ubuntu2.4 [2932 kB]
+Get:2 http://archive.ubuntu.com/ubuntu resolute/main amd64 lib32gcc-s1 amd64 16-20260322-1ubuntu1 [91.9 kB]
+Get:3 http://archive.ubuntu.com/ubuntu resolute/main amd64 libgc1 amd64 1:8.2.12-1 [92.9 kB]
+Get:4 http://archive.ubuntu.com/ubuntu resolute/universe amd64 libobjc4 amd64 16-20260322-1ubuntu1 [48.2 kB]
+Get:5 http://archive.ubuntu.com/ubuntu resolute/universe amd64 libobjc-15-dev amd64 15.2.0-16ubuntu1 [196 kB]
+Get:6 http://archive.ubuntu.com/ubuntu resolute/main amd64 libclang1-21 amd64 1:21.1.8-6ubuntu1 [8158 kB]
+Get:7 http://archive.ubuntu.com/ubuntu resolute/universe amd64 libclang-common-21-dev amd64 1:21.1.8-6ubuntu1 [770 kB]
+Get:8 http://archive.ubuntu.com/ubuntu resolute/universe amd64 libclang-21-dev amd64 1:21.1.8-6ubuntu1 [30.2 MB]
+Get:9 http://archive.ubuntu.com/ubuntu resolute/main amd64 lib32stdc++6 amd64 16-20260322-1ubuntu1 [840 kB]
+Get:10 http://archive.ubuntu.com/ubuntu resolute/universe amd64 libclang-rt-21-dev amd64 1:21.1.8-6ubuntu1 [4138 kB]
+Get:11 http://archive.ubuntu.com/ubuntu resolute/universe amd64 python3-clang-21 amd64 1:21.1.8-6ubuntu1 [32.7 kB]
+Get:12 http://archive.ubuntu.com/ubuntu resolute/universe amd64 python3-clang amd64 1:21.1.6-71 [3680 B]
+Fetched 47.5 MB in 3s (13.6 MB/s)
+Selecting previously unselected package libc6-i386.
+(Reading database ... 106022 files and directories currently installed.)
+Preparing to unpack .../00-libc6-i386_2.43-2ubuntu2.4_amd64.deb ...
+Unpacking libc6-i386 (2.43-2ubuntu2.4) ...
+Selecting previously unselected package lib32gcc-s1.
+Preparing to unpack .../01-lib32gcc-s1_16-20260322-1ubuntu1_amd64.deb ...
+Unpacking lib32gcc-s1 (16-20260322-1ubuntu1) ...
+Selecting previously unselected package libgc1:amd64.
+Preparing to unpack .../02-libgc1_1%3a8.2.12-1_amd64.deb ...
+Unpacking libgc1:amd64 (1:8.2.12-1) ...
+Selecting previously unselected package libobjc4:amd64.
+Preparing to unpack .../03-libobjc4_16-20260322-1ubuntu1_amd64.deb ...
+Unpacking libobjc4:amd64 (16-20260322-1ubuntu1) ...
+Selecting previously unselected package libobjc-15-dev:amd64.
+Preparing to unpack .../04-libobjc-15-dev_15.2.0-16ubuntu1_amd64.deb ...
+Unpacking libobjc-15-dev:amd64 (15.2.0-16ubuntu1) ...
+Selecting previously unselected package libclang1-21.
+Preparing to unpack .../05-libclang1-21_1%3a21.1.8-6ubuntu1_amd64.deb ...
+Unpacking libclang1-21 (1:21.1.8-6ubuntu1) ...
+Selecting previously unselected package libclang-common-21-dev:amd64.
+Preparing to unpack .../06-libclang-common-21-dev_1%3a21.1.8-6ubuntu1_amd64.deb ...
+Unpacking libclang-common-21-dev:amd64 (1:21.1.8-6ubuntu1) ...
+Selecting previously unselected package libclang-21-dev.
+Preparing to unpack .../07-libclang-21-dev_1%3a21.1.8-6ubuntu1_amd64.deb ...
+Unpacking libclang-21-dev (1:21.1.8-6ubuntu1) ...
+Selecting previously unselected package lib32stdc++6.
+Preparing to unpack .../08-lib32stdc++6_16-20260322-1ubuntu1_amd64.deb ...
+Unpacking lib32stdc++6 (16-20260322-1ubuntu1) ...
+Selecting previously unselected package libclang-rt-21-dev.
+Preparing to unpack .../09-libclang-rt-21-dev_1%3a21.1.8-6ubuntu1_amd64.deb ...
+Unpacking libclang-rt-21-dev (1:21.1.8-6ubuntu1) ...
+Selecting previously unselected package python3-clang-21.
+Preparing to unpack .../10-python3-clang-21_1%3a21.1.8-6ubuntu1_amd64.deb ...
+Unpacking python3-clang-21 (1:21.1.8-6ubuntu1) ...
+Selecting previously unselected package python3-clang:amd64.
+Preparing to unpack .../11-python3-clang_1%3a21.1.6-71_amd64.deb ...
+Unpacking python3-clang:amd64 (1:21.1.6-71) ...
+Setting up libgc1:amd64 (1:8.2.12-1) ...
+Setting up libc6-i386 (2.43-2ubuntu2.4) ...
+Setting up libclang-common-21-dev:amd64 (1:21.1.8-6ubuntu1) ...
+Setting up libclang1-21 (1:21.1.8-6ubuntu1) ...
+Setting up libobjc4:amd64 (16-20260322-1ubuntu1) ...
+Setting up lib32gcc-s1 (16-20260322-1ubuntu1) ...
+Setting up lib32stdc++6 (16-20260322-1ubuntu1) ...
+Setting up libclang-rt-21-dev (1:21.1.8-6ubuntu1) ...
+Setting up libobjc-15-dev:amd64 (15.2.0-16ubuntu1) ...
+Setting up libclang-21-dev (1:21.1.8-6ubuntu1) ...
+Setting up python3-clang-21 (1:21.1.8-6ubuntu1) ...
+Setting up python3-clang:amd64 (1:21.1.6-71) ...
+Processing triggers for base-files (14ubuntu6.2) ...
+Processing triggers for libc-bin (2.43-2ubuntu2.4) ...
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ python3 acsl_graph4.py
+Traceback (most recent call last):
+  File "/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL/acsl_graph4.py", line 27, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ sudo apt install sentence_transformers
+Error: Unable to locate package sentence_transformers
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ sudo apt install python3-transformers
+Package python3-transformers is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Error: Package 'python3-transformers' has no installation candidate
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ sudo apt install sentence-transformers
+Error: Unable to locate package sentence-transformers
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ sudo apt update
+sudo apt install python3-pip python3-venv -y
+python3 -m pip install sentence-transformers
+Hit:1 http://security.ubuntu.com/ubuntu resolute-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu resolute InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu resolute-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu resolute-backports InRelease
+11 packages can be upgraded. Run 'apt list --upgradable' to see them.
+python3-pip is already the newest version (25.1.1+dfsg-1ubuntu2).
+python3-pip set to manually installed.
+Installing:
+  python3-venv
+
+Installing dependencies:
+  python3-pip-whl  python3-setuptools-whl  python3.14-venv
+
+Summary:
+  Upgrading: 0, Installing: 4, Removing: 0, Not Upgrading: 11
+  Download size: 2610 kB
+  Space needed: 2958 kB / 1008 GB available
+
+Get:1 http://archive.ubuntu.com/ubuntu resolute/universe amd64 python3-pip-whl all 25.1.1+dfsg-1ubuntu2 [1430 kB]
+Get:2 http://archive.ubuntu.com/ubuntu resolute/universe amd64 python3-setuptools-whl all 78.1.1-0.1build1 [1174 kB]
+Get:3 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 python3.14-venv amd64 3.14.4-1ubuntu0.2 [5356 B]
+Get:4 http://archive.ubuntu.com/ubuntu resolute/universe amd64 python3-venv amd64 3.14.3-0ubuntu2 [1032 B]
+Fetched 2610 kB in 1s (4296 kB/s)
+Selecting previously unselected package python3-pip-whl.
+(Reading database ... 108320 files and directories currently installed.)
+Preparing to unpack .../python3-pip-whl_25.1.1+dfsg-1ubuntu2_all.deb ...
+Unpacking python3-pip-whl (25.1.1+dfsg-1ubuntu2) ...
+Selecting previously unselected package python3-setuptools-whl.
+Preparing to unpack .../python3-setuptools-whl_78.1.1-0.1build1_all.deb ...
+Unpacking python3-setuptools-whl (78.1.1-0.1build1) ...
+Selecting previously unselected package python3.14-venv.
+Preparing to unpack .../python3.14-venv_3.14.4-1ubuntu0.2_amd64.deb ...
+Unpacking python3.14-venv (3.14.4-1ubuntu0.2) ...
+Selecting previously unselected package python3-venv.
+Preparing to unpack .../python3-venv_3.14.3-0ubuntu2_amd64.deb ...
+Unpacking python3-venv (3.14.3-0ubuntu2) ...
+Setting up python3-setuptools-whl (78.1.1-0.1build1) ...
+Setting up python3-pip-whl (25.1.1+dfsg-1ubuntu2) ...
+Setting up python3.14-venv (3.14.4-1ubuntu0.2) ...
+Setting up python3-venv (3.14.3-0ubuntu2) ...
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+
+    See /usr/share/doc/python3.14/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ sudo apt install python3-full build-essential -y
+build-essential is already the newest version (12.12ubuntu2.26.04.2).
+Installing:
+  python3-full
+
+Installing dependencies:
+  fonts-mathjax  idle-python3.14  libpython3.14-testsuite  python3-doc       python3.14-doc       python3.14-full
+  idle           libjs-mathjax    net-tools                python3-examples  python3.14-examples
+
+Suggested packages:
+  fonts-mathjax-extras  fonts-stix  libjs-mathjax-doc
+
+Summary:
+  Upgrading: 0, Installing: 12, Removing: 0, Not Upgrading: 11
+  Download size: 30.2 MB
+  Space needed: 166 MB / 1008 GB available
+
+Get:1 http://archive.ubuntu.com/ubuntu resolute/main amd64 fonts-mathjax all 2.7.9+dfsg-1build1 [2283 kB]
+Get:2 http://archive.ubuntu.com/ubuntu resolute/main amd64 libjs-mathjax all 2.7.9+dfsg-1build1 [6017 kB]
+Get:3 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 idle-python3.14 all 3.14.4-1ubuntu0.2 [423 kB]
+Get:4 http://archive.ubuntu.com/ubuntu resolute/universe amd64 idle all 3.14.3-0ubuntu2 [2724 B]
+Get:5 http://archive.ubuntu.com/ubuntu resolute/main amd64 net-tools amd64 2.10-2ubuntu1 [151 kB]
+Get:6 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 libpython3.14-testsuite all 3.14.4-1ubuntu0.2 [5421 kB]
+Get:7 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3.14-doc all 3.14.4-1ubuntu0.2 [15.1 MB]
+Get:8 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-doc all 3.14.3-0ubuntu2 [8700 B]
+Get:9 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 python3.14-examples all 3.14.4-1ubuntu0.2 [789 kB]
+Get:10 http://archive.ubuntu.com/ubuntu resolute/main amd64 python3-examples all 3.14.3-0ubuntu2 [884 B]
+Get:11 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 python3.14-full amd64 3.14.4-1ubuntu0.2 [1106 B]
+Get:12 http://archive.ubuntu.com/ubuntu resolute/universe amd64 python3-full amd64 3.14.3-0ubuntu2 [1146 B]
+Fetched 30.2 MB in 2s (12.6 MB/s)
+Selecting previously unselected package fonts-mathjax.
+(Reading database ... 108337 files and directories currently installed.)
+Preparing to unpack .../00-fonts-mathjax_2.7.9+dfsg-1build1_all.deb ...
+Unpacking fonts-mathjax (2.7.9+dfsg-1build1) ...
+Selecting previously unselected package libjs-mathjax.
+Preparing to unpack .../01-libjs-mathjax_2.7.9+dfsg-1build1_all.deb ...
+Unpacking libjs-mathjax (2.7.9+dfsg-1build1) ...
+Selecting previously unselected package idle-python3.14.
+Preparing to unpack .../02-idle-python3.14_3.14.4-1ubuntu0.2_all.deb ...
+Unpacking idle-python3.14 (3.14.4-1ubuntu0.2) ...
+Selecting previously unselected package idle.
+Preparing to unpack .../03-idle_3.14.3-0ubuntu2_all.deb ...
+Unpacking idle (3.14.3-0ubuntu2) ...
+Selecting previously unselected package net-tools.
+Preparing to unpack .../04-net-tools_2.10-2ubuntu1_amd64.deb ...
+Unpacking net-tools (2.10-2ubuntu1) ...
+Selecting previously unselected package libpython3.14-testsuite.
+Preparing to unpack .../05-libpython3.14-testsuite_3.14.4-1ubuntu0.2_all.deb ...
+Unpacking libpython3.14-testsuite (3.14.4-1ubuntu0.2) ...
+Selecting previously unselected package python3.14-doc.
+Preparing to unpack .../06-python3.14-doc_3.14.4-1ubuntu0.2_all.deb ...
+Unpacking python3.14-doc (3.14.4-1ubuntu0.2) ...
+Selecting previously unselected package python3-doc.
+Preparing to unpack .../07-python3-doc_3.14.3-0ubuntu2_all.deb ...
+Unpacking python3-doc (3.14.3-0ubuntu2) ...
+Selecting previously unselected package python3.14-examples.
+Preparing to unpack .../08-python3.14-examples_3.14.4-1ubuntu0.2_all.deb ...
+Unpacking python3.14-examples (3.14.4-1ubuntu0.2) ...
+Selecting previously unselected package python3-examples.
+Preparing to unpack .../09-python3-examples_3.14.3-0ubuntu2_all.deb ...
+Unpacking python3-examples (3.14.3-0ubuntu2) ...
+Selecting previously unselected package python3.14-full.
+Preparing to unpack .../10-python3.14-full_3.14.4-1ubuntu0.2_amd64.deb ...
+Unpacking python3.14-full (3.14.4-1ubuntu0.2) ...
+Selecting previously unselected package python3-full.
+Preparing to unpack .../11-python3-full_3.14.3-0ubuntu2_amd64.deb ...
+Unpacking python3-full (3.14.3-0ubuntu2) ...
+Setting up net-tools (2.10-2ubuntu1) ...
+Setting up fonts-mathjax (2.7.9+dfsg-1build1) ...
+Setting up libjs-mathjax (2.7.9+dfsg-1build1) ...
+Setting up python3.14-examples (3.14.4-1ubuntu0.2) ...
+Setting up python3-examples (3.14.3-0ubuntu2) ...
+Setting up python3.14-doc (3.14.4-1ubuntu0.2) ...
+Setting up python3-doc (3.14.3-0ubuntu2) ...
+Setting up libpython3.14-testsuite (3.14.4-1ubuntu0.2) ...
+Setting up idle-python3.14 (3.14.4-1ubuntu0.2) ...
+Setting up idle (3.14.3-0ubuntu2) ...
+Setting up python3.14-full (3.14.4-1ubuntu0.2) ...
+Setting up python3-full (3.14.3-0ubuntu2) ...
+Processing triggers for install-info (7.2-5ubuntu2) ...
+Processing triggers for fontconfig (2.17.1-3ubuntu1) ...
+Processing triggers for man-db (2.13.1-1build1) ...
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ python3 -m venv .venv
+arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ source .venv/bin/activate
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ python -m pip install --upgrade pip
+Requirement already satisfied: pip in ./.venv/lib/python3.14/site-packages (25.1.1)
+Collecting pip
+  Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 15.4 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.1.1
+    Uninstalling pip-25.1.1:
+      Successfully uninstalled pip-25.1.1
+Successfully installed pip-26.2.1
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ python -m pip install sentence-transformers networkx numpy
+Collecting sentence-transformers
+  Downloading sentence_transformers-6.1.0-py3-none-any.whl.metadata (20 kB)
+Collecting networkx
+  Downloading networkx-3.7-py3-none-any.whl.metadata (6.7 kB)
+Collecting numpy
+  Downloading numpy-2.5.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting transformers<6.0.0,>=5.0.0 (from sentence-transformers)
+  Downloading transformers-5.20.2-py3-none-any.whl.metadata (31 kB)
+Collecting tokenizers>=0.19 (from sentence-transformers)
+  Downloading tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.8 kB)
+Collecting huggingface-hub<2.0.0,>=1.3.0 (from sentence-transformers)
+  Downloading huggingface_hub-1.33.0-py3-none-any.whl.metadata (16 kB)
+Collecting torch>=2.2 (from sentence-transformers)
+  Downloading torch-2.14.1-cp314-cp314-manylinux_2_28_x86_64.whl.metadata (37 kB)
+Collecting scikit-learn>=1.1.0 (from sentence-transformers)
+  Downloading scikit_learn-1.9.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.3 kB)
+Collecting scipy>=1.0.0 (from sentence-transformers)
+  Downloading scipy-1.18.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting typing_extensions>=4.10.0 (from sentence-transformers)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting tqdm>=4.0.0 (from sentence-transformers)
+  Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting filelock>=3.10.0 (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading filelock-4.2.4-py3-none-any.whl.metadata (2.0 kB)
+Collecting fsspec>=2023.5.0 (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Collecting httpx<1,>=0.23.0 (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting packaging>=20.9 (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pyyaml>=5.1 (from huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading pyyaml-6.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting anyio (from httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting certifi (from httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading certifi-2026.10.19-py3-none-any.whl.metadata (2.5 kB)
+Collecting httpcore==1.* (from httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting idna (from httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub<2.0.0,>=1.3.0->sentence-transformers)
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting regex>=2025.10.22 (from transformers<6.0.0,>=5.0.0->sentence-transformers)
+  Downloading regex-2026.9.29-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting typer (from transformers<6.0.0,>=5.0.0->sentence-transformers)
+  Downloading typer-0.27.3-py3-none-any.whl.metadata (16 kB)
+Collecting safetensors>=0.8.0 (from transformers<6.0.0,>=5.0.0->sentence-transformers)
+  Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Collecting joblib>=1.4.0 (from scikit-learn>=1.1.0->sentence-transformers)
+  Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn>=1.1.0->sentence-transformers)
+  Downloading narwhals-2.27.1-py3-none-any.whl.metadata (15 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=1.1.0->sentence-transformers)
+  Downloading threadpoolctl-3.7.0-py3-none-any.whl.metadata (24 kB)
+Collecting cloudpickle>=3.0 (from joblib>=1.4.0->scikit-learn>=1.1.0->sentence-transformers)
+  Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting setuptools>=77.0.3 (from torch>=2.2->sentence-transformers)
+  Downloading setuptools-84.2.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting sympy>=1.13.3 (from torch>=2.2->sentence-transformers)
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting jinja2 (from torch>=2.2->sentence-transformers)
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting cuda-toolkit==13.0.3 (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading cuda_toolkit-13.0.3.0-py2.py3-none-any.whl.metadata (17 kB)
+Collecting cuda-bindings<14,>=13.0.3 (from torch>=2.2->sentence-transformers)
+  Downloading cuda_bindings-13.4.4-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting nvidia-cudnn-cu13==9.24.0.43 (from torch>=2.2->sentence-transformers)
+  Downloading nvidia_cudnn_cu13-9.24.0.43-py3-none-manylinux_2_27_x86_64.whl.metadata (1.9 kB)
+Collecting nvidia-cusparselt-cu13==0.8.1 (from torch>=2.2->sentence-transformers)
+  Downloading nvidia_cusparselt_cu13-0.8.1-py3-none-manylinux2014_x86_64.whl.metadata (12 kB)
+Collecting nvidia-nccl-cu13==2.30.7 (from torch>=2.2->sentence-transformers)
+  Downloading nvidia_nccl_cu13-2.30.7-py3-none-manylinux_2_18_x86_64.whl.metadata (2.1 kB)
+Collecting nvidia-nvshmem-cu13==3.4.5 (from torch>=2.2->sentence-transformers)
+  Downloading nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.1 kB)
+Collecting triton~=3.8.0 (from torch>=2.2->sentence-transformers)
+  Downloading triton-3.8.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (978 bytes)
+Collecting nvidia-cublas==13.1.1.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_cublas-13.1.1.3-py3-none-manylinux_2_27_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cuda-nvrtc==13.0.88.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cuda-runtime==13.0.96.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cufft==12.0.0.61.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvjitlink<14,>=13.0.88 (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_nvjitlink-13.4.92-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cufile==1.15.1.6.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cuda-cupti==13.0.85.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-curand==10.4.0.35.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cusolver==12.0.4.66.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cusparse==12.6.3.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvtx==13.0.85.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == "Linux"->torch>=2.2->sentence-transformers)
+  Downloading nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl.metadata (1.8 kB)
+Collecting cuda-pathfinder>=1.4.2 (from cuda-bindings<14,>=13.0.3->torch>=2.2->sentence-transformers)
+  Downloading cuda_pathfinder-1.8.3-py3-none-any.whl.metadata (1.9 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch>=2.2->sentence-transformers)
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch>=2.2->sentence-transformers)
+  Downloading markupsafe-3.0.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting shellingham>=1.3.0 (from typer->transformers<6.0.0,>=5.0.0->sentence-transformers)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=13.8.0 (from typer->transformers<6.0.0,>=5.0.0->sentence-transformers)
+  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting annotated-doc>=0.0.2 (from typer->transformers<6.0.0,>=5.0.0->sentence-transformers)
+  Downloading annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer->transformers<6.0.0,>=5.0.0->sentence-transformers)
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer->transformers<6.0.0,>=5.0.0->sentence-transformers)
+  Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer->transformers<6.0.0,>=5.0.0->sentence-transformers)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading sentence_transformers-6.1.0-py3-none-any.whl (740 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 740.6/740.6 kB 8.0 MB/s  0:00:00
+Downloading huggingface_hub-1.33.0-py3-none-any.whl (846 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 846.4/846.4 kB 12.1 MB/s  0:00:00
+Downloading click-8.5.0-py3-none-any.whl (125 kB)
+Downloading hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 14.7 MB/s  0:00:00
+Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading transformers-5.20.2-py3-none-any.whl (12.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 20.3 MB/s  0:00:00
+Downloading tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 16.2 MB/s  0:00:00
+Downloading networkx-3.7-py3-none-any.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 14.6 MB/s  0:00:00
+Downloading numpy-2.5.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 19.4 MB/s  0:00:00
+Downloading filelock-4.2.4-py3-none-any.whl (162 kB)
+Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Downloading pyyaml-6.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (794 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 794.2/794.2 kB 17.4 MB/s  0:00:00
+Downloading regex-2026.9.29-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.2/807.2 kB 18.2 MB/s  0:00:00
+Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Downloading scikit_learn-1.9.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 19.1 MB/s  0:00:00
+Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Downloading narwhals-2.27.1-py3-none-any.whl (483 kB)
+Downloading scipy-1.18.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 10.8 MB/s  0:00:03
+Downloading threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Downloading torch-2.14.1-cp314-cp314-manylinux_2_28_x86_64.whl (554.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 554.6/554.6 MB 17.9 MB/s  0:00:40
+Downloading cuda_toolkit-13.0.3.0-py2.py3-none-any.whl (2.5 kB)
+Downloading nvidia_cudnn_cu13-9.24.0.43-py3-none-manylinux_2_27_x86_64.whl (553.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 553.1/553.1 MB 17.1 MB/s  0:00:34
+Downloading nvidia_cusparselt_cu13-0.8.1-py3-none-manylinux2014_x86_64.whl (170.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 170.1/170.1 MB 12.6 MB/s  0:00:13
+Downloading nvidia_nccl_cu13-2.30.7-py3-none-manylinux_2_18_x86_64.whl (216.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 216.0/216.0 MB 16.2 MB/s  0:00:13
+Downloading nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (60.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.4/60.4 MB 13.5 MB/s  0:00:04
+Downloading cuda_bindings-13.4.4-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (7.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 4.1 MB/s  0:00:01
+Downloading nvidia_cublas-13.1.1.3-py3-none-manylinux_2_27_x86_64.whl (423.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 MB 11.0 MB/s  0:00:37
+Downloading nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl (10.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.7/10.7 MB 18.0 MB/s  0:00:00
+Downloading nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (90.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.2/90.2 MB 10.5 MB/s  0:00:08
+Downloading nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 16.7 MB/s  0:00:00
+Downloading nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (214.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 214.1/214.1 MB 14.1 MB/s  0:00:15
+Downloading nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 10.5 MB/s  0:00:00
+Downloading nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl (59.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.5/59.5 MB 20.0 MB/s  0:00:02
+Downloading nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl (200.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.9/200.9 MB 12.6 MB/s  0:00:15
+Downloading nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (145.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 145.9/145.9 MB 12.0 MB/s  0:00:12
+Downloading nvidia_nvjitlink-13.4.92-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (42.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.5/42.5 MB 19.8 MB/s  0:00:02
+Downloading nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl (148 kB)
+Downloading triton-3.8.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (248.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 248.0/248.0 MB 18.3 MB/s  0:00:13
+Downloading cuda_pathfinder-1.8.3-py3-none-any.whl (62 kB)
+Downloading setuptools-84.2.0-py3-none-any.whl (875 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 875.8/875.8 kB 16.7 MB/s  0:00:00
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 17.0 MB/s  0:00:00
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 9.8 MB/s  0:00:00
+Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+Downloading certifi-2026.10.19-py3-none-any.whl (136 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading markupsafe-3.0.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+Downloading typer-0.27.3-py3-none-any.whl (123 kB)
+Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 14.1 MB/s  0:00:00
+Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Installing collected packages: nvidia-cusparselt-cu13, mpmath, cuda-toolkit, typing_extensions, triton, tqdm, threadpoolctl, sympy, shellingham, setuptools, safetensors, regex, pyyaml, pygments, packaging, nvidia-nvtx, nvidia-nvshmem-cu13, nvidia-nvjitlink, nvidia-nccl-cu13, nvidia-curand, nvidia-cufile, nvidia-cuda-runtime, nvidia-cuda-nvrtc, nvidia-cuda-cupti, numpy, networkx, narwhals, mdurl, MarkupSafe, idna, hf-xet, h11, fsspec, filelock, cuda-pathfinder, cloudpickle, click, certifi, annotated-doc, scipy, nvidia-cusparse, nvidia-cufft, nvidia-cublas, markdown-it-py, joblib, jinja2, httpcore, cuda-bindings, anyio, scikit-learn, rich, nvidia-cusolver, nvidia-cudnn-cu13, httpx, typer, huggingface-hub, torch, tokenizers, transformers, sentence-transformers
+Successfully installed MarkupSafe-3.0.4 annotated-doc-0.0.5 anyio-4.15.1 certifi-2026.10.19 click-8.5.0 cloudpickle-3.1.2 cuda-bindings-13.4.4 cuda-pathfinder-1.8.3 cuda-toolkit-13.0.3.0 filelock-4.2.4 fsspec-2026.9.0 h11-0.16.0 hf-xet-1.7.0 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-1.33.0 idna-3.20 jinja2-3.1.6 joblib-1.6.0 markdown-it-py-4.2.0 mdurl-0.1.2 mpmath-1.3.0 narwhals-2.27.1 networkx-3.7 numpy-2.5.4 nvidia-cublas-13.1.1.3 nvidia-cuda-cupti-13.0.85 nvidia-cuda-nvrtc-13.0.88 nvidia-cuda-runtime-13.0.96 nvidia-cudnn-cu13-9.24.0.43 nvidia-cufft-12.0.0.61 nvidia-cufile-1.15.1.6 nvidia-curand-10.4.0.35 nvidia-cusolver-12.0.4.66 nvidia-cusparse-12.6.3.3 nvidia-cusparselt-cu13-0.8.1 nvidia-nccl-cu13-2.30.7 nvidia-nvjitlink-13.4.92 nvidia-nvshmem-cu13-3.4.5 nvidia-nvtx-13.0.85 packaging-26.3 pygments-2.21.0 pyyaml-6.0.3 regex-2026.9.29 rich-15.0.0 safetensors-0.8.0 scikit-learn-1.9.1 scipy-1.18.1 sentence-transformers-6.1.0 setuptools-84.2.0 shellingham-1.5.4 sympy-1.14.0 threadpoolctl-3.7.0 tokenizers-0.23.3 torch-2.14.1 tqdm-4.70.1 transformers-5.20.2 triton-3.8.0 typer-0.27.3 typing_extensions-4.16.0
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ python -m pip install libclang
+Collecting libclang
+  Downloading libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl.metadata (5.2 kB)
+Downloading libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl (24.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.5/24.5 MB 20.0 MB/s  0:00:01
+Installing collected packages: libclang
+Successfully installed libclang-18.1.1
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/GraphsWork-Oct2026/C_ACSL$ python3 acsl_graph4.py

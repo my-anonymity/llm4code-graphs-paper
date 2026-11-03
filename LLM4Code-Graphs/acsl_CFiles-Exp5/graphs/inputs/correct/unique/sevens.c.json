@@ -1,0 +1,12 @@
+{
+  "source": "correct/unique/sevens.c",
+  "functions": {
+    "checkMultipleSevens": {
+      "n": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

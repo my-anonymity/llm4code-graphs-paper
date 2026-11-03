@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d10" for="node" attr.name="cfg_role" attr.type="string" />
+  <key id="d9" for="node" attr.name="example_value" attr.type="string" />
+  <key id="d8" for="node" attr.name="function" attr.type="string" />
+  <key id="d7" for="node" attr.name="c_type" attr.type="string" />
+  <key id="d6" for="node" attr.name="column" attr.type="long" />
+  <key id="d5" for="node" attr.name="line" attr.type="long" />
+  <key id="d4" for="node" attr.name="text" attr.type="string" />
+  <key id="d3" for="node" attr.name="label" attr.type="string" />
+  <key id="d2" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d1" for="graph" attr.name="graph_semantics" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source_file" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="FILE::bitreversal.c">
+      <data key="d2">file</data>
+      <data key="d3">bitreversal.c</data>
+      <data key="d4">bitreversal.c</data>
+      <data key="d5">0</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="AST::FUNCTION_DECL::4:14::0">
+      <data key="d2">FUNCTION_DECL</data>
+      <data key="d3">reverseBits</data>
+      <data key="d4">reverseBits</data>
+      <data key="d7">unsigned int (unsigned int)</data>
+      <data key="d5">4</data>
+      <data key="d6">14</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::PARM_DECL::4:39::1">
+      <data key="d2">PARM_DECL</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">4</data>
+      <data key="d6">39</data>
+      <data key="d8">reverseBits</data>
+      <data key="d9">1</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::4:42::2">
+      <data key="d2">COMPOUND_STMT</data>
+      <data key="d3">COMPOUND_STMT</data>
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">4</data>
+      <data key="d6">42</data>
+      <data key="d8">reverseBits</data>
+      <data key="d10">function_entry</data>
+    </node>
+    <node id="AST::DECL_STMT::5:5::3">
+      <data key="d2">DECL_STMT</data>
+      <data key="d3">DECL_STMT</data>
+      <data key="d4">DECL_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">5</data>
+      <data key="d6">5</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::VAR_DECL::5:18::4">
+      <data key="d2">VAR_DECL</data>
+      <data key="d3">rev</data>
+      <data key="d4">rev</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">5</data>
+      <data key="d6">18</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::5:24::5">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">UNEXPOSED_EXPR</data>
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">5</data>
+      <data key="d6">24</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::5:24::6">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">5</data>
+      <data key="d6">24</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::FOR_STMT::10:1::7">
+      <data key="d2">FOR_STMT</data>
+      <data key="d3">FOR_STMT</data>
+      <data key="d4">FOR_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">10</data>
+      <data key="d6">1</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_STMT::10:6::8">
+      <data key="d2">DECL_STMT</data>
+      <data key="d3">DECL_STMT</data>
+      <data key="d4">DECL_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">10</data>
+      <data key="d6">6</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::VAR_DECL::10:10::9">
+      <data key="d2">VAR_DECL</data>
+      <data key="d3">i</data>
+      <data key="d4">i</data>
+      <data key="d7">int</data>
+      <data key="d5">10</data>
+      <data key="d6">10</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::10:14::10">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">10</data>
+      <data key="d6">14</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::10:17::11">
+      <data key="d2">BINARY_OPERATOR</data>
+      <data key="d3">BINARY_OPERATOR</data>
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">10</data>
+      <data key="d6">17</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::10:17::12">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">i</data>
+      <data key="d4">i</data>
+      <data key="d7">int</data>
+      <data key="d5">10</data>
+      <data key="d6">17</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::10:17::13">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">i</data>
+      <data key="d4">i</data>
+      <data key="d7">int</data>
+      <data key="d5">10</data>
+      <data key="d6">17</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::10:21::14">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">10</data>
+      <data key="d6">21</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::10:25::15">
+      <data key="d2">UNARY_OPERATOR</data>
+      <data key="d3">UNARY_OPERATOR</data>
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">10</data>
+      <data key="d6">25</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::10:25::16">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">i</data>
+      <data key="d4">i</data>
+      <data key="d7">int</data>
+      <data key="d5">10</data>
+      <data key="d6">25</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::10:30::17">
+      <data key="d2">COMPOUND_STMT</data>
+      <data key="d3">COMPOUND_STMT</data>
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">10</data>
+      <data key="d6">30</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::COMPOUND_ASSIGNMENT_OPERATOR::11:9::18">
+      <data key="d2">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d3">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d4">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">11</data>
+      <data key="d6">9</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::11:9::19">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">rev</data>
+      <data key="d4">rev</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">11</data>
+      <data key="d6">9</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::11:17::20">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">11</data>
+      <data key="d6">17</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::IF_STMT::12:9::21">
+      <data key="d2">IF_STMT</data>
+      <data key="d3">IF_STMT</data>
+      <data key="d4">IF_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">12</data>
+      <data key="d6">9</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::12:13::22">
+      <data key="d2">BINARY_OPERATOR</data>
+      <data key="d3">BINARY_OPERATOR</data>
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">12</data>
+      <data key="d6">13</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::12:13::23">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">12</data>
+      <data key="d6">13</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::12:13::24">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">12</data>
+      <data key="d6">13</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::12:17::25">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">UNEXPOSED_EXPR</data>
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">12</data>
+      <data key="d6">17</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::12:17::26">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">12</data>
+      <data key="d6">17</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::COMPOUND_ASSIGNMENT_OPERATOR::12:20::27">
+      <data key="d2">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d3">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d4">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">12</data>
+      <data key="d6">20</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::12:20::28">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">rev</data>
+      <data key="d4">rev</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">12</data>
+      <data key="d6">20</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::12:27::29">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">UNEXPOSED_EXPR</data>
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">12</data>
+      <data key="d6">27</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::12:27::30">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">12</data>
+      <data key="d6">27</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::COMPOUND_ASSIGNMENT_OPERATOR::13:9::31">
+      <data key="d2">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d3">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d4">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">13</data>
+      <data key="d6">9</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::13:9::32">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">13</data>
+      <data key="d6">9</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::13:15::33">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">13</data>
+      <data key="d6">15</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::RETURN_STMT::15:5::34">
+      <data key="d2">RETURN_STMT</data>
+      <data key="d3">RETURN_STMT</data>
+      <data key="d4">RETURN_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">15</data>
+      <data key="d6">5</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::15:12::35">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">rev</data>
+      <data key="d4">rev</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">15</data>
+      <data key="d6">12</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::15:12::36">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">rev</data>
+      <data key="d4">rev</data>
+      <data key="d7">unsigned int</data>
+      <data key="d5">15</data>
+      <data key="d6">12</data>
+      <data key="d8">reverseBits</data>
+    </node>
+    <edge source="FILE::bitreversal.c" target="AST::FUNCTION_DECL::4:14::0" id="ast_0">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::4:14::0" target="AST::PARM_DECL::4:39::1" id="ast_1">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::4:14::0" target="AST::COMPOUND_STMT::4:42::2" id="ast_2">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::4:42::2" target="AST::DECL_STMT::5:5::3" id="ast_3">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::4:42::2" target="AST::DECL_STMT::5:5::3" id="CFG_NEXT_37">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::4:42::2" target="AST::FOR_STMT::10:1::7" id="ast_7">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::4:42::2" target="AST::RETURN_STMT::15:5::34" id="ast_34">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::5:5::3" target="AST::VAR_DECL::5:18::4" id="ast_4">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::5:5::3" target="AST::FOR_STMT::10:1::7" id="CFG_NEXT_38">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::VAR_DECL::5:18::4" target="AST::UNEXPOSED_EXPR::5:24::5" id="ast_5">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::5:24::5" target="AST::INTEGER_LITERAL::5:24::6" id="ast_6">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FOR_STMT::10:1::7" target="AST::DECL_STMT::10:6::8" id="ast_8">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FOR_STMT::10:1::7" target="AST::BINARY_OPERATOR::10:17::11" id="ast_11">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FOR_STMT::10:1::7" target="AST::UNARY_OPERATOR::10:25::15" id="ast_15">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FOR_STMT::10:1::7" target="AST::COMPOUND_STMT::10:30::17" id="ast_17">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FOR_STMT::10:1::7" target="AST::COMPOUND_STMT::10:30::17" id="CFG_LOOP_ENTER_39">
+      <data key="d11">CFG_LOOP_ENTER</data>
+    </edge>
+    <edge source="AST::FOR_STMT::10:1::7" target="AST::RETURN_STMT::15:5::34" id="CFG_NEXT_46">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::DECL_STMT::10:6::8" target="AST::VAR_DECL::10:10::9" id="ast_9">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::VAR_DECL::10:10::9" target="AST::INTEGER_LITERAL::10:14::10" id="ast_10">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::10:17::11" target="AST::UNEXPOSED_EXPR::10:17::12" id="ast_12">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::10:17::11" target="AST::INTEGER_LITERAL::10:21::14" id="ast_14">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::10:17::12" target="AST::DECL_REF_EXPR::10:17::13" id="ast_13">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::10:17::13" target="AST::DECL_REF_EXPR::10:25::16" id="DATA_DEP_47">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::10:25::15" target="AST::DECL_REF_EXPR::10:25::16" id="ast_16">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::10:30::17" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::11:9::18" id="ast_18">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::10:30::17" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::11:9::18" id="CFG_NEXT_40">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::10:30::17" target="AST::IF_STMT::12:9::21" id="ast_21">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::10:30::17" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::13:9::31" id="ast_31">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::11:9::18" target="AST::DECL_REF_EXPR::11:9::19" id="ast_19">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::11:9::18" target="AST::INTEGER_LITERAL::11:17::20" id="ast_20">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::11:9::18" target="AST::IF_STMT::12:9::21" id="CFG_NEXT_41">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::11:9::19" target="AST::DECL_REF_EXPR::12:20::28" id="DATA_DEP_48">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::IF_STMT::12:9::21" target="AST::BINARY_OPERATOR::12:13::22" id="ast_22">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::IF_STMT::12:9::21" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::12:20::27" id="ast_27">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::IF_STMT::12:9::21" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::12:20::27" id="CFG_TRUE_42">
+      <data key="d11">CFG_TRUE</data>
+    </edge>
+    <edge source="AST::IF_STMT::12:9::21" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::13:9::31" id="CFG_NEXT_44">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::12:13::22" target="AST::UNEXPOSED_EXPR::12:13::23" id="ast_23">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::12:13::22" target="AST::UNEXPOSED_EXPR::12:17::25" id="ast_25">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::12:13::23" target="AST::DECL_REF_EXPR::12:13::24" id="ast_24">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::12:13::24" target="AST::DECL_REF_EXPR::13:9::32" id="DATA_DEP_50">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::12:17::25" target="AST::INTEGER_LITERAL::12:17::26" id="ast_26">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::12:20::27" target="AST::DECL_REF_EXPR::12:20::28" id="ast_28">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::12:20::27" target="AST::UNEXPOSED_EXPR::12:27::29" id="ast_29">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::12:20::27" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::13:9::31" id="CFG_NEXT_43">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::12:20::28" target="AST::DECL_REF_EXPR::15:12::36" id="DATA_DEP_49">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::12:27::29" target="AST::INTEGER_LITERAL::12:27::30" id="ast_30">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::13:9::31" target="AST::DECL_REF_EXPR::13:9::32" id="ast_32">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::13:9::31" target="AST::INTEGER_LITERAL::13:15::33" id="ast_33">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::13:9::31" target="AST::FOR_STMT::10:1::7" id="CFG_LOOP_BACK_45">
+      <data key="d11">CFG_LOOP_BACK</data>
+    </edge>
+    <edge source="AST::RETURN_STMT::15:5::34" target="AST::UNEXPOSED_EXPR::15:12::35" id="ast_35">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::15:12::35" target="AST::DECL_REF_EXPR::15:12::36" id="ast_36">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <data key="d0">/mnt/c/Users/arsha/Desktop/NUIM-Work/VERIFAI-NUIM/Graphs-Oct2026/acsl_CFiles-Exp4/correct/mirror/bitreversal.c</data>
+    <data key="d1">AST + approximate CFG + direct calls + name-based data-dependency hints</data>
+  </graph>
+</graphml>

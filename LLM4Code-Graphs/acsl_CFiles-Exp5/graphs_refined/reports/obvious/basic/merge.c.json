@@ -1,0 +1,23 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/merge.c",
+  "loop_count": 1,
+  "loops": [
+    {
+      "header": "AST::WHILE_STMT::11:1::14",
+      "kind": "WHILE_STMT",
+      "body_root": "AST::COMPOUND_STMT::11:32::26",
+      "body_ast_node_count": 41,
+      "loop_back_edge_count": 37,
+      "input_control_parameters": [
+        "arr1",
+        "size1",
+        "arr2",
+        "size2",
+        "result"
+      ]
+    }
+  ],
+  "data_dependency_edges": 8,
+  "input_control_edges": 5,
+  "warnings": []
+}

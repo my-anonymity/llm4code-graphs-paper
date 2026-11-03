@@ -1,0 +1,16 @@
+{
+  "source": "obvious/mirror/rotate.c",
+  "functions": {
+    "rotateLeft": {
+      "n": {
+        "c_type": "unsigned int",
+        "example": 1
+      },
+      "d": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

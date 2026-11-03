@@ -1,0 +1,16 @@
+{
+  "source": "correct/famous/hamming.c",
+  "functions": {
+    "hammingDistance": {
+      "x": {
+        "c_type": "unsigned int",
+        "example": 1
+      },
+      "y": {
+        "c_type": "unsigned int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

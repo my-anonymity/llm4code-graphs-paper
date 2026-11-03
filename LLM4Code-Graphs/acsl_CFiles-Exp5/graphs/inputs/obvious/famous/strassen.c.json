@@ -1,0 +1,47 @@
+{
+  "source": "obvious/famous/strassen.c",
+  "functions": {
+    "strassenMultiply": {
+      "A": {
+        "c_type": "int[2][2]",
+        "example": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "B": {
+        "c_type": "int[2][2]",
+        "example": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "C": {
+        "c_type": "int[2][2]",
+        "example": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

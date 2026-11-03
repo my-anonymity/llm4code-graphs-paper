@@ -1,0 +1,46 @@
+{
+  "functions": [
+    {
+      "name": "rotateArray",
+      "function_node": "AST::FUNCTION_DECL::1:6::0",
+      "normal_exit_nodes": [
+        "CFG_LOOP_EXIT_NODE::AST::FOR_STMT::32:1::72::1"
+      ]
+    }
+  ],
+  "loop_count": 3,
+  "loop_back_edges": 3,
+  "branch_edges": 2,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 15,
+    "CFG_TRUE": 4,
+    "CFG_FALSE": 4,
+    "CFG_LOOP_BACK": 3
+  },
+  "input_control_edges": 3,
+  "data_dependency_edges": 24,
+  "input_parameters": [
+    {
+      "function": "rotateArray",
+      "name": "arr",
+      "roles": "[\"array_data_or_buffer\", \"array_index_or_buffer_access\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression",
+      "reference_lines": "[13, 23, 33]"
+    },
+    {
+      "function": "rotateArray",
+      "name": "size",
+      "roles": "[\"array_index_or_buffer_access\", \"loop_bound_or_control_input\"]",
+      "evidence": "used in an array-subscript expression; used in loop condition at line 22",
+      "reference_lines": "[2, 22, 33]"
+    },
+    {
+      "function": "rotateArray",
+      "name": "k",
+      "roles": "[\"array_index_or_buffer_access\", \"expression_operand\", \"loop_bound_or_control_input\"]",
+      "evidence": "used in an array-subscript expression; used in loop condition at line 12; used in loop condition at line 32",
+      "reference_lines": "[2, 3, 5, 12, 23, 32, 33]"
+    }
+  ]
+}

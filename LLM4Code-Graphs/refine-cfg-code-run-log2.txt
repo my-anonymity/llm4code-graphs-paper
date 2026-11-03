@@ -1,0 +1,324 @@
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$ python -m py_compile acsl_graph5.py acsl_graph5_cfg_refine2.py
+
+python acsl_graph5_cfg_refine2.py \
+    --input-dir acsl_CFiles-Exp5
+[1/156] correct/basic/binarysearch.c
+  OK: loops=1, back_edges=1, warnings=0
+[2/156] correct/basic/duplicate.c
+  OK: loops=2, back_edges=2, warnings=0
+[3/156] correct/basic/gcd.c
+  OK: loops=1, back_edges=1, warnings=0
+[4/156] correct/basic/insert.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/insert.c:7:42: error: call to undeclared library function 'malloc' with type 'void *(unsigned long)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+[5/156] correct/basic/ksmallest.c
+  OK: loops=1, back_edges=1, warnings=0
+[6/156] correct/basic/lower.c
+  OK: loops=1, back_edges=1, warnings=0
+[7/156] correct/basic/max.c
+  OK: loops=1, back_edges=1, warnings=0
+[8/156] correct/basic/merge.c
+  OK: loops=3, back_edges=3, warnings=0
+[9/156] correct/basic/mode.c
+  OK: loops=2, back_edges=2, warnings=0
+[10/156] correct/basic/palindrome.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+[11/156] correct/basic/queue.c
+  OK: loops=0, back_edges=0, warnings=0
+[12/156] correct/basic/quicksort.c
+  OK: loops=1, back_edges=1, warnings=0
+[13/156] correct/basic/repeating.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:34:2: error: expected '}'
+[14/156] correct/basic/reverse.c
+  OK: loops=1, back_edges=1, warnings=0
+[15/156] correct/basic/reverses.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+[16/156] correct/basic/rotate.c
+  OK: loops=3, back_edges=3, warnings=0
+[17/156] correct/basic/sorted.c
+  OK: loops=1, back_edges=1, warnings=0
+[18/156] correct/basic/stack.c
+  OK: loops=0, back_edges=0, warnings=0
+[19/156] correct/basic/strip.c
+  OK: loops=1, back_edges=1, warnings=0
+[20/156] correct/basic/tritype.c
+  OK: loops=0, back_edges=0, warnings=0
+[21/156] correct/famous/crc32.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found
+[22/156] correct/famous/duff.c
+  OK: loops=0, back_edges=0, warnings=0
+[23/156] correct/famous/fizzbuzz.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[24/156] correct/famous/hamming.c
+  OK: loops=1, back_edges=1, warnings=0
+[25/156] correct/famous/kahan.c
+  OK: loops=1, back_edges=1, warnings=0
+[26/156] correct/famous/kmp.c
+  OK: loops=2, back_edges=2, warnings=0
+[27/156] correct/famous/levenshtein.c
+  OK: loops=2, back_edges=2, warnings=0
+[28/156] correct/famous/rabinkarp.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:12: error: unknown type name 'patternHash'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:24: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:37: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:3:2: error: expected identifier or '('
+[29/156] correct/famous/sieve.c
+  OK: loops=3, back_edges=3, warnings=0
+[30/156] correct/famous/sqrt.c
+  OK: loops=0, back_edges=0, warnings=0
+[31/156] correct/famous/strassen.c
+  OK: loops=0, back_edges=0, warnings=0
+[32/156] correct/famous/voting.c
+  OK: loops=2, back_edges=2, warnings=0
+[33/156] correct/mirror/bitreversal.c
+  OK: loops=1, back_edges=1, warnings=0
+[34/156] correct/mirror/clamp.c
+  OK: loops=0, back_edges=0, warnings=0
+[35/156] correct/mirror/count.c
+  OK: loops=1, back_edges=1, warnings=0
+[36/156] correct/mirror/even.c
+  OK: loops=0, back_edges=0, warnings=0
+[37/156] correct/mirror/max.c
+  OK: loops=0, back_edges=0, warnings=0
+[38/156] correct/mirror/parity.c
+  OK: loops=1, back_edges=1, warnings=0
+[39/156] correct/mirror/power.c
+  OK: loops=0, back_edges=0, warnings=0
+[40/156] correct/mirror/rotate.c
+  OK: loops=0, back_edges=0, warnings=0
+[41/156] correct/mirror/sign.c
+  OK: loops=0, back_edges=0, warnings=0
+[42/156] correct/mirror/swap.c
+  OK: loops=0, back_edges=0, warnings=0
+[43/156] correct/unique/callsign.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+[44/156] correct/unique/camel.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[45/156] correct/unique/concatll.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[46/156] correct/unique/evenodd.c
+  OK: loops=1, back_edges=1, warnings=0
+[47/156] correct/unique/mirror.c
+  OK: loops=1, back_edges=1, warnings=0
+[48/156] correct/unique/moddiff.c
+  OK: loops=1, back_edges=1, warnings=0
+[49/156] correct/unique/randomcase.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[50/156] correct/unique/reversepath.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[51/156] correct/unique/sevens.c
+  OK: loops=1, back_edges=1, warnings=0
+[52/156] correct/unique/suspicious.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[53/156] obvious/basic/binarysearch.c
+  OK: loops=1, back_edges=1, warnings=0
+[54/156] obvious/basic/duplicate.c
+  OK: loops=1, back_edges=1, warnings=0
+[55/156] obvious/basic/gcd.c
+  OK: loops=0, back_edges=0, warnings=0
+[56/156] obvious/basic/insert.c
+  ERROR: Clang parse error(s): /usr/include/stdlib.h:32:10: fatal error: 'stddef.h' file not found
+[57/156] obvious/basic/ksmallest.c
+  OK: loops=1, back_edges=1, warnings=0
+[58/156] obvious/basic/lower.c
+  OK: loops=1, back_edges=1, warnings=0
+[59/156] obvious/basic/max.c
+  OK: loops=1, back_edges=1, warnings=0
+[60/156] obvious/basic/merge.c
+  OK: loops=1, back_edges=1, warnings=0
+[61/156] obvious/basic/mode.c
+  OK: loops=1, back_edges=1, warnings=0
+[62/156] obvious/basic/palindrome.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+[63/156] obvious/basic/queue.c
+  OK: loops=0, back_edges=0, warnings=0
+[64/156] obvious/basic/quicksort.c
+  OK: loops=1, back_edges=1, warnings=0
+[65/156] obvious/basic/repeating.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:23:2: error: expected '}'
+[66/156] obvious/basic/reverse.c
+  OK: loops=1, back_edges=1, warnings=0
+[67/156] obvious/basic/reverses.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+[68/156] obvious/basic/rotate.c
+  OK: loops=1, back_edges=1, warnings=0
+[69/156] obvious/basic/sorted.c
+  OK: loops=1, back_edges=1, warnings=0
+[70/156] obvious/basic/stack.c
+  OK: loops=0, back_edges=0, warnings=0
+[71/156] obvious/basic/strip.c
+  OK: loops=1, back_edges=1, warnings=0
+[72/156] obvious/basic/tritype.c
+  OK: loops=0, back_edges=0, warnings=0
+[73/156] obvious/famous/crc32.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found
+[74/156] obvious/famous/duff.c
+  OK: loops=0, back_edges=0, warnings=0
+[75/156] obvious/famous/fizzbuzz.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[76/156] obvious/famous/hamming.c
+  OK: loops=1, back_edges=1, warnings=0
+[77/156] obvious/famous/kahan.c
+  OK: loops=1, back_edges=1, warnings=0
+[78/156] obvious/famous/kmp.c
+  OK: loops=1, back_edges=1, warnings=0
+[79/156] obvious/famous/levenshtein.c
+  OK: loops=2, back_edges=2, warnings=0
+[80/156] obvious/famous/rabinkarp.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/rabinkarp.c:1:10: fatal error: 'stdbool.h' file not found
+[81/156] obvious/famous/sieve.c
+  OK: loops=1, back_edges=1, warnings=0
+[82/156] obvious/famous/sqrt.c
+  OK: loops=0, back_edges=0, warnings=0
+[83/156] obvious/famous/strassen.c
+  OK: loops=0, back_edges=0, warnings=0
+[84/156] obvious/famous/voting.c
+  OK: loops=1, back_edges=1, warnings=0
+[85/156] obvious/mirror/bitreversal.c
+  OK: loops=0, back_edges=0, warnings=0
+[86/156] obvious/mirror/clamp.c
+  OK: loops=0, back_edges=0, warnings=0
+[87/156] obvious/mirror/count.c
+  OK: loops=1, back_edges=1, warnings=0
+[88/156] obvious/mirror/even.c
+  OK: loops=0, back_edges=0, warnings=0
+[89/156] obvious/mirror/max.c
+  OK: loops=0, back_edges=0, warnings=0
+[90/156] obvious/mirror/parity.c
+  OK: loops=1, back_edges=1, warnings=0
+[91/156] obvious/mirror/power.c
+  OK: loops=0, back_edges=0, warnings=0
+[92/156] obvious/mirror/rotate.c
+  OK: loops=0, back_edges=0, warnings=0
+[93/156] obvious/mirror/sign.c
+  OK: loops=0, back_edges=0, warnings=0
+[94/156] obvious/mirror/swap.c
+  OK: loops=0, back_edges=0, warnings=0
+[95/156] obvious/unique/callsign.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+[96/156] obvious/unique/camel.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[97/156] obvious/unique/concatll.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[98/156] obvious/unique/evenodd.c
+  OK: loops=1, back_edges=1, warnings=0
+[99/156] obvious/unique/mirror.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:12: error: unknown type name 'n'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:14: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:20: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:3:2: error: expected identifier or '('
+[100/156] obvious/unique/moddiff.c
+  OK: loops=1, back_edges=1, warnings=0
+[101/156] obvious/unique/randomcase.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[102/156] obvious/unique/reversepath.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[103/156] obvious/unique/sevens.c
+  OK: loops=1, back_edges=1, warnings=0
+[104/156] obvious/unique/suspicious.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[105/156] subtle/basic/binarysearch.c
+  OK: loops=1, back_edges=1, warnings=0
+[106/156] subtle/basic/duplicate.c
+  OK: loops=2, back_edges=2, warnings=0
+[107/156] subtle/basic/gcd.c
+  OK: loops=1, back_edges=1, warnings=0
+[108/156] subtle/basic/insert.c
+  ERROR: Clang parse error(s): /usr/include/stdlib.h:32:10: fatal error: 'stddef.h' file not found
+[109/156] subtle/basic/ksmallest.c
+  OK: loops=1, back_edges=1, warnings=0
+[110/156] subtle/basic/lower.c
+  OK: loops=1, back_edges=1, warnings=0
+[111/156] subtle/basic/max.c
+  OK: loops=1, back_edges=1, warnings=0
+[112/156] subtle/basic/merge.c
+  OK: loops=3, back_edges=3, warnings=0
+[113/156] subtle/basic/mode.c
+  OK: loops=2, back_edges=2, warnings=0
+[114/156] subtle/basic/palindrome.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+[115/156] subtle/basic/queue.c
+  OK: loops=0, back_edges=0, warnings=0
+[116/156] subtle/basic/quicksort.c
+  OK: loops=1, back_edges=1, warnings=0
+[117/156] subtle/basic/repeating.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:34:2: error: expected '}'
+[118/156] subtle/basic/reverse.c
+  OK: loops=1, back_edges=1, warnings=0
+[119/156] subtle/basic/reverses.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+[120/156] subtle/basic/rotate.c
+  OK: loops=3, back_edges=3, warnings=0
+[121/156] subtle/basic/sorted.c
+  OK: loops=1, back_edges=1, warnings=0
+[122/156] subtle/basic/stack.c
+  OK: loops=0, back_edges=0, warnings=0
+[123/156] subtle/basic/strip.c
+  OK: loops=1, back_edges=1, warnings=0
+[124/156] subtle/basic/tritype.c
+  OK: loops=0, back_edges=0, warnings=0
+[125/156] subtle/famous/crc32.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found
+[126/156] subtle/famous/duff.c
+  OK: loops=0, back_edges=0, warnings=0
+[127/156] subtle/famous/fizzbuzz.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[128/156] subtle/famous/hamming.c
+  OK: loops=1, back_edges=1, warnings=0
+[129/156] subtle/famous/kahan.c
+  OK: loops=1, back_edges=1, warnings=0
+[130/156] subtle/famous/kmp.c
+  OK: loops=2, back_edges=2, warnings=0
+[131/156] subtle/famous/levenshtein.c
+  OK: loops=2, back_edges=2, warnings=0
+[132/156] subtle/famous/rabinkarp.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:12: error: unknown type name 'patternHash'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:24: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:37: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:3:2: error: expected identifier or '('
+[133/156] subtle/famous/sieve.c
+  OK: loops=3, back_edges=3, warnings=0
+[134/156] subtle/famous/sqrt.c
+  OK: loops=0, back_edges=0, warnings=0
+[135/156] subtle/famous/strassen.c
+  OK: loops=0, back_edges=0, warnings=0
+[136/156] subtle/famous/voting.c
+  OK: loops=2, back_edges=2, warnings=0
+[137/156] subtle/mirror/bitreversal.c
+  OK: loops=1, back_edges=1, warnings=0
+[138/156] subtle/mirror/clamp.c
+  OK: loops=0, back_edges=0, warnings=0
+[139/156] subtle/mirror/count.c
+  OK: loops=1, back_edges=1, warnings=0
+[140/156] subtle/mirror/even.c
+  OK: loops=0, back_edges=0, warnings=0
+[141/156] subtle/mirror/max.c
+  OK: loops=0, back_edges=0, warnings=0
+[142/156] subtle/mirror/parity.c
+  OK: loops=1, back_edges=1, warnings=0
+[143/156] subtle/mirror/power.c
+  OK: loops=0, back_edges=0, warnings=0
+[144/156] subtle/mirror/rotate.c
+  OK: loops=0, back_edges=0, warnings=0
+[145/156] subtle/mirror/sign.c
+  OK: loops=0, back_edges=0, warnings=0
+[146/156] subtle/mirror/swap.c
+  OK: loops=0, back_edges=0, warnings=0
+[147/156] subtle/unique/callsign.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+[148/156] subtle/unique/camel.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[149/156] subtle/unique/concatll.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[150/156] subtle/unique/evenodd.c
+  OK: loops=1, back_edges=1, warnings=0
+[151/156] subtle/unique/mirror.c
+  OK: loops=1, back_edges=1, warnings=0
+[152/156] subtle/unique/moddiff.c
+  OK: loops=1, back_edges=1, warnings=0
+[153/156] subtle/unique/randomcase.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[154/156] subtle/unique/reversepath.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+[155/156] subtle/unique/sevens.c
+  OK: loops=1, back_edges=1, warnings=0
+[156/156] subtle/unique/suspicious.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+
+CFG refinement finished.
+Discovered: 156; processed: 116; failed: 40
+Loops: 98; loop-back edges: 98; warnings: 0
+Output graphs: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_cfg_refined
+Summary: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_cfg_refined/reports/summary.json
+Note: this is an AST-derived conservative CFG; it does not execute code or prove path feasibility.
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$

@@ -1,0 +1,20 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/kahan.c",
+  "loop_count": 1,
+  "loops": [
+    {
+      "header": "AST::FOR_STMT::10:1::10",
+      "kind": "FOR_STMT",
+      "body_root": "AST::COMPOUND_STMT::10:29::21",
+      "body_ast_node_count": 34,
+      "loop_back_edge_count": 30,
+      "input_control_parameters": [
+        "arr",
+        "n"
+      ]
+    }
+  ],
+  "data_dependency_edges": 8,
+  "input_control_edges": 2,
+  "warnings": []
+}

@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d12" for="node" attr.name="cfg_role" attr.type="string" />
+  <key id="d11" for="node" attr.name="example_value" attr.type="string" />
+  <key id="d10" for="node" attr.name="function" attr.type="string" />
+  <key id="d9" for="node" attr.name="c_type" attr.type="string" />
+  <key id="d8" for="node" attr.name="column" attr.type="long" />
+  <key id="d7" for="node" attr.name="line" attr.type="long" />
+  <key id="d6" for="node" attr.name="text" attr.type="string" />
+  <key id="d5" for="node" attr.name="label" attr.type="string" />
+  <key id="d4" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d3" for="graph" attr.name="loop_edge_count" attr.type="long" />
+  <key id="d2" for="graph" attr.name="loop_header_count" attr.type="long" />
+  <key id="d1" for="graph" attr.name="graph_semantics" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source_file" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="FILE::swap.c">
+      <data key="d4">file</data>
+      <data key="d5">swap.c</data>
+      <data key="d6">swap.c</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="AST::FUNCTION_DECL::1:6::0">
+      <data key="d4">FUNCTION_DECL</data>
+      <data key="d5">swap</data>
+      <data key="d6">swap</data>
+      <data key="d9">void (int *, int *)</data>
+      <data key="d7">1</data>
+      <data key="d8">6</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::PARM_DECL::1:16::1">
+      <data key="d4">PARM_DECL</data>
+      <data key="d5">a</data>
+      <data key="d6">a</data>
+      <data key="d9">int *</data>
+      <data key="d7">1</data>
+      <data key="d8">16</data>
+      <data key="d10">swap</data>
+      <data key="d11">[1, 1, 1, 1]</data>
+    </node>
+    <node id="AST::PARM_DECL::1:24::2">
+      <data key="d4">PARM_DECL</data>
+      <data key="d5">b</data>
+      <data key="d6">b</data>
+      <data key="d9">int *</data>
+      <data key="d7">1</data>
+      <data key="d8">24</data>
+      <data key="d10">swap</data>
+      <data key="d11">[1, 1, 1, 1]</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::1:27::3">
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d5">COMPOUND_STMT</data>
+      <data key="d6">COMPOUND_STMT</data>
+      <data key="d9">unknown</data>
+      <data key="d7">1</data>
+      <data key="d8">27</data>
+      <data key="d10">swap</data>
+      <data key="d12">function_entry</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::2:5::4">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">5</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::2:5::5">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">5</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::2:6::6">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">a</data>
+      <data key="d6">a</data>
+      <data key="d9">int *</data>
+      <data key="d7">2</data>
+      <data key="d8">6</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::2:6::7">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">a</data>
+      <data key="d6">a</data>
+      <data key="d9">int *</data>
+      <data key="d7">2</data>
+      <data key="d8">6</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::2:10::8">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">10</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::2:10::9">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">UNEXPOSED_EXPR</data>
+      <data key="d6">UNEXPOSED_EXPR</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">10</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::2:10::10">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">10</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::2:11::11">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">a</data>
+      <data key="d6">a</data>
+      <data key="d9">int *</data>
+      <data key="d7">2</data>
+      <data key="d8">11</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::2:11::12">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">a</data>
+      <data key="d6">a</data>
+      <data key="d9">int *</data>
+      <data key="d7">2</data>
+      <data key="d8">11</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::2:15::13">
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d5">INTEGER_LITERAL</data>
+      <data key="d6">INTEGER_LITERAL</data>
+      <data key="d9">int</data>
+      <data key="d7">2</data>
+      <data key="d8">15</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::3:5::14">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">5</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::3:5::15">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">5</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::3:6::16">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">b</data>
+      <data key="d6">b</data>
+      <data key="d9">int *</data>
+      <data key="d7">3</data>
+      <data key="d8">6</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::3:6::17">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">b</data>
+      <data key="d6">b</data>
+      <data key="d9">int *</data>
+      <data key="d7">3</data>
+      <data key="d8">6</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::3:10::18">
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d5">BINARY_OPERATOR</data>
+      <data key="d6">BINARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">10</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::3:10::19">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">UNEXPOSED_EXPR</data>
+      <data key="d6">UNEXPOSED_EXPR</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">10</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNARY_OPERATOR::3:10::20">
+      <data key="d4">UNARY_OPERATOR</data>
+      <data key="d5">UNARY_OPERATOR</data>
+      <data key="d6">UNARY_OPERATOR</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">10</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::3:11::21">
+      <data key="d4">UNEXPOSED_EXPR</data>
+      <data key="d5">b</data>
+      <data key="d6">b</data>
+      <data key="d9">int *</data>
+      <data key="d7">3</data>
+      <data key="d8">11</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::3:11::22">
+      <data key="d4">DECL_REF_EXPR</data>
+      <data key="d5">b</data>
+      <data key="d6">b</data>
+      <data key="d9">int *</data>
+      <data key="d7">3</data>
+      <data key="d8">11</data>
+      <data key="d10">swap</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::3:15::23">
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d5">INTEGER_LITERAL</data>
+      <data key="d6">INTEGER_LITERAL</data>
+      <data key="d9">int</data>
+      <data key="d7">3</data>
+      <data key="d8">15</data>
+      <data key="d10">swap</data>
+    </node>
+    <edge source="FILE::swap.c" target="AST::FUNCTION_DECL::1:6::0" id="ast_0">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:6::0" target="AST::PARM_DECL::1:16::1" id="ast_1">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:6::0" target="AST::PARM_DECL::1:24::2" id="ast_2">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:6::0" target="AST::COMPOUND_STMT::1:27::3" id="ast_3">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:27::3" target="AST::BINARY_OPERATOR::2:5::4" id="ast_4">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:27::3" target="AST::BINARY_OPERATOR::2:5::4" id="CFG_NEXT_24">
+      <data key="d13">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:27::3" target="AST::BINARY_OPERATOR::3:5::14" id="ast_14">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:5::4" target="AST::UNARY_OPERATOR::2:5::5" id="ast_5">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:5::4" target="AST::BINARY_OPERATOR::2:10::8" id="ast_8">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:5::4" target="AST::BINARY_OPERATOR::3:5::14" id="CFG_NEXT_25">
+      <data key="d13">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::2:5::5" target="AST::UNEXPOSED_EXPR::2:6::6" id="ast_6">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::2:6::6" target="AST::DECL_REF_EXPR::2:6::7" id="ast_7">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::2:6::7" target="AST::DECL_REF_EXPR::2:11::12" id="DATA_DEP_26">
+      <data key="d13">DATA_DEP</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:10::8" target="AST::UNEXPOSED_EXPR::2:10::9" id="ast_9">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::2:10::8" target="AST::INTEGER_LITERAL::2:15::13" id="ast_13">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::2:10::9" target="AST::UNARY_OPERATOR::2:10::10" id="ast_10">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::2:10::10" target="AST::UNEXPOSED_EXPR::2:11::11" id="ast_11">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::2:11::11" target="AST::DECL_REF_EXPR::2:11::12" id="ast_12">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::3:5::14" target="AST::UNARY_OPERATOR::3:5::15" id="ast_15">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::3:5::14" target="AST::BINARY_OPERATOR::3:10::18" id="ast_18">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::3:5::15" target="AST::UNEXPOSED_EXPR::3:6::16" id="ast_16">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::3:6::16" target="AST::DECL_REF_EXPR::3:6::17" id="ast_17">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::3:6::17" target="AST::DECL_REF_EXPR::3:11::22" id="DATA_DEP_27">
+      <data key="d13">DATA_DEP</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::3:10::18" target="AST::UNEXPOSED_EXPR::3:10::19" id="ast_19">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::3:10::18" target="AST::INTEGER_LITERAL::3:15::23" id="ast_23">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::3:10::19" target="AST::UNARY_OPERATOR::3:10::20" id="ast_20">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNARY_OPERATOR::3:10::20" target="AST::UNEXPOSED_EXPR::3:11::21" id="ast_21">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::3:11::21" target="AST::DECL_REF_EXPR::3:11::22" id="ast_22">
+      <data key="d13">AST_CHILD</data>
+    </edge>
+    <data key="d0">/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/swap.c</data>
+    <data key="d1">AST + approximate CFG with explicit loop edges + direct calls + name-based data-dependency hints</data>
+    <data key="d2">0</data>
+    <data key="d3">0</data>
+  </graph>
+</graphml>

@@ -1,0 +1,20 @@
+{
+  "source": "subtle/mirror/clamp.c",
+  "functions": {
+    "clamp": {
+      "x": {
+        "c_type": "int",
+        "example": 1
+      },
+      "min": {
+        "c_type": "int",
+        "example": 1
+      },
+      "max": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

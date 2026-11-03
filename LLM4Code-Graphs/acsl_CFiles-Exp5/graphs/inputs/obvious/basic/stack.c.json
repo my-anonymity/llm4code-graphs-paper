@@ -1,0 +1,21 @@
+{
+  "source": "obvious/basic/stack.c",
+  "functions": {
+    "push": {
+      "s": {
+        "c_type": "struct Stack *",
+        "example": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "value": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

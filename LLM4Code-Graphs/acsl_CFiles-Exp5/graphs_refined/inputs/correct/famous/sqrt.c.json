@@ -1,0 +1,12 @@
+{
+  "source": "correct/famous/sqrt.c",
+  "functions": {
+    "fastInvSqrt": {
+      "x": {
+        "c_type": "float",
+        "example": 1.0
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

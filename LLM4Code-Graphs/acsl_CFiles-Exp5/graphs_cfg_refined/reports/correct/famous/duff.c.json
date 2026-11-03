@@ -1,0 +1,43 @@
+{
+  "functions": [
+    {
+      "name": "duffsDevice",
+      "function_node": "AST::FUNCTION_DECL::1:6::0",
+      "normal_exit_nodes": [
+        "AST::SWITCH_STMT::3:5::14"
+      ]
+    }
+  ],
+  "loop_count": 0,
+  "loop_back_edges": 0,
+  "branch_edges": 0,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 2
+  },
+  "input_control_edges": 0,
+  "data_dependency_edges": 15,
+  "input_parameters": [
+    {
+      "function": "duffsDevice",
+      "name": "to",
+      "roles": "[\"expression_operand\", \"pointer_or_array_input\"]",
+      "evidence": "",
+      "reference_lines": "[4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "function": "duffsDevice",
+      "name": "from",
+      "roles": "[\"expression_operand\", \"pointer_or_array_input\"]",
+      "evidence": "",
+      "reference_lines": "[4, 5, 6, 7, 8, 9, 10, 11]"
+    },
+    {
+      "function": "duffsDevice",
+      "name": "count",
+      "roles": "[\"input_parameter\"]",
+      "evidence": "referenced in the function body",
+      "reference_lines": "[2, 3]"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "functions": [
+    {
+      "name": "levenshtein",
+      "function_node": "AST::FUNCTION_DECL::2:5::0",
+      "normal_exit_nodes": []
+    }
+  ],
+  "loop_count": 2,
+  "loop_back_edges": 2,
+  "branch_edges": 0,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 9,
+    "CFG_TRUE": 2,
+    "CFG_FALSE": 2,
+    "CFG_LOOP_BACK": 2
+  },
+  "input_control_edges": 2,
+  "data_dependency_edges": 10,
+  "input_parameters": [
+    {
+      "function": "levenshtein",
+      "name": "s1",
+      "roles": "[\"pointer_or_array_input\"]",
+      "evidence": "",
+      "reference_lines": "[]"
+    },
+    {
+      "function": "levenshtein",
+      "name": "len1",
+      "roles": "[\"array_index_or_buffer_access\", \"loop_bound_or_control_input\"]",
+      "evidence": "used in an array-subscript expression; used in loop condition at line 9",
+      "reference_lines": "[3, 9, 18]"
+    },
+    {
+      "function": "levenshtein",
+      "name": "s2",
+      "roles": "[\"pointer_or_array_input\"]",
+      "evidence": "",
+      "reference_lines": "[]"
+    },
+    {
+      "function": "levenshtein",
+      "name": "len2",
+      "roles": "[\"array_index_or_buffer_access\", \"loop_bound_or_control_input\"]",
+      "evidence": "used in an array-subscript expression; used in loop condition at line 14",
+      "reference_lines": "[3, 14, 18]"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/gcd.c",
+  "loop_count": 1,
+  "loops": [
+    {
+      "header": "AST::WHILE_STMT::6:1::4",
+      "kind": "WHILE_STMT",
+      "body_root": "AST::COMPOUND_STMT::6:16::9",
+      "body_ast_node_count": 16,
+      "loop_back_edge_count": 13,
+      "input_control_parameters": [
+        "a",
+        "b"
+      ]
+    }
+  ],
+  "data_dependency_edges": 5,
+  "input_control_edges": 2,
+  "warnings": []
+}

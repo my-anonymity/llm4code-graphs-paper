@@ -1,0 +1,12 @@
+{
+  "source": "subtle/mirror/bitreversal.c",
+  "functions": {
+    "reverseBits": {
+      "n": {
+        "c_type": "unsigned int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

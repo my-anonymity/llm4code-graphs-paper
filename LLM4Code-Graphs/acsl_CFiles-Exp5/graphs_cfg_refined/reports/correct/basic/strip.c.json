@@ -1,0 +1,33 @@
+{
+  "functions": [
+    {
+      "name": "stripSpaces",
+      "function_node": "AST::FUNCTION_DECL::2:6::0",
+      "normal_exit_nodes": [
+        "AST::BINARY_OPERATOR::15:5::41"
+      ]
+    }
+  ],
+  "loop_count": 1,
+  "loop_back_edges": 1,
+  "branch_edges": 2,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 6,
+    "CFG_TRUE": 2,
+    "CFG_FALSE": 2,
+    "CFG_JOIN": 1,
+    "CFG_LOOP_BACK": 1
+  },
+  "input_control_edges": 1,
+  "data_dependency_edges": 8,
+  "input_parameters": [
+    {
+      "function": "stripSpaces",
+      "name": "str",
+      "roles": "[\"array_index_or_buffer_access\", \"loop_bound_or_control_input\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression; used in loop condition at line 9",
+      "reference_lines": "[9, 10, 11, 15]"
+    }
+  ]
+}

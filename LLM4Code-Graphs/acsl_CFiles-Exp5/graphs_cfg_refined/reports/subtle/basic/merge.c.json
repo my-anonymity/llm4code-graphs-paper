@@ -1,0 +1,61 @@
+{
+  "functions": [
+    {
+      "name": "mergeSorted",
+      "function_node": "AST::FUNCTION_DECL::2:6::0",
+      "normal_exit_nodes": [
+        "CFG_LOOP_EXIT_NODE::AST::WHILE_STMT::33:1::86::1"
+      ]
+    }
+  ],
+  "loop_count": 3,
+  "loop_back_edges": 3,
+  "branch_edges": 2,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 9,
+    "CFG_TRUE": 4,
+    "CFG_FALSE": 4,
+    "CFG_JOIN": 2,
+    "CFG_LOOP_BACK": 3
+  },
+  "input_control_edges": 4,
+  "data_dependency_edges": 20,
+  "input_parameters": [
+    {
+      "function": "mergeSorted",
+      "name": "arr1",
+      "roles": "[\"array_index_or_buffer_access\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression",
+      "reference_lines": "[12, 13, 26]"
+    },
+    {
+      "function": "mergeSorted",
+      "name": "size1",
+      "roles": "[\"loop_bound_or_control_input\"]",
+      "evidence": "used in loop condition at line 11; used in loop condition at line 25",
+      "reference_lines": "[11, 25]"
+    },
+    {
+      "function": "mergeSorted",
+      "name": "arr2",
+      "roles": "[\"array_index_or_buffer_access\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression",
+      "reference_lines": "[12, 15, 34]"
+    },
+    {
+      "function": "mergeSorted",
+      "name": "size2",
+      "roles": "[\"loop_bound_or_control_input\"]",
+      "evidence": "used in loop condition at line 11; used in loop condition at line 33",
+      "reference_lines": "[11, 33]"
+    },
+    {
+      "function": "mergeSorted",
+      "name": "result",
+      "roles": "[\"array_index_or_buffer_access\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression",
+      "reference_lines": "[13, 15, 26, 34]"
+    }
+  ]
+}

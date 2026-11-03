@@ -1,0 +1,20 @@
+{
+  "source": "subtle/basic/tritype.c",
+  "functions": {
+    "Tritype": {
+      "i": {
+        "c_type": "double",
+        "example": 1.0
+      },
+      "j": {
+        "c_type": "double",
+        "example": 1.0
+      },
+      "k": {
+        "c_type": "double",
+        "example": 1.0
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

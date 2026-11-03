@@ -1,0 +1,27 @@
+{
+  "functions": [
+    {
+      "name": "fastInvSqrt",
+      "function_node": "AST::FUNCTION_DECL::1:7::0",
+      "normal_exit_nodes": []
+    }
+  ],
+  "loop_count": 0,
+  "loop_back_edges": 0,
+  "branch_edges": 0,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 6
+  },
+  "input_control_edges": 0,
+  "data_dependency_edges": 9,
+  "input_parameters": [
+    {
+      "function": "fastInvSqrt",
+      "name": "x",
+      "roles": "[\"expression_operand\"]",
+      "evidence": "",
+      "reference_lines": "[2, 5, 6, 7]"
+    }
+  ]
+}

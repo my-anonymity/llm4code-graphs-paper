@@ -1,0 +1,20 @@
+{
+  "source": "subtle/basic/tritype.c",
+  "functions": {
+    "Tritype": {
+      "i": {
+        "c_type": "double",
+        "example": 1.0
+      },
+      "j": {
+        "c_type": "double",
+        "example": 1.0
+      },
+      "k": {
+        "c_type": "double",
+        "example": 1.0
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

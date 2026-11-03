@@ -1,0 +1,12 @@
+{
+  "source": "subtle/basic/lower.c",
+  "functions": {
+    "toLowerCase": {
+      "str": {
+        "c_type": "char *",
+        "example": "sample"
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

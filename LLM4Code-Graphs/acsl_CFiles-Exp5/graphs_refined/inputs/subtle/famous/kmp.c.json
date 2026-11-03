@@ -1,0 +1,34 @@
+{
+  "source": "subtle/famous/kmp.c",
+  "functions": {
+    "kmpSearch": {
+      "text": {
+        "c_type": "const char[]",
+        "example": [
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      },
+      "textLength": {
+        "c_type": "int",
+        "example": 1
+      },
+      "pattern": {
+        "c_type": "const char[]",
+        "example": [
+          "A",
+          "A",
+          "A",
+          "A"
+        ]
+      },
+      "patternLength": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

@@ -1,0 +1,21 @@
+{
+  "source": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/duplicate.c",
+  "functions": {
+    "firstDuplicate": {
+      "arr": {
+        "c_type": "int[]",
+        "example": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "size": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates, not guaranteed-valid executions; validate preconditions, pointer lengths, and array bounds."
+}

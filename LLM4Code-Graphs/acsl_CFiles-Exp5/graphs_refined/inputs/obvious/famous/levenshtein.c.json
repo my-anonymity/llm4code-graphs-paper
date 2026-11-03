@@ -1,0 +1,24 @@
+{
+  "source": "obvious/famous/levenshtein.c",
+  "functions": {
+    "levenshtein": {
+      "s1": {
+        "c_type": "const char *",
+        "example": "sample"
+      },
+      "len1": {
+        "c_type": "int",
+        "example": 1
+      },
+      "s2": {
+        "c_type": "const char *",
+        "example": "sample"
+      },
+      "len2": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

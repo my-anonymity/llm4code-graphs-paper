@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d10" for="node" attr.name="cfg_role" attr.type="string" />
+  <key id="d9" for="node" attr.name="example_value" attr.type="string" />
+  <key id="d8" for="node" attr.name="function" attr.type="string" />
+  <key id="d7" for="node" attr.name="c_type" attr.type="string" />
+  <key id="d6" for="node" attr.name="column" attr.type="long" />
+  <key id="d5" for="node" attr.name="line" attr.type="long" />
+  <key id="d4" for="node" attr.name="text" attr.type="string" />
+  <key id="d3" for="node" attr.name="label" attr.type="string" />
+  <key id="d2" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d1" for="graph" attr.name="graph_semantics" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source_file" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="FILE::evenodd.c">
+      <data key="d2">file</data>
+      <data key="d3">evenodd.c</data>
+      <data key="d4">evenodd.c</data>
+      <data key="d5">0</data>
+      <data key="d6">0</data>
+    </node>
+    <node id="AST::FUNCTION_DECL::5:5::0">
+      <data key="d2">FUNCTION_DECL</data>
+      <data key="d3">sumEvenOddDiff</data>
+      <data key="d4">sumEvenOddDiff</data>
+      <data key="d7">int (int)</data>
+      <data key="d5">5</data>
+      <data key="d6">5</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::PARM_DECL::5:24::1">
+      <data key="d2">PARM_DECL</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">int</data>
+      <data key="d5">5</data>
+      <data key="d6">24</data>
+      <data key="d8">sumEvenOddDiff</data>
+      <data key="d9">1</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::5:27::2">
+      <data key="d2">COMPOUND_STMT</data>
+      <data key="d3">COMPOUND_STMT</data>
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">5</data>
+      <data key="d6">27</data>
+      <data key="d8">sumEvenOddDiff</data>
+      <data key="d10">function_entry</data>
+    </node>
+    <node id="AST::DECL_STMT::6:5::3">
+      <data key="d2">DECL_STMT</data>
+      <data key="d3">DECL_STMT</data>
+      <data key="d4">DECL_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">6</data>
+      <data key="d6">5</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::VAR_DECL::6:9::4">
+      <data key="d2">VAR_DECL</data>
+      <data key="d3">sumEven</data>
+      <data key="d4">sumEven</data>
+      <data key="d7">int</data>
+      <data key="d5">6</data>
+      <data key="d6">9</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::6:19::5">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">6</data>
+      <data key="d6">19</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::VAR_DECL::6:22::6">
+      <data key="d2">VAR_DECL</data>
+      <data key="d3">sumOdd</data>
+      <data key="d4">sumOdd</data>
+      <data key="d7">int</data>
+      <data key="d5">6</data>
+      <data key="d6">22</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::6:31::7">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">6</data>
+      <data key="d6">31</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::VAR_DECL::6:34::8">
+      <data key="d2">VAR_DECL</data>
+      <data key="d3">temp</data>
+      <data key="d4">temp</data>
+      <data key="d7">int</data>
+      <data key="d5">6</data>
+      <data key="d6">34</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::6:41::9">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">int</data>
+      <data key="d5">6</data>
+      <data key="d6">41</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::6:41::10">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">n</data>
+      <data key="d4">n</data>
+      <data key="d7">int</data>
+      <data key="d5">6</data>
+      <data key="d6">41</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::WHILE_STMT::12:1::11">
+      <data key="d2">WHILE_STMT</data>
+      <data key="d3">WHILE_STMT</data>
+      <data key="d4">WHILE_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">12</data>
+      <data key="d6">1</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::12:8::12">
+      <data key="d2">BINARY_OPERATOR</data>
+      <data key="d3">BINARY_OPERATOR</data>
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">12</data>
+      <data key="d6">8</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::12:8::13">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">temp</data>
+      <data key="d4">temp</data>
+      <data key="d7">int</data>
+      <data key="d5">12</data>
+      <data key="d6">8</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::12:8::14">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">temp</data>
+      <data key="d4">temp</data>
+      <data key="d7">int</data>
+      <data key="d5">12</data>
+      <data key="d6">8</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::12:15::15">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">12</data>
+      <data key="d6">15</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::12:18::16">
+      <data key="d2">COMPOUND_STMT</data>
+      <data key="d3">COMPOUND_STMT</data>
+      <data key="d4">COMPOUND_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">12</data>
+      <data key="d6">18</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_STMT::13:9::17">
+      <data key="d2">DECL_STMT</data>
+      <data key="d3">DECL_STMT</data>
+      <data key="d4">DECL_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">13</data>
+      <data key="d6">9</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::VAR_DECL::13:13::18">
+      <data key="d2">VAR_DECL</data>
+      <data key="d3">digit</data>
+      <data key="d4">digit</data>
+      <data key="d7">int</data>
+      <data key="d5">13</data>
+      <data key="d6">13</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::13:21::19">
+      <data key="d2">BINARY_OPERATOR</data>
+      <data key="d3">BINARY_OPERATOR</data>
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">13</data>
+      <data key="d6">21</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::13:21::20">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">temp</data>
+      <data key="d4">temp</data>
+      <data key="d7">int</data>
+      <data key="d5">13</data>
+      <data key="d6">21</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::13:21::21">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">temp</data>
+      <data key="d4">temp</data>
+      <data key="d7">int</data>
+      <data key="d5">13</data>
+      <data key="d6">21</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::13:28::22">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">13</data>
+      <data key="d6">28</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::IF_STMT::14:9::23">
+      <data key="d2">IF_STMT</data>
+      <data key="d3">IF_STMT</data>
+      <data key="d4">IF_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">14</data>
+      <data key="d6">9</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::14:13::24">
+      <data key="d2">BINARY_OPERATOR</data>
+      <data key="d3">BINARY_OPERATOR</data>
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">14</data>
+      <data key="d6">13</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::14:13::25">
+      <data key="d2">BINARY_OPERATOR</data>
+      <data key="d3">BINARY_OPERATOR</data>
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">14</data>
+      <data key="d6">13</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::14:13::26">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">digit</data>
+      <data key="d4">digit</data>
+      <data key="d7">int</data>
+      <data key="d5">14</data>
+      <data key="d6">13</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::14:13::27">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">digit</data>
+      <data key="d4">digit</data>
+      <data key="d7">int</data>
+      <data key="d5">14</data>
+      <data key="d6">13</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::14:21::28">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">14</data>
+      <data key="d6">21</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::14:26::29">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">14</data>
+      <data key="d6">26</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::COMPOUND_ASSIGNMENT_OPERATOR::15:13::30">
+      <data key="d2">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d3">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d4">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">15</data>
+      <data key="d6">13</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::15:13::31">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">sumEven</data>
+      <data key="d4">sumEven</data>
+      <data key="d7">int</data>
+      <data key="d5">15</data>
+      <data key="d6">13</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::15:24::32">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">digit</data>
+      <data key="d4">digit</data>
+      <data key="d7">int</data>
+      <data key="d5">15</data>
+      <data key="d6">24</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::15:24::33">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">digit</data>
+      <data key="d4">digit</data>
+      <data key="d7">int</data>
+      <data key="d5">15</data>
+      <data key="d6">24</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::COMPOUND_ASSIGNMENT_OPERATOR::17:13::34">
+      <data key="d2">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d3">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d4">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">17</data>
+      <data key="d6">13</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::17:13::35">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">sumOdd</data>
+      <data key="d4">sumOdd</data>
+      <data key="d7">int</data>
+      <data key="d5">17</data>
+      <data key="d6">13</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::17:23::36">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">digit</data>
+      <data key="d4">digit</data>
+      <data key="d7">int</data>
+      <data key="d5">17</data>
+      <data key="d6">23</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::17:23::37">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">digit</data>
+      <data key="d4">digit</data>
+      <data key="d7">int</data>
+      <data key="d5">17</data>
+      <data key="d6">23</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::COMPOUND_ASSIGNMENT_OPERATOR::18:9::38">
+      <data key="d2">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d3">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d4">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">18</data>
+      <data key="d6">9</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::18:9::39">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">temp</data>
+      <data key="d4">temp</data>
+      <data key="d7">int</data>
+      <data key="d5">18</data>
+      <data key="d6">9</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::18:17::40">
+      <data key="d2">INTEGER_LITERAL</data>
+      <data key="d3">INTEGER_LITERAL</data>
+      <data key="d4">INTEGER_LITERAL</data>
+      <data key="d7">int</data>
+      <data key="d5">18</data>
+      <data key="d6">17</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::RETURN_STMT::21:5::41">
+      <data key="d2">RETURN_STMT</data>
+      <data key="d3">RETURN_STMT</data>
+      <data key="d4">RETURN_STMT</data>
+      <data key="d7">unknown</data>
+      <data key="d5">21</data>
+      <data key="d6">5</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::21:12::42">
+      <data key="d2">BINARY_OPERATOR</data>
+      <data key="d3">BINARY_OPERATOR</data>
+      <data key="d4">BINARY_OPERATOR</data>
+      <data key="d7">int</data>
+      <data key="d5">21</data>
+      <data key="d6">12</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::21:12::43">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">sumEven</data>
+      <data key="d4">sumEven</data>
+      <data key="d7">int</data>
+      <data key="d5">21</data>
+      <data key="d6">12</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::21:12::44">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">sumEven</data>
+      <data key="d4">sumEven</data>
+      <data key="d7">int</data>
+      <data key="d5">21</data>
+      <data key="d6">12</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::21:22::45">
+      <data key="d2">UNEXPOSED_EXPR</data>
+      <data key="d3">sumOdd</data>
+      <data key="d4">sumOdd</data>
+      <data key="d7">int</data>
+      <data key="d5">21</data>
+      <data key="d6">22</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::21:22::46">
+      <data key="d2">DECL_REF_EXPR</data>
+      <data key="d3">sumOdd</data>
+      <data key="d4">sumOdd</data>
+      <data key="d7">int</data>
+      <data key="d5">21</data>
+      <data key="d6">22</data>
+      <data key="d8">sumEvenOddDiff</data>
+    </node>
+    <edge source="FILE::evenodd.c" target="AST::FUNCTION_DECL::5:5::0" id="ast_0">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::5:5::0" target="AST::PARM_DECL::5:24::1" id="ast_1">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::5:5::0" target="AST::COMPOUND_STMT::5:27::2" id="ast_2">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::5:27::2" target="AST::DECL_STMT::6:5::3" id="ast_3">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::5:27::2" target="AST::DECL_STMT::6:5::3" id="CFG_NEXT_47">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::5:27::2" target="AST::WHILE_STMT::12:1::11" id="ast_11">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::5:27::2" target="AST::RETURN_STMT::21:5::41" id="ast_41">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::6:5::3" target="AST::VAR_DECL::6:9::4" id="ast_4">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::6:5::3" target="AST::VAR_DECL::6:22::6" id="ast_6">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::6:5::3" target="AST::VAR_DECL::6:34::8" id="ast_8">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::6:5::3" target="AST::WHILE_STMT::12:1::11" id="CFG_NEXT_48">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::VAR_DECL::6:9::4" target="AST::INTEGER_LITERAL::6:19::5" id="ast_5">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::VAR_DECL::6:22::6" target="AST::INTEGER_LITERAL::6:31::7" id="ast_7">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::VAR_DECL::6:34::8" target="AST::UNEXPOSED_EXPR::6:41::9" id="ast_9">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::6:41::9" target="AST::DECL_REF_EXPR::6:41::10" id="ast_10">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::WHILE_STMT::12:1::11" target="AST::BINARY_OPERATOR::12:8::12" id="ast_12">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::WHILE_STMT::12:1::11" target="AST::COMPOUND_STMT::12:18::16" id="ast_16">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::WHILE_STMT::12:1::11" target="AST::COMPOUND_STMT::12:18::16" id="CFG_LOOP_ENTER_49">
+      <data key="d11">CFG_LOOP_ENTER</data>
+    </edge>
+    <edge source="AST::WHILE_STMT::12:1::11" target="AST::RETURN_STMT::21:5::41" id="CFG_NEXT_57">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::12:8::12" target="AST::UNEXPOSED_EXPR::12:8::13" id="ast_13">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::12:8::12" target="AST::INTEGER_LITERAL::12:15::15" id="ast_15">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::12:8::13" target="AST::DECL_REF_EXPR::12:8::14" id="ast_14">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::12:8::14" target="AST::DECL_REF_EXPR::13:21::21" id="DATA_DEP_58">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::12:18::16" target="AST::DECL_STMT::13:9::17" id="ast_17">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::12:18::16" target="AST::DECL_STMT::13:9::17" id="CFG_NEXT_50">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::12:18::16" target="AST::IF_STMT::14:9::23" id="ast_23">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::12:18::16" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::18:9::38" id="ast_38">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::13:9::17" target="AST::VAR_DECL::13:13::18" id="ast_18">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::13:9::17" target="AST::IF_STMT::14:9::23" id="CFG_NEXT_51">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::VAR_DECL::13:13::18" target="AST::BINARY_OPERATOR::13:21::19" id="ast_19">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::13:21::19" target="AST::UNEXPOSED_EXPR::13:21::20" id="ast_20">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::13:21::19" target="AST::INTEGER_LITERAL::13:28::22" id="ast_22">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::13:21::20" target="AST::DECL_REF_EXPR::13:21::21" id="ast_21">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::13:21::21" target="AST::DECL_REF_EXPR::18:9::39" id="DATA_DEP_59">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::IF_STMT::14:9::23" target="AST::BINARY_OPERATOR::14:13::24" id="ast_24">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::IF_STMT::14:9::23" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::15:13::30" id="ast_30">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::IF_STMT::14:9::23" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::15:13::30" id="CFG_TRUE_52">
+      <data key="d11">CFG_TRUE</data>
+    </edge>
+    <edge source="AST::IF_STMT::14:9::23" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::17:13::34" id="ast_34">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::IF_STMT::14:9::23" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::17:13::34" id="CFG_FALSE_53">
+      <data key="d11">CFG_FALSE</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::14:13::24" target="AST::BINARY_OPERATOR::14:13::25" id="ast_25">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::14:13::24" target="AST::INTEGER_LITERAL::14:26::29" id="ast_29">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::14:13::25" target="AST::UNEXPOSED_EXPR::14:13::26" id="ast_26">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::14:13::25" target="AST::INTEGER_LITERAL::14:21::28" id="ast_28">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::14:13::26" target="AST::DECL_REF_EXPR::14:13::27" id="ast_27">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::14:13::27" target="AST::DECL_REF_EXPR::15:24::33" id="DATA_DEP_60">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::15:13::30" target="AST::DECL_REF_EXPR::15:13::31" id="ast_31">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::15:13::30" target="AST::UNEXPOSED_EXPR::15:24::32" id="ast_32">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::15:13::30" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::18:9::38" id="CFG_NEXT_54">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::15:13::31" target="AST::DECL_REF_EXPR::21:12::44" id="DATA_DEP_62">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::15:24::32" target="AST::DECL_REF_EXPR::15:24::33" id="ast_33">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::15:24::33" target="AST::DECL_REF_EXPR::17:23::37" id="DATA_DEP_61">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::17:13::34" target="AST::DECL_REF_EXPR::17:13::35" id="ast_35">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::17:13::34" target="AST::UNEXPOSED_EXPR::17:23::36" id="ast_36">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::17:13::34" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::18:9::38" id="CFG_NEXT_55">
+      <data key="d11">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::17:13::35" target="AST::DECL_REF_EXPR::21:22::46" id="DATA_DEP_63">
+      <data key="d11">DATA_DEP</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::17:23::36" target="AST::DECL_REF_EXPR::17:23::37" id="ast_37">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::18:9::38" target="AST::DECL_REF_EXPR::18:9::39" id="ast_39">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::18:9::38" target="AST::INTEGER_LITERAL::18:17::40" id="ast_40">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::18:9::38" target="AST::WHILE_STMT::12:1::11" id="CFG_LOOP_BACK_56">
+      <data key="d11">CFG_LOOP_BACK</data>
+    </edge>
+    <edge source="AST::RETURN_STMT::21:5::41" target="AST::BINARY_OPERATOR::21:12::42" id="ast_42">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::21:12::42" target="AST::UNEXPOSED_EXPR::21:12::43" id="ast_43">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::21:12::42" target="AST::UNEXPOSED_EXPR::21:22::45" id="ast_45">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::21:12::43" target="AST::DECL_REF_EXPR::21:12::44" id="ast_44">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::21:22::45" target="AST::DECL_REF_EXPR::21:22::46" id="ast_46">
+      <data key="d11">AST_CHILD</data>
+    </edge>
+    <data key="d0">/mnt/c/Users/arsha/Desktop/NUIM-Work/VERIFAI-NUIM/Graphs-Oct2026/acsl_CFiles-Exp4/correct/unique/evenodd.c</data>
+    <data key="d1">AST + approximate CFG + direct calls + name-based data-dependency hints</data>
+  </graph>
+</graphml>

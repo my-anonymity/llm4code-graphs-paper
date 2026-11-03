@@ -1,0 +1,21 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/ksmallest.c",
+  "loop_count": 1,
+  "loops": [
+    {
+      "header": "AST::FOR_STMT::12:1::19",
+      "kind": "FOR_STMT",
+      "body_root": "AST::COMPOUND_STMT::12:34::31",
+      "body_ast_node_count": 42,
+      "loop_back_edge_count": 36,
+      "input_control_parameters": [
+        "arr",
+        "low",
+        "high"
+      ]
+    }
+  ],
+  "data_dependency_edges": 38,
+  "input_control_edges": 3,
+  "warnings": []
+}

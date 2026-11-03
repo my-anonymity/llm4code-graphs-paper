@@ -1,0 +1,19 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/lower.c",
+  "loop_count": 1,
+  "loops": [
+    {
+      "header": "AST::FOR_STMT::8:1::3",
+      "kind": "FOR_STMT",
+      "body_root": "AST::COMPOUND_STMT::8:38::18",
+      "body_ast_node_count": 38,
+      "loop_back_edge_count": 35,
+      "input_control_parameters": [
+        "str"
+      ]
+    }
+  ],
+  "data_dependency_edges": 9,
+  "input_control_edges": 1,
+  "warnings": []
+}

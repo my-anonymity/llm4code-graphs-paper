@@ -1,0 +1,12 @@
+{
+  "source": "subtle/basic/strip.c",
+  "functions": {
+    "stripSpaces": {
+      "str": {
+        "c_type": "char *",
+        "example": "sample"
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

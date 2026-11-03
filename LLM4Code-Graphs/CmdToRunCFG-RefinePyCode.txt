@@ -1,0 +1,4 @@
+python -m py_compile acsl_graph5.py acsl_graph5_cfg_refine.py
+
+python acsl_graph5_cfg_refine.py \
+    --input-dir acsl_CFiles-Exp5

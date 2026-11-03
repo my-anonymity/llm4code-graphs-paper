@@ -1,0 +1,43 @@
+{
+  "functions": [
+    {
+      "name": "strassenMultiply",
+      "function_node": "AST::FUNCTION_DECL::2:6::0",
+      "normal_exit_nodes": [
+        "AST::BINARY_OPERATOR::12:5::254"
+      ]
+    }
+  ],
+  "loop_count": 0,
+  "loop_back_edges": 0,
+  "branch_edges": 0,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 9
+  },
+  "input_control_edges": 0,
+  "data_dependency_edges": 23,
+  "input_parameters": [
+    {
+      "function": "strassenMultiply",
+      "name": "A",
+      "roles": "[\"array_index_or_buffer_access\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression",
+      "reference_lines": "[3, 4, 5, 6, 7, 8, 9]"
+    },
+    {
+      "function": "strassenMultiply",
+      "name": "B",
+      "roles": "[\"array_index_or_buffer_access\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression",
+      "reference_lines": "[3, 4, 5, 6, 7, 8, 9]"
+    },
+    {
+      "function": "strassenMultiply",
+      "name": "C",
+      "roles": "[\"array_index_or_buffer_access\", \"pointer_or_array_input\"]",
+      "evidence": "used in an array-subscript expression",
+      "reference_lines": "[11, 12]"
+    }
+  ]
+}

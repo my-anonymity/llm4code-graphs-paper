@@ -1,0 +1,21 @@
+{
+  "source": "subtle/famous/kahan.c",
+  "functions": {
+    "kahanSum": {
+      "arr": {
+        "c_type": "double[]",
+        "example": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "n": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Example inputs are deterministic templates; validate preconditions, pointer lengths, and array bounds before execution."
+}

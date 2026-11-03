@@ -1,0 +1,34 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/levenshtein.c",
+  "loop_count": 2,
+  "loops": [
+    {
+      "header": "AST::FOR_STMT::13:1::16",
+      "kind": "FOR_STMT",
+      "body_root": "AST::COMPOUND_STMT::13:33::27",
+      "body_ast_node_count": 244,
+      "loop_back_edge_count": 12,
+      "input_control_parameters": [
+        "s1",
+        "len1",
+        "s2",
+        "len2"
+      ]
+    },
+    {
+      "header": "AST::FOR_STMT::18:1::28",
+      "kind": "FOR_STMT",
+      "body_root": "AST::COMPOUND_STMT::18:33::39",
+      "body_ast_node_count": 231,
+      "loop_back_edge_count": 227,
+      "input_control_parameters": [
+        "s1",
+        "s2",
+        "len2"
+      ]
+    }
+  ],
+  "data_dependency_edges": 57,
+  "input_control_edges": 7,
+  "warnings": []
+}

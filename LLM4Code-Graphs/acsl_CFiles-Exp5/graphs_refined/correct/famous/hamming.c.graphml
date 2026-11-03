@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d26" for="edge" attr.name="dependency_quality" attr.type="string" />
+  <key id="d25" for="edge" attr.name="semantics" attr.type="string" />
+  <key id="d24" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d23" for="node" attr.name="loop_exit_for" attr.type="string" />
+  <key id="d22" for="node" attr.name="enclosing_loop_headers" attr.type="string" />
+  <key id="d21" for="node" attr.name="loop_depth" attr.type="long" />
+  <key id="d20" for="node" attr.name="loop_body_member" attr.type="boolean" />
+  <key id="d19" for="node" attr.name="is_loop_body_root" attr.type="boolean" />
+  <key id="d18" for="node" attr.name="loop_body_node" attr.type="string" />
+  <key id="d17" for="node" attr.name="loop_kind" attr.type="string" />
+  <key id="d16" for="node" attr.name="is_loop_header" attr.type="boolean" />
+  <key id="d15" for="node" attr.name="cfg_role" attr.type="string" />
+  <key id="d14" for="node" attr.name="example_value" attr.type="string" />
+  <key id="d13" for="node" attr.name="function" attr.type="string" />
+  <key id="d12" for="node" attr.name="c_type" attr.type="string" />
+  <key id="d11" for="node" attr.name="column" attr.type="long" />
+  <key id="d10" for="node" attr.name="line" attr.type="long" />
+  <key id="d9" for="node" attr.name="text" attr.type="string" />
+  <key id="d8" for="node" attr.name="label" attr.type="string" />
+  <key id="d7" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d6" for="graph" attr.name="input_control_edge_count" attr.type="long" />
+  <key id="d5" for="graph" attr.name="data_dependency_edge_count" attr.type="long" />
+  <key id="d4" for="graph" attr.name="refinement_stage" attr.type="string" />
+  <key id="d3" for="graph" attr.name="loop_edge_count" attr.type="long" />
+  <key id="d2" for="graph" attr.name="loop_header_count" attr.type="long" />
+  <key id="d1" for="graph" attr.name="graph_semantics" attr.type="string" />
+  <key id="d0" for="graph" attr.name="source_file" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="FILE::hamming.c">
+      <data key="d7">file</data>
+      <data key="d8">hamming.c</data>
+      <data key="d9">hamming.c</data>
+      <data key="d10">0</data>
+      <data key="d11">0</data>
+    </node>
+    <node id="AST::FUNCTION_DECL::1:5::0">
+      <data key="d7">FUNCTION_DECL</data>
+      <data key="d8">hammingDistance</data>
+      <data key="d9">hammingDistance</data>
+      <data key="d12">int (unsigned int, unsigned int)</data>
+      <data key="d10">1</data>
+      <data key="d11">5</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::PARM_DECL::1:34::1">
+      <data key="d7">PARM_DECL</data>
+      <data key="d8">x</data>
+      <data key="d9">x</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">1</data>
+      <data key="d11">34</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="AST::PARM_DECL::1:50::2">
+      <data key="d7">PARM_DECL</data>
+      <data key="d8">y</data>
+      <data key="d9">y</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">1</data>
+      <data key="d11">50</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::1:53::3">
+      <data key="d7">COMPOUND_STMT</data>
+      <data key="d8">COMPOUND_STMT</data>
+      <data key="d9">COMPOUND_STMT</data>
+      <data key="d12">unknown</data>
+      <data key="d10">1</data>
+      <data key="d11">53</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d15">function_entry</data>
+    </node>
+    <node id="AST::DECL_STMT::2:5::4">
+      <data key="d7">DECL_STMT</data>
+      <data key="d8">DECL_STMT</data>
+      <data key="d9">DECL_STMT</data>
+      <data key="d12">unknown</data>
+      <data key="d10">2</data>
+      <data key="d11">5</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::VAR_DECL::2:9::5">
+      <data key="d7">VAR_DECL</data>
+      <data key="d8">dist</data>
+      <data key="d9">dist</data>
+      <data key="d12">int</data>
+      <data key="d10">2</data>
+      <data key="d11">9</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::2:16::6">
+      <data key="d7">INTEGER_LITERAL</data>
+      <data key="d8">INTEGER_LITERAL</data>
+      <data key="d9">INTEGER_LITERAL</data>
+      <data key="d12">int</data>
+      <data key="d10">2</data>
+      <data key="d11">16</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::DECL_STMT::3:5::7">
+      <data key="d7">DECL_STMT</data>
+      <data key="d8">DECL_STMT</data>
+      <data key="d9">DECL_STMT</data>
+      <data key="d12">unknown</data>
+      <data key="d10">3</data>
+      <data key="d11">5</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::VAR_DECL::3:18::8">
+      <data key="d7">VAR_DECL</data>
+      <data key="d8">val</data>
+      <data key="d9">val</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">3</data>
+      <data key="d11">18</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::3:24::9">
+      <data key="d7">BINARY_OPERATOR</data>
+      <data key="d8">BINARY_OPERATOR</data>
+      <data key="d9">BINARY_OPERATOR</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">3</data>
+      <data key="d11">24</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::3:24::10">
+      <data key="d7">UNEXPOSED_EXPR</data>
+      <data key="d8">x</data>
+      <data key="d9">x</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">3</data>
+      <data key="d11">24</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::3:24::11">
+      <data key="d7">DECL_REF_EXPR</data>
+      <data key="d8">x</data>
+      <data key="d9">x</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">3</data>
+      <data key="d11">24</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::3:28::12">
+      <data key="d7">UNEXPOSED_EXPR</data>
+      <data key="d8">y</data>
+      <data key="d9">y</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">3</data>
+      <data key="d11">28</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::3:28::13">
+      <data key="d7">DECL_REF_EXPR</data>
+      <data key="d8">y</data>
+      <data key="d9">y</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">3</data>
+      <data key="d11">28</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::WHILE_STMT::8:1::14">
+      <data key="d7">WHILE_STMT</data>
+      <data key="d8">WHILE_STMT</data>
+      <data key="d9">WHILE_STMT</data>
+      <data key="d12">unknown</data>
+      <data key="d10">8</data>
+      <data key="d11">1</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d16">True</data>
+      <data key="d17">WHILE_STMT</data>
+      <data key="d18">AST::COMPOUND_STMT::8:13::17</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::8:8::15">
+      <data key="d7">UNEXPOSED_EXPR</data>
+      <data key="d8">val</data>
+      <data key="d9">val</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">8</data>
+      <data key="d11">8</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::8:8::16">
+      <data key="d7">DECL_REF_EXPR</data>
+      <data key="d8">val</data>
+      <data key="d9">val</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">8</data>
+      <data key="d11">8</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::COMPOUND_STMT::8:13::17">
+      <data key="d7">COMPOUND_STMT</data>
+      <data key="d8">COMPOUND_STMT</data>
+      <data key="d9">COMPOUND_STMT</data>
+      <data key="d12">unknown</data>
+      <data key="d10">8</data>
+      <data key="d11">13</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d19">True</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::COMPOUND_ASSIGNMENT_OPERATOR::9:9::18">
+      <data key="d7">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d8">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d9">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d12">int</data>
+      <data key="d10">9</data>
+      <data key="d11">9</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::9:9::19">
+      <data key="d7">DECL_REF_EXPR</data>
+      <data key="d8">dist</data>
+      <data key="d9">dist</data>
+      <data key="d12">int</data>
+      <data key="d10">9</data>
+      <data key="d11">9</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::BINARY_OPERATOR::9:17::20">
+      <data key="d7">BINARY_OPERATOR</data>
+      <data key="d8">BINARY_OPERATOR</data>
+      <data key="d9">BINARY_OPERATOR</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">9</data>
+      <data key="d11">17</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::9:17::21">
+      <data key="d7">UNEXPOSED_EXPR</data>
+      <data key="d8">val</data>
+      <data key="d9">val</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">9</data>
+      <data key="d11">17</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::9:17::22">
+      <data key="d7">DECL_REF_EXPR</data>
+      <data key="d8">val</data>
+      <data key="d9">val</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">9</data>
+      <data key="d11">17</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::9:23::23">
+      <data key="d7">UNEXPOSED_EXPR</data>
+      <data key="d8">UNEXPOSED_EXPR</data>
+      <data key="d9">UNEXPOSED_EXPR</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">9</data>
+      <data key="d11">23</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::9:23::24">
+      <data key="d7">INTEGER_LITERAL</data>
+      <data key="d8">INTEGER_LITERAL</data>
+      <data key="d9">INTEGER_LITERAL</data>
+      <data key="d12">int</data>
+      <data key="d10">9</data>
+      <data key="d11">23</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::COMPOUND_ASSIGNMENT_OPERATOR::10:9::25">
+      <data key="d7">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d8">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d9">COMPOUND_ASSIGNMENT_OPERATOR</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">10</data>
+      <data key="d11">9</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::10:9::26">
+      <data key="d7">DECL_REF_EXPR</data>
+      <data key="d8">val</data>
+      <data key="d9">val</data>
+      <data key="d12">unsigned int</data>
+      <data key="d10">10</data>
+      <data key="d11">9</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::INTEGER_LITERAL::10:17::27">
+      <data key="d7">INTEGER_LITERAL</data>
+      <data key="d8">INTEGER_LITERAL</data>
+      <data key="d9">INTEGER_LITERAL</data>
+      <data key="d12">int</data>
+      <data key="d10">10</data>
+      <data key="d11">17</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d20">True</data>
+      <data key="d21">1</data>
+      <data key="d22">["AST::WHILE_STMT::8:1::14"]</data>
+    </node>
+    <node id="AST::RETURN_STMT::12:5::28">
+      <data key="d7">RETURN_STMT</data>
+      <data key="d8">RETURN_STMT</data>
+      <data key="d9">RETURN_STMT</data>
+      <data key="d12">unknown</data>
+      <data key="d10">12</data>
+      <data key="d11">5</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::UNEXPOSED_EXPR::12:12::29">
+      <data key="d7">UNEXPOSED_EXPR</data>
+      <data key="d8">dist</data>
+      <data key="d9">dist</data>
+      <data key="d12">int</data>
+      <data key="d10">12</data>
+      <data key="d11">12</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="AST::DECL_REF_EXPR::12:12::30">
+      <data key="d7">DECL_REF_EXPR</data>
+      <data key="d8">dist</data>
+      <data key="d9">dist</data>
+      <data key="d12">int</data>
+      <data key="d10">12</data>
+      <data key="d11">12</data>
+      <data key="d13">hammingDistance</data>
+    </node>
+    <node id="CFG_LOOP_EXIT_NODE::AST::WHILE_STMT::8:1::14">
+      <data key="d7">CFG_LOOP_EXIT_NODE</data>
+      <data key="d8">exit while_stmt</data>
+      <data key="d9">exit while_stmt</data>
+      <data key="d10">8</data>
+      <data key="d11">1</data>
+      <data key="d13">hammingDistance</data>
+      <data key="d23">AST::WHILE_STMT::8:1::14</data>
+    </node>
+    <edge source="FILE::hamming.c" target="AST::FUNCTION_DECL::1:5::0" id="ast_0">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:5::0" target="AST::PARM_DECL::1:34::1" id="ast_1">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:5::0" target="AST::PARM_DECL::1:50::2" id="ast_2">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::FUNCTION_DECL::1:5::0" target="AST::COMPOUND_STMT::1:53::3" id="ast_3">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:53::3" target="AST::DECL_STMT::2:5::4" id="ast_4">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:53::3" target="AST::DECL_STMT::2:5::4" id="CFG_NEXT_31">
+      <data key="d24">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:53::3" target="AST::DECL_STMT::3:5::7" id="ast_7">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:53::3" target="AST::WHILE_STMT::8:1::14" id="ast_14">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::1:53::3" target="AST::RETURN_STMT::12:5::28" id="ast_28">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::2:5::4" target="AST::VAR_DECL::2:9::5" id="ast_5">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::2:5::4" target="AST::DECL_STMT::3:5::7" id="CFG_NEXT_32">
+      <data key="d24">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::VAR_DECL::2:9::5" target="AST::INTEGER_LITERAL::2:16::6" id="ast_6">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::3:5::7" target="AST::VAR_DECL::3:18::8" id="ast_8">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_STMT::3:5::7" target="AST::WHILE_STMT::8:1::14" id="CFG_NEXT_33">
+      <data key="d24">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::VAR_DECL::3:18::8" target="AST::BINARY_OPERATOR::3:24::9" id="ast_9">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::3:24::9" target="AST::UNEXPOSED_EXPR::3:24::10" id="ast_10">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::3:24::9" target="AST::UNEXPOSED_EXPR::3:28::12" id="ast_12">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::3:24::10" target="AST::DECL_REF_EXPR::3:24::11" id="ast_11">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::3:28::12" target="AST::DECL_REF_EXPR::3:28::13" id="ast_13">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::WHILE_STMT::8:1::14" target="AST::UNEXPOSED_EXPR::8:8::15" id="ast_15">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::WHILE_STMT::8:1::14" target="AST::COMPOUND_STMT::8:13::17" id="ast_17">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::WHILE_STMT::8:1::14" target="AST::COMPOUND_STMT::8:13::17" id="CFG_LOOP_ENTER_40">
+      <data key="d24">CFG_LOOP_ENTER</data>
+      <data key="d25">structural_approximation</data>
+    </edge>
+    <edge source="AST::WHILE_STMT::8:1::14" target="AST::COMPOUND_STMT::8:13::17" id="CFG_LOOP_BODY_41">
+      <data key="d24">CFG_LOOP_BODY</data>
+      <data key="d25">structural_approximation</data>
+    </edge>
+    <edge source="AST::WHILE_STMT::8:1::14" target="CFG_LOOP_EXIT_NODE::AST::WHILE_STMT::8:1::14" id="CFG_LOOP_EXIT_42">
+      <data key="d24">CFG_LOOP_EXIT</data>
+      <data key="d25">possible_condition_false_or_loop_exit</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::8:8::15" target="AST::DECL_REF_EXPR::8:8::16" id="ast_16">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::8:8::16" target="AST::DECL_REF_EXPR::9:17::22" id="DATA_DEP_41">
+      <data key="d24">DATA_DEP</data>
+      <data key="d26">conservative_name_based_hint</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::8:13::17" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::9:9::18" id="ast_18">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::8:13::17" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::9:9::18" id="CFG_NEXT_36">
+      <data key="d24">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::COMPOUND_STMT::8:13::17" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::10:9::25" id="ast_25">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::9:9::18" target="AST::DECL_REF_EXPR::9:9::19" id="ast_19">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::9:9::18" target="AST::BINARY_OPERATOR::9:17::20" id="ast_20">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::9:9::18" target="AST::COMPOUND_ASSIGNMENT_OPERATOR::10:9::25" id="CFG_NEXT_37">
+      <data key="d24">CFG_NEXT</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::9:9::19" target="AST::DECL_REF_EXPR::12:12::30" id="DATA_DEP_43">
+      <data key="d24">DATA_DEP</data>
+      <data key="d26">conservative_name_based_hint</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::9:9::19" target="AST::WHILE_STMT::8:1::14" id="CFG_LOOP_BACK_45">
+      <data key="d24">CFG_LOOP_BACK</data>
+      <data key="d25">approximate_end_of_iteration</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::9:17::20" target="AST::UNEXPOSED_EXPR::9:17::21" id="ast_21">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::9:17::20" target="AST::UNEXPOSED_EXPR::9:23::23" id="ast_23">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::BINARY_OPERATOR::9:17::20" target="AST::WHILE_STMT::8:1::14" id="CFG_LOOP_BACK_48">
+      <data key="d24">CFG_LOOP_BACK</data>
+      <data key="d25">approximate_end_of_iteration</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::9:17::21" target="AST::DECL_REF_EXPR::9:17::22" id="ast_22">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::9:17::21" target="AST::WHILE_STMT::8:1::14" id="CFG_LOOP_BACK_50">
+      <data key="d24">CFG_LOOP_BACK</data>
+      <data key="d25">approximate_end_of_iteration</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::9:17::22" target="AST::DECL_REF_EXPR::10:9::26" id="DATA_DEP_42">
+      <data key="d24">DATA_DEP</data>
+      <data key="d26">conservative_name_based_hint</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::9:17::22" target="AST::WHILE_STMT::8:1::14" id="CFG_LOOP_BACK_51">
+      <data key="d24">CFG_LOOP_BACK</data>
+      <data key="d25">approximate_end_of_iteration</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::9:23::23" target="AST::INTEGER_LITERAL::9:23::24" id="ast_24">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::9:23::23" target="AST::WHILE_STMT::8:1::14" id="CFG_LOOP_BACK_44">
+      <data key="d24">CFG_LOOP_BACK</data>
+      <data key="d25">approximate_end_of_iteration</data>
+    </edge>
+    <edge source="AST::INTEGER_LITERAL::9:23::24" target="AST::WHILE_STMT::8:1::14" id="CFG_LOOP_BACK_46">
+      <data key="d24">CFG_LOOP_BACK</data>
+      <data key="d25">approximate_end_of_iteration</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::10:9::25" target="AST::DECL_REF_EXPR::10:9::26" id="ast_26">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::10:9::25" target="AST::INTEGER_LITERAL::10:17::27" id="ast_27">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::COMPOUND_ASSIGNMENT_OPERATOR::10:9::25" target="AST::WHILE_STMT::8:1::14" id="CFG_LOOP_BACK_47">
+      <data key="d24">CFG_LOOP_BACK</data>
+      <data key="d25">approximate_end_of_iteration</data>
+    </edge>
+    <edge source="AST::DECL_REF_EXPR::10:9::26" target="AST::WHILE_STMT::8:1::14" id="CFG_LOOP_BACK_49">
+      <data key="d24">CFG_LOOP_BACK</data>
+      <data key="d25">approximate_end_of_iteration</data>
+    </edge>
+    <edge source="AST::INTEGER_LITERAL::10:17::27" target="AST::WHILE_STMT::8:1::14" id="CFG_LOOP_BACK_43">
+      <data key="d24">CFG_LOOP_BACK</data>
+      <data key="d25">approximate_end_of_iteration</data>
+    </edge>
+    <edge source="AST::RETURN_STMT::12:5::28" target="AST::UNEXPOSED_EXPR::12:12::29" id="ast_29">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="AST::UNEXPOSED_EXPR::12:12::29" target="AST::DECL_REF_EXPR::12:12::30" id="ast_30">
+      <data key="d24">AST_CHILD</data>
+    </edge>
+    <edge source="CFG_LOOP_EXIT_NODE::AST::WHILE_STMT::8:1::14" target="AST::RETURN_STMT::12:5::28" id="CFG_NEXT_40">
+      <data key="d24">CFG_NEXT</data>
+    </edge>
+    <data key="d0">/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/hamming.c</data>
+    <data key="d1">AST + approximate CFG; refined loop body membership/back/exit edges; conservative name-based DATA_DEP; INPUT_CONTROLS marks parameter references, not concrete path execution</data>
+    <data key="d2">1</data>
+    <data key="d3">4</data>
+    <data key="d4">acsl_graph3_cfg_refine.py</data>
+    <data key="d5">3</data>
+    <data key="d6">0</data>
+  </graph>
+</graphml>

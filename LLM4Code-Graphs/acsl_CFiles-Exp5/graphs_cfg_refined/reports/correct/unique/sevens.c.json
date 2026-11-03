@@ -1,0 +1,31 @@
+{
+  "functions": [
+    {
+      "name": "checkMultipleSevens",
+      "function_node": "AST::FUNCTION_DECL::4:5::0",
+      "normal_exit_nodes": []
+    }
+  ],
+  "loop_count": 1,
+  "loop_back_edges": 1,
+  "branch_edges": 4,
+  "warnings": [],
+  "cfg_edge_counts": {
+    "CFG_NEXT": 7,
+    "CFG_TRUE": 3,
+    "CFG_FALSE": 3,
+    "CFG_LOOP_BACK": 1,
+    "CFG_JOIN": 1
+  },
+  "input_control_edges": 0,
+  "data_dependency_edges": 4,
+  "input_parameters": [
+    {
+      "function": "checkMultipleSevens",
+      "name": "n",
+      "roles": "[\"input_parameter\", \"upper_bound_or_size_limit\"]",
+      "evidence": "referenced in the function body",
+      "reference_lines": "[5, 18]"
+    }
+  ]
+}

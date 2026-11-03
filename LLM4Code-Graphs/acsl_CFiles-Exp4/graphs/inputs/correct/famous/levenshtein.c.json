@@ -1,0 +1,24 @@
+{
+  "source": "correct/famous/levenshtein.c",
+  "functions": {
+    "levenshtein": {
+      "s1": {
+        "c_type": "const char *",
+        "example": "sample"
+      },
+      "len1": {
+        "c_type": "int",
+        "example": 1
+      },
+      "s2": {
+        "c_type": "const char *",
+        "example": "sample"
+      },
+      "len2": {
+        "c_type": "int",
+        "example": 1
+      }
+    }
+  },
+  "note": "Deterministic example values only; validate pointer lengths, constraints, and preconditions before execution."
+}

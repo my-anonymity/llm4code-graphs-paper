@@ -1,0 +1,19 @@
+{
+  "source_file": "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/strip.c",
+  "loop_count": 1,
+  "loops": [
+    {
+      "header": "AST::WHILE_STMT::9:1::8",
+      "kind": "WHILE_STMT",
+      "body_root": "AST::COMPOUND_STMT::9:16::15",
+      "body_ast_node_count": 26,
+      "loop_back_edge_count": 22,
+      "input_control_parameters": [
+        "str"
+      ]
+    }
+  ],
+  "data_dependency_edges": 8,
+  "input_control_edges": 1,
+  "warnings": []
+}

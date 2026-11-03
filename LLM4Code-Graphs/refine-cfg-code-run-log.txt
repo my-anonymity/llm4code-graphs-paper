@@ -1,0 +1,337 @@
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$ python -m py_compile acsl_graph5.py acsl_graph5_cfg_refine.py
+
+python acsl_graph5_cfg_refine.py \
+    --input-dir acsl_CFiles-Exp5
+Traceback (most recent call last):
+  File "/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_graph5_cfg_refine.py", line 23, in <module>
+    from acsl_graph3_loopfix import configure_clang, build_graph
+ModuleNotFoundError: No module named 'acsl_graph3_loopfix'
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$ gedit acsl_graph5_cfg_refine.py
+
+** (gedit:2555): WARNING **: 23:31:58.075: Could not load Peas repository: Typelib file for namespace 'Peas', version '1.0' not found
+
+** (gedit:2555): WARNING **: 23:31:58.075: Could not load PeasGtk repository: Typelib file for namespace 'PeasGtk', version '1.0' not found
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$ python -m py_compile acsl_graph5.py acsl_graph5_cfg_refine.py
+
+python acsl_graph5_cfg_refine.py \
+    --input-dir acsl_CFiles-Exp5
+Refining: correct/basic/binarysearch.c
+  loops=1 data_dep=11 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/binarysearch.c.graphml
+Refining: correct/basic/duplicate.c
+  loops=2 data_dep=9 input_controls=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/duplicate.c.graphml
+Refining: correct/basic/gcd.c
+  loops=1 data_dep=5 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/gcd.c.graphml
+Refining: correct/basic/insert.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/insert.c:7:42: error: call to undeclared library function 'malloc' with type 'void *(unsigned long)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+Refining: correct/basic/ksmallest.c
+  loops=1 data_dep=38 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/ksmallest.c.graphml
+Refining: correct/basic/lower.c
+  loops=1 data_dep=9 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/lower.c.graphml
+Refining: correct/basic/max.c
+  loops=1 data_dep=7 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/max.c.graphml
+Refining: correct/basic/merge.c
+  loops=3 data_dep=20 input_controls=11 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/merge.c.graphml
+Refining: correct/basic/mode.c
+  loops=2 data_dep=13 input_controls=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/mode.c.graphml
+Refining: correct/basic/palindrome.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Refining: correct/basic/queue.c
+  loops=0 data_dep=6 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/queue.c.graphml
+Refining: correct/basic/quicksort.c
+  loops=1 data_dep=23 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/quicksort.c.graphml
+Refining: correct/basic/repeating.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:34:2: error: expected '}'
+Refining: correct/basic/reverse.c
+  loops=1 data_dep=9 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/reverse.c.graphml
+Refining: correct/basic/reverses.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Refining: correct/basic/rotate.c
+  loops=3 data_dep=25 input_controls=8 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/rotate.c.graphml
+Refining: correct/basic/sorted.c
+  loops=1 data_dep=4 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/sorted.c.graphml
+Refining: correct/basic/stack.c
+  loops=0 data_dep=1 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/stack.c.graphml
+Refining: correct/basic/strip.c
+  loops=1 data_dep=8 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/strip.c.graphml
+Refining: correct/basic/tritype.c
+  loops=0 data_dep=23 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/basic/tritype.c.graphml
+Refining: correct/famous/crc32.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found
+Refining: correct/famous/duff.c
+  loops=1 data_dep=15 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/famous/duff.c.graphml
+Refining: correct/famous/fizzbuzz.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: correct/famous/hamming.c
+  loops=1 data_dep=3 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/famous/hamming.c.graphml
+Refining: correct/famous/kahan.c
+  loops=1 data_dep=8 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/famous/kahan.c.graphml
+Refining: correct/famous/kmp.c
+  loops=2 data_dep=31 input_controls=6 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/famous/kmp.c.graphml
+Refining: correct/famous/levenshtein.c
+  loops=2 data_dep=57 input_controls=7 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/famous/levenshtein.c.graphml
+Refining: correct/famous/rabinkarp.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:12: error: unknown type name 'patternHash'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:24: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:37: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:3:2: error: expected identifier or '('
+Refining: correct/famous/sieve.c
+  loops=3 data_dep=17 input_controls=6 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/famous/sieve.c.graphml
+Refining: correct/famous/sqrt.c
+  loops=0 data_dep=9 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/famous/sqrt.c.graphml
+Refining: correct/famous/strassen.c
+  loops=0 data_dep=30 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/famous/strassen.c.graphml
+Refining: correct/famous/voting.c
+  loops=2 data_dep=18 input_controls=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/famous/voting.c.graphml
+Refining: correct/mirror/bitreversal.c
+  loops=1 data_dep=4 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/bitreversal.c.graphml
+Refining: correct/mirror/clamp.c
+  loops=0 data_dep=4 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/clamp.c.graphml
+Refining: correct/mirror/count.c
+  loops=1 data_dep=3 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/count.c.graphml
+Refining: correct/mirror/even.c
+  loops=0 data_dep=0 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/even.c.graphml
+Refining: correct/mirror/max.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/max.c.graphml
+Refining: correct/mirror/parity.c
+  loops=1 data_dep=3 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/parity.c.graphml
+Refining: correct/mirror/power.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/power.c.graphml
+Refining: correct/mirror/rotate.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/rotate.c.graphml
+Refining: correct/mirror/sign.c
+  loops=0 data_dep=1 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/sign.c.graphml
+Refining: correct/mirror/swap.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/mirror/swap.c.graphml
+Refining: correct/unique/callsign.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Refining: correct/unique/camel.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: correct/unique/concatll.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: correct/unique/evenodd.c
+  loops=1 data_dep=6 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/unique/evenodd.c.graphml
+Refining: correct/unique/mirror.c
+  loops=1 data_dep=5 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/unique/mirror.c.graphml
+Refining: correct/unique/moddiff.c
+  loops=1 data_dep=3 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/unique/moddiff.c.graphml
+Refining: correct/unique/randomcase.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: correct/unique/reversepath.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: correct/unique/sevens.c
+  loops=1 data_dep=4 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/correct/unique/sevens.c.graphml
+Refining: correct/unique/suspicious.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: obvious/basic/binarysearch.c
+  loops=1 data_dep=3 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/binarysearch.c.graphml
+Refining: obvious/basic/duplicate.c
+  loops=1 data_dep=4 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/duplicate.c.graphml
+Refining: obvious/basic/gcd.c
+  loops=0 data_dep=0 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/gcd.c.graphml
+Refining: obvious/basic/insert.c
+  ERROR: Clang parse error(s): /usr/include/stdlib.h:32:10: fatal error: 'stddef.h' file not found
+Refining: obvious/basic/ksmallest.c
+  loops=1 data_dep=36 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/ksmallest.c.graphml
+Refining: obvious/basic/lower.c
+  loops=1 data_dep=5 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/lower.c.graphml
+Refining: obvious/basic/max.c
+  loops=1 data_dep=3 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/max.c.graphml
+Refining: obvious/basic/merge.c
+  loops=1 data_dep=8 input_controls=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/merge.c.graphml
+Refining: obvious/basic/mode.c
+  loops=1 data_dep=4 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/mode.c.graphml
+Refining: obvious/basic/palindrome.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Refining: obvious/basic/queue.c
+  loops=0 data_dep=4 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/queue.c.graphml
+Refining: obvious/basic/quicksort.c
+  loops=1 data_dep=6 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/quicksort.c.graphml
+Refining: obvious/basic/repeating.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:23:2: error: expected '}'
+Refining: obvious/basic/reverse.c
+  loops=1 data_dep=9 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/reverse.c.graphml
+Refining: obvious/basic/reverses.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Refining: obvious/basic/rotate.c
+  loops=1 data_dep=4 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/rotate.c.graphml
+Refining: obvious/basic/sorted.c
+  loops=1 data_dep=4 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/sorted.c.graphml
+Refining: obvious/basic/stack.c
+  loops=0 data_dep=0 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/stack.c.graphml
+Refining: obvious/basic/strip.c
+  loops=1 data_dep=4 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/strip.c.graphml
+Refining: obvious/basic/tritype.c
+  loops=0 data_dep=9 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/basic/tritype.c.graphml
+Refining: obvious/famous/crc32.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found
+Refining: obvious/famous/duff.c
+  loops=1 data_dep=3 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/famous/duff.c.graphml
+Refining: obvious/famous/fizzbuzz.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: obvious/famous/hamming.c
+  loops=1 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/famous/hamming.c.graphml
+Refining: obvious/famous/kahan.c
+  loops=1 data_dep=7 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/famous/kahan.c.graphml
+Refining: obvious/famous/kmp.c
+  loops=1 data_dep=5 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/famous/kmp.c.graphml
+Refining: obvious/famous/levenshtein.c
+  loops=2 data_dep=10 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/famous/levenshtein.c.graphml
+Refining: obvious/famous/rabinkarp.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/rabinkarp.c:1:10: fatal error: 'stdbool.h' file not found
+Refining: obvious/famous/sieve.c
+  loops=1 data_dep=5 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/famous/sieve.c.graphml
+Refining: obvious/famous/sqrt.c
+  loops=0 data_dep=0 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/famous/sqrt.c.graphml
+Refining: obvious/famous/strassen.c
+  loops=0 data_dep=23 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/famous/strassen.c.graphml
+Refining: obvious/famous/voting.c
+  loops=1 data_dep=6 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/famous/voting.c.graphml
+Refining: obvious/mirror/bitreversal.c
+  loops=0 data_dep=1 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/bitreversal.c.graphml
+Refining: obvious/mirror/clamp.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/clamp.c.graphml
+Refining: obvious/mirror/count.c
+  loops=1 data_dep=5 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/count.c.graphml
+Refining: obvious/mirror/even.c
+  loops=0 data_dep=0 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/even.c.graphml
+Refining: obvious/mirror/max.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/max.c.graphml
+Refining: obvious/mirror/parity.c
+  loops=1 data_dep=2 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/parity.c.graphml
+Refining: obvious/mirror/power.c
+  loops=0 data_dep=0 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/power.c.graphml
+Refining: obvious/mirror/rotate.c
+  loops=0 data_dep=0 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/rotate.c.graphml
+Refining: obvious/mirror/sign.c
+  loops=0 data_dep=0 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/sign.c.graphml
+Refining: obvious/mirror/swap.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/mirror/swap.c.graphml
+Refining: obvious/unique/callsign.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Refining: obvious/unique/camel.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: obvious/unique/concatll.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: obvious/unique/evenodd.c
+  loops=1 data_dep=6 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/unique/evenodd.c.graphml
+Refining: obvious/unique/mirror.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:12: error: unknown type name 'n'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:14: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:20: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:3:2: error: expected identifier or '('
+Refining: obvious/unique/moddiff.c
+  loops=1 data_dep=2 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/unique/moddiff.c.graphml
+Refining: obvious/unique/randomcase.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: obvious/unique/reversepath.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: obvious/unique/sevens.c
+  loops=1 data_dep=2 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/obvious/unique/sevens.c.graphml
+Refining: obvious/unique/suspicious.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: subtle/basic/binarysearch.c
+  loops=1 data_dep=11 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/binarysearch.c.graphml
+Refining: subtle/basic/duplicate.c
+  loops=2 data_dep=9 input_controls=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/duplicate.c.graphml
+Refining: subtle/basic/gcd.c
+  loops=1 data_dep=5 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/gcd.c.graphml
+Refining: subtle/basic/insert.c
+  ERROR: Clang parse error(s): /usr/include/stdlib.h:32:10: fatal error: 'stddef.h' file not found
+Refining: subtle/basic/ksmallest.c
+  loops=1 data_dep=38 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/ksmallest.c.graphml
+Refining: subtle/basic/lower.c
+  loops=1 data_dep=9 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/lower.c.graphml
+Refining: subtle/basic/max.c
+  loops=1 data_dep=6 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/max.c.graphml
+Refining: subtle/basic/merge.c
+  loops=3 data_dep=20 input_controls=11 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/merge.c.graphml
+Refining: subtle/basic/mode.c
+  loops=2 data_dep=13 input_controls=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/mode.c.graphml
+Refining: subtle/basic/palindrome.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Refining: subtle/basic/queue.c
+  loops=0 data_dep=6 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/queue.c.graphml
+Refining: subtle/basic/quicksort.c
+  loops=1 data_dep=23 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/quicksort.c.graphml
+Refining: subtle/basic/repeating.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:34:2: error: expected '}'
+Refining: subtle/basic/reverse.c
+  loops=1 data_dep=9 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/reverse.c.graphml
+Refining: subtle/basic/reverses.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Refining: subtle/basic/rotate.c
+  loops=3 data_dep=24 input_controls=8 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/rotate.c.graphml
+Refining: subtle/basic/sorted.c
+  loops=1 data_dep=4 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/sorted.c.graphml
+Refining: subtle/basic/stack.c
+  loops=0 data_dep=1 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/stack.c.graphml
+Refining: subtle/basic/strip.c
+  loops=1 data_dep=8 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/strip.c.graphml
+Refining: subtle/basic/tritype.c
+  loops=0 data_dep=23 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/basic/tritype.c.graphml
+Refining: subtle/famous/crc32.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found
+Refining: subtle/famous/duff.c
+  loops=1 data_dep=13 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/famous/duff.c.graphml
+Refining: subtle/famous/fizzbuzz.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: subtle/famous/hamming.c
+  loops=1 data_dep=3 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/famous/hamming.c.graphml
+Refining: subtle/famous/kahan.c
+  loops=1 data_dep=8 input_controls=2 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/famous/kahan.c.graphml
+Refining: subtle/famous/kmp.c
+  loops=2 data_dep=31 input_controls=6 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/famous/kmp.c.graphml
+Refining: subtle/famous/levenshtein.c
+  loops=2 data_dep=57 input_controls=7 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/famous/levenshtein.c.graphml
+Refining: subtle/famous/rabinkarp.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:12: error: unknown type name 'patternHash'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:24: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:37: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:3:2: error: expected identifier or '('
+Refining: subtle/famous/sieve.c
+  loops=3 data_dep=17 input_controls=6 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/famous/sieve.c.graphml
+Refining: subtle/famous/sqrt.c
+  loops=0 data_dep=9 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/famous/sqrt.c.graphml
+Refining: subtle/famous/strassen.c
+  loops=0 data_dep=30 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/famous/strassen.c.graphml
+Refining: subtle/famous/voting.c
+  loops=2 data_dep=17 input_controls=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/famous/voting.c.graphml
+Refining: subtle/mirror/bitreversal.c
+  loops=1 data_dep=4 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/bitreversal.c.graphml
+Refining: subtle/mirror/clamp.c
+  loops=0 data_dep=4 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/clamp.c.graphml
+Refining: subtle/mirror/count.c
+  loops=1 data_dep=3 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/count.c.graphml
+Refining: subtle/mirror/even.c
+  loops=0 data_dep=0 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/even.c.graphml
+Refining: subtle/mirror/max.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/max.c.graphml
+Refining: subtle/mirror/parity.c
+  loops=1 data_dep=3 input_controls=1 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/parity.c.graphml
+Refining: subtle/mirror/power.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/power.c.graphml
+Refining: subtle/mirror/rotate.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/rotate.c.graphml
+Refining: subtle/mirror/sign.c
+  loops=0 data_dep=1 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/sign.c.graphml
+Refining: subtle/mirror/swap.c
+  loops=0 data_dep=2 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/mirror/swap.c.graphml
+Refining: subtle/unique/callsign.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Refining: subtle/unique/camel.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: subtle/unique/concatll.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: subtle/unique/evenodd.c
+  loops=1 data_dep=6 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/unique/evenodd.c.graphml
+Refining: subtle/unique/mirror.c
+  loops=1 data_dep=5 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/unique/mirror.c.graphml
+Refining: subtle/unique/moddiff.c
+  loops=1 data_dep=3 input_controls=3 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/unique/moddiff.c.graphml
+Refining: subtle/unique/randomcase.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: subtle/unique/reversepath.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Refining: subtle/unique/sevens.c
+  loops=1 data_dep=4 input_controls=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/subtle/unique/sevens.c.graphml
+Refining: subtle/unique/suspicious.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+
+Refinement complete.
+Files processed: 116; failed: 40
+Loop headers: 101; DATA_DEP edges: 1063; INPUT_CONTROLS edges: 205
+Graphs: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined
+Summary report: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs_refined/reports/summary.json
+This script does not execute C or prove path feasibility; CFG and data dependencies remain approximations.
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$

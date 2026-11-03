@@ -1,0 +1,339 @@
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop$ cd Oct2026/
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026$ ls
+TUD-Work
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026$ cd TUD-Work/
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work$ ls
+LICENSE  README.md
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work$ ls
+Graphs-Oct2026  LICENSE  README.md
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work$ cd Graphs-Oct2026/
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$ ls
+acsl_CFiles-Exp4  acsl_graph4.py
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$ pwd
+/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$ ls
+acsl_CFiles-Exp4  acsl_graph4.py  acsl_graph5.py
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$ gedit acsl_graph5.py
+
+** (gedit:1666): WARNING **: 22:39:42.888: Could not load Peas repository: Typelib file for namespace 'Peas', version '1.0' not found
+
+** (gedit:1666): WARNING **: 22:39:42.888: Could not load PeasGtk repository: Typelib file for namespace 'PeasGtk', version '1.0' not found
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$ python3 acsl_graph5.py
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 672.62it/s]
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/binarysearch.c
+  nodes=73 edges=96 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/binarysearch.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/duplicate.c
+  nodes=59 edges=79 loops=2 loop_edges=8 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/duplicate.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/gcd.c
+  nodes=30 edges=42 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/gcd.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/insert.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/insert.c:7:42: error: call to undeclared library function 'malloc' with type 'void *(unsigned long)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/ksmallest.c
+  nodes=208 edges=276 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/ksmallest.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/lower.c
+  nodes=58 edges=74 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/lower.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/max.c
+  nodes=46 edges=61 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/max.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/merge.c
+  nodes=109 edges=149 loops=3 loop_edges=13 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/merge.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/mode.c
+  nodes=82 edges=114 loops=2 loop_edges=10 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/mode.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/palindrome.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/queue.c
+  nodes=41 edges=49 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/queue.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/quicksort.c
+  nodes=112 edges=151 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/quicksort.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:19:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/repeating.c:34:2: error: expected '}'
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/reverse.c
+  nodes=53 edges=71 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/reverse.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/reverses.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/rotate.c
+  nodes=109 edges=152 loops=3 loop_edges=12 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/rotate.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/sorted.c
+  nodes=40 edges=50 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/sorted.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/stack.c
+  nodes=23 edges=24 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/stack.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/strip.c
+  nodes=51 edges=69 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/strip.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/basic/tritype.c
+  nodes=102 edges=142 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/basic/tritype.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/crc32.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/duff.c
+  nodes=108 edges=130 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/famous/duff.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/fizzbuzz.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/hamming.c
+  nodes=33 edges=44 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/famous/hamming.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/kahan.c
+  nodes=60 edges=78 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/famous/kahan.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/kmp.c
+  nodes=162 edges=224 loops=2 loop_edges=11 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/famous/kmp.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/levenshtein.c
+  nodes=284 edges=360 loops=2 loop_edges=11 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/famous/levenshtein.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:12: error: unknown type name 'patternHash'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:24: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:2:37: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/rabinkarp.c:3:2: error: expected identifier or '('
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/sieve.c
+  nodes=84 edges=116 loops=3 loop_edges=13 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/famous/sieve.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/sqrt.c
+  nodes=53 edges=67 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/famous/sqrt.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/strassen.c
+  nodes=309 edges=349 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/famous/strassen.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/famous/voting.c
+  nodes=104 edges=148 loops=2 loop_edges=11 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/famous/voting.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/bitreversal.c
+  nodes=39 edges=53 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/bitreversal.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/clamp.c
+  nodes=27 edges=31 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/clamp.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/count.c
+  nodes=37 edges=48 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/count.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/even.c
+  nodes=12 edges=12 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/even.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/max.c
+  nodes=17 edges=19 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/max.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/parity.c
+  nodes=26 edges=36 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/parity.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/power.c
+  nodes=25 edges=27 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/power.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/rotate.c
+  nodes=22 edges=24 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/rotate.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/sign.c
+  nodes=16 edges=17 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/sign.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/mirror/swap.c
+  nodes=25 edges=29 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/mirror/swap.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/callsign.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/camel.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/concatll.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/evenodd.c
+  nodes=49 edges=66 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/unique/evenodd.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/mirror.c
+  nodes=38 edges=50 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/unique/mirror.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/moddiff.c
+  nodes=36 edges=45 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/unique/moddiff.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/randomcase.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/reversepath.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/sevens.c
+  nodes=41 edges=57 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/correct/unique/sevens.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/correct/unique/suspicious.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/binarysearch.c
+  nodes=46 edges=57 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/binarysearch.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/duplicate.c
+  nodes=40 edges=51 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/duplicate.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/gcd.c
+  nodes=11 edges=11 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/gcd.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/insert.c
+  ERROR: Clang parse error(s): /usr/include/stdlib.h:32:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/ksmallest.c
+  nodes=201 edges=264 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/ksmallest.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/lower.c
+  nodes=37 edges=46 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/lower.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/max.c
+  nodes=32 edges=41 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/max.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/merge.c
+  nodes=69 edges=87 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/merge.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/mode.c
+  nodes=35 edges=45 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/mode.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/palindrome.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/queue.c
+  nodes=33 edges=39 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/queue.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/quicksort.c
+  nodes=52 edges=68 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/quicksort.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:8:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/repeating.c:23:2: error: expected '}'
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/reverse.c
+  nodes=49 edges=66 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/reverse.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/reverses.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/rotate.c
+  nodes=34 edges=43 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/rotate.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/sorted.c
+  nodes=42 edges=52 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/sorted.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/stack.c
+  nodes=21 edges=21 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/stack.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/strip.c
+  nodes=40 edges=53 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/strip.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/basic/tritype.c
+  nodes=58 edges=72 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/basic/tritype.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/crc32.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/duff.c
+  nodes=48 edges=58 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/famous/duff.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/fizzbuzz.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/hamming.c
+  nodes=28 edges=37 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/famous/hamming.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/kahan.c
+  nodes=53 edges=68 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/famous/kahan.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/kmp.c
+  nodes=54 edges=70 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/famous/kmp.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/levenshtein.c
+  nodes=66 edges=86 loops=2 loop_edges=8 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/famous/levenshtein.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/rabinkarp.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/rabinkarp.c:1:10: fatal error: 'stdbool.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/sieve.c
+  nodes=40 edges=53 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/famous/sieve.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/sqrt.c
+  nodes=21 edges=22 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/famous/sqrt.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/strassen.c
+  nodes=265 edges=296 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/famous/strassen.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/famous/voting.c
+  nodes=58 edges=75 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/famous/voting.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/bitreversal.c
+  nodes=10 edges=11 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/bitreversal.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/clamp.c
+  nodes=25 edges=27 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/clamp.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/count.c
+  nodes=43 edges=56 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/count.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/even.c
+  nodes=10 edges=10 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/even.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/max.c
+  nodes=17 edges=19 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/max.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/parity.c
+  nodes=19 edges=27 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/parity.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/power.c
+  nodes=14 edges=14 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/power.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/rotate.c
+  nodes=12 edges=12 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/rotate.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/sign.c
+  nodes=13 edges=13 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/sign.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/mirror/swap.c
+  nodes=25 edges=28 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/mirror/swap.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/callsign.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/camel.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/concatll.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/evenodd.c
+  nodes=47 edges=64 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/unique/evenodd.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:12: error: unknown type name 'n'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:14: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:2:20: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/mirror.c:3:2: error: expected identifier or '('
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/moddiff.c
+  nodes=35 edges=43 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/unique/moddiff.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/randomcase.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/reversepath.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/sevens.c
+  nodes=26 edges=35 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/obvious/unique/sevens.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/obvious/unique/suspicious.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/binarysearch.c
+  nodes=73 edges=96 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/binarysearch.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/duplicate.c
+  nodes=59 edges=79 loops=2 loop_edges=8 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/duplicate.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/gcd.c
+  nodes=30 edges=42 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/gcd.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/insert.c
+  ERROR: Clang parse error(s): /usr/include/stdlib.h:32:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/ksmallest.c
+  nodes=206 edges=274 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/ksmallest.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/lower.c
+  nodes=58 edges=74 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/lower.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/max.c
+  nodes=42 edges=56 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/max.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/merge.c
+  nodes=109 edges=149 loops=3 loop_edges=13 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/merge.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/mode.c
+  nodes=82 edges=114 loops=2 loop_edges=10 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/mode.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/palindrome.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/queue.c
+  nodes=41 edges=49 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/queue.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/quicksort.c
+  nodes=112 edges=151 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/quicksort.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:3: error: call to undeclared function 'ensures'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:33: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:35: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:37: error: expected expression; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:19:37: error: expected ']'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/repeating.c:34:2: error: expected '}'
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/reverse.c
+  nodes=53 edges=71 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/reverse.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/reverses.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/rotate.c
+  nodes=106 edges=148 loops=3 loop_edges=12 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/rotate.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/sorted.c
+  nodes=40 edges=50 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/sorted.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/stack.c
+  nodes=23 edges=24 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/stack.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/strip.c
+  nodes=51 edges=69 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/strip.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/basic/tritype.c
+  nodes=102 edges=142 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/basic/tritype.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/crc32.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/crc32.c:1:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/duff.c
+  nodes=98 edges=118 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/famous/duff.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/fizzbuzz.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/hamming.c
+  nodes=33 edges=44 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/famous/hamming.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/kahan.c
+  nodes=60 edges=78 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/famous/kahan.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/kmp.c
+  nodes=162 edges=224 loops=2 loop_edges=11 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/famous/kmp.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/levenshtein.c
+  nodes=284 edges=360 loops=2 loop_edges=11 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/famous/levenshtein.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c
+  ERROR: Clang parse error(s): /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:12: error: unknown type name 'patternHash'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:24: error: expected ')'; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:2:37: error: expected function body after function declarator; /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/rabinkarp.c:3:2: error: expected identifier or '('
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/sieve.c
+  nodes=84 edges=116 loops=3 loop_edges=13 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/famous/sieve.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/sqrt.c
+  nodes=53 edges=67 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/famous/sqrt.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/strassen.c
+  nodes=309 edges=349 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/famous/strassen.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/famous/voting.c
+  nodes=101 edges=143 loops=2 loop_edges=11 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/famous/voting.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/bitreversal.c
+  nodes=39 edges=53 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/bitreversal.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/clamp.c
+  nodes=27 edges=31 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/clamp.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/count.c
+  nodes=37 edges=48 loops=1 loop_edges=5 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/count.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/even.c
+  nodes=12 edges=12 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/even.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/max.c
+  nodes=17 edges=19 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/max.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/parity.c
+  nodes=26 edges=36 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/parity.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/power.c
+  nodes=25 edges=27 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/power.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/rotate.c
+  nodes=23 edges=25 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/rotate.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/sign.c
+  nodes=16 edges=17 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/sign.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/mirror/swap.c
+  nodes=25 edges=29 loops=0 loop_edges=0 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/mirror/swap.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/callsign.c
+  ERROR: Clang parse error(s): /usr/include/string.h:37:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/camel.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/concatll.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/evenodd.c
+  nodes=49 edges=66 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/unique/evenodd.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/mirror.c
+  nodes=38 edges=50 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/unique/mirror.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/moddiff.c
+  nodes=38 edges=47 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/unique/moddiff.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/randomcase.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/reversepath.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/sevens.c
+  nodes=41 edges=57 loops=1 loop_edges=4 -> /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/graphs/subtle/unique/sevens.c.graphml
+Processing: /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/subtle/unique/suspicious.c
+  ERROR: Clang parse error(s): /usr/include/stdio.h:38:10: fatal error: 'stddef.h' file not found
+Saved 6670 similarity pairs to /mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026/acsl_CFiles-Exp5/matches.json
+Done. Graphs include AST hierarchy, explicit loop headers/edges, approximate control flow, and call/data edges.
+Important: CFG is a structural approximation; test harnesses or symbolic execution are needed for concrete path coverage.
+(.venv) arshadbeg@Arshad-PC:/mnt/c/Users/arsha/Desktop/Oct2026/TUD-Work/Graphs-Oct2026$
